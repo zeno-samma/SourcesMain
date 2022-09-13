@@ -1,0 +1,170 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Mesh/Egg/GrassEgg/12k5.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Egg/CrackedEgg/300.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 2,
+      "height_c": 2,
+      "memory": {
+        "Capsule": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "radius_c": 1,
+      "type": "Cylinder"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "gravity": 1,
+    "headPic": {
+      "selector": "editor/SourcesMain/asset/Mesh/Egg/CrackedEgg/CrackedEgg.png"
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 199980
+    },
+    "isPlayer": true,
+    "name": {
+      "value": "2f85e425-4a3c-43e8-9b74-98859678ebf0"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "47fcba60-14f1-4ed4-adeb-c9f9d19c616a",
+                      "param_name": "clickPlayer"
+                    },
+                    {
+                      "action": "5054daa6-3d9e-4991-af21-3a60592129b7",
+                      "param_name": "this"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "79f1310d-1c1a-4f4b-ad2c-11ce0598f7b8"
+              },
+              "pos": {
+                "x": 360,
+                "y": 249
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "47fcba60-14f1-4ed4-adeb-c9f9d19c616a"
+              },
+              "pos": {
+                "x": 715,
+                "y": 187
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5054daa6-3d9e-4991-af21-3a60592129b7"
+              },
+              "pos": {
+                "x": 773,
+                "y": 528
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c732f25d-63b1-43cb-8d24-1c658db287df"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "79f1310d-1c1a-4f4b-ad2c-11ce0598f7b8"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "28134446-285f-484c-8ae5-2713be35850b"
+            },
+            "pos": {
+              "x": 71,
+              "y": 246
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9f94a16ebf6f1d9d73f11168d7247aa",
+      "triggers.bts": "1011f92f7e08115f5a93c872bd79c4b7"
+    },
+    "VERSION": "0.24"
+  }
+}

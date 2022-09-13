@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "icon": "@asset/Texture/Coin/Coins.png",
+  "itemintroduction": "b7e6a162-0141-479d-88c9-c38296e0c435",
+  "itemname": "a750eb04-783f-4709-bcbb-b202a71395da",
+  "mesh": "asset/Mesh/Item/Coinss/Coinss.mesh",
+  "needSave": true,
+  "stack_count_max": 100,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/cure",
+    "time": 600
+  }
+}

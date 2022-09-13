@@ -1,0 +1,252 @@
+{
+  "data": {
+    "md5": "10aa55cf19f99fe0944ed9265f53aafa",
+    "path": "asset/Gui/Gate/openShopUI_Gate_1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.5,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "b63c2080-610c-49a4-a90d-88e69668749c"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 1920
+            },
+            "UDim_Y": {
+              "Offect": 1080
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.967,
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "1db71a08-9bf3-443a-90db-06a6f376a6bd"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Gate ",
+              "text_key": {
+                "value": "asset/Gui/Gate/openShopUI_Gate_1.layout.StaticText#8be613dc-858a-4e60-a0ba-95fa18ee0afd"
+              },
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 16,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "cd472fe6-243f-4b1f-a0e1-aabdbc4b72cc"
+              },
+              "name": "Text1",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.2804691791534
+                },
+                "UDim_Y": {
+                  "Offect": -9.0000092983245,
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "Do you want to move to",
+              "text_key": {
+                "value": "asset/Gui/Gate/openShopUI_Gate_1.layout.StaticText#e9770027-a0b8-41c3-aca6-91abffe43b70"
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "331435a0-0eec-4345-87b1-79d5813ccae5"
+              },
+              "name": "Btn_close",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "text_key": {
+                "value": "asset/Gui/Gate/openShopUI_Gate_1.layout.Button#d6900302-f3b0-4076-b669-1134a662e718"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 16,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ed7833a1-6e03-413c-b032-a1409fe5dda8"
+              },
+              "name": "Text2",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -19.829874184768
+                },
+                "UDim_Y": {
+                  "Offect": 35.99998542322,
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "Fee",
+              "text_key": {
+                "value": "asset/Gui/Gate/openShopUI_Gate_1.layout.StaticText#01ba7fd2-3363-48c4-9e2c-c1012eefffbc"
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "696c29a3-0a36-4b86-8365-a22ea3370702"
+          },
+          "Image": {
+            "asset": "asset/Texture/Ui/Popup.png"
+          },
+          "resize": {
+            "tailoring_top_right": 10
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageCutStretch": {
+            "top_right": 10
+          },
+          "StaticImageStretch": {
+            "tailoring_top_right": 10
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "Font_size": 15,
+          "id": {
+            "value": "5893d1c1-e5df-462b-986d-069f60638a26"
+          },
+          "name": "Btn",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.4
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "SoundFile": {
+            "asset": "asset/Sound/click.mp3"
+          },
+          "SoundTriggerRange": "Click",
+          "Text": "Yes",
+          "text_key": {
+            "value": "asset/Gui/Gate/openShopUI_Gate_1.layout.Button#65b0215a-9efa-4e81-b9ce-0f338c2c6dcb"
+          }
+        }
+      ],
+      "id": {
+        "value": "461ea8cc-5c78-4d5a-9e27-8af02fa50977"
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "10aa55cf19f99fe0944ed9265f53aafa",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

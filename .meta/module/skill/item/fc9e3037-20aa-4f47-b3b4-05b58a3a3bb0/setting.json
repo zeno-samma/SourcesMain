@@ -1,0 +1,46 @@
+{
+  "data": {
+    "castAction": "attack",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 6000
+    },
+    "name": {
+      "value": "skill_fc9e3037-20aa-4f47-b3b4-05b58a3a3bb0"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 10,
+            "bodyYawOffset": 120,
+            "missileCfg": "myplugin/Pet Boll"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/icon/icon-egg.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      },
+      "isClickIcon": true,
+      "sensitivityFactor": 4.67
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c74a12bfc10d9cabf0212bb51e2a6735",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

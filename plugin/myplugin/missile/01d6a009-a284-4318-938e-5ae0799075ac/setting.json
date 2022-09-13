@@ -1,0 +1,69 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityCount": 1,
+  "hitEntitySkill": "myplugin/4c3d415a-3b0f-4d9c-a6a0-5667b78d39d3",
+  "hitEntitySound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/Sound/farmcoin.mp3",
+    "selfOnly": false,
+    "sound": "@Sound/farmcoin.mp3",
+    "volume": 1
+  },
+  "hitEntitysRoles": [
+    "hitOtherTeam",
+    "hitNpc",
+    "hitTargetConfigEntity"
+  ],
+  "hitInterval": 2,
+  "hitTargetConfigRole": [
+    {
+      "fullName": "myplugin/Coins1"
+    },
+    {
+      "fullName": "myplugin/Coins2"
+    },
+    {
+      "fullName": "myplugin/Coins3"
+    }
+  ],
+  "isPitch": true,
+  "lifeTime": 2,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "moveAcc": 0,
+  "moveSpeed": 0,
+  "rotateFree": true,
+  "rotateSpeed": 0,
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

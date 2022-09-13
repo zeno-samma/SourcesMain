@@ -1,0 +1,42 @@
+{
+  "data": {
+    "md5": "28c38cbd450576ad0459887eec6e7803",
+    "path": "asset/Gui/Gold/Gold_ui1_1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 20,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "fff8f0af-4336-4d1e-928e-2672dcc25ad4"
+          },
+          "Text": "Get money success",
+          "TextColours": {
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "2fd9a03e-2358-4368-8e75-3986495e06e1"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "28c38cbd450576ad0459887eec6e7803",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

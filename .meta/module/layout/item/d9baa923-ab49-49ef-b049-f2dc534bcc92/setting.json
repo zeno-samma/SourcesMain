@@ -1,0 +1,40 @@
+{
+  "data": {
+    "md5": "6a20e5cdd05d7f3534bdeb97f7a90859",
+    "path": "asset/Gui/Farm.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "EffectWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "effectName": {
+            "asset": "asset/custom_effect/farmeff.effect"
+          },
+          "effectScale": 0.5,
+          "effectYPosition": 100,
+          "id": {
+            "value": "0e8a4e0a-36dc-4b73-be6c-e69ea4448bc0"
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "23bf7526-e1d1-49cb-9867-80bb648e000a"
+      },
+      "Visible": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "6a20e5cdd05d7f3534bdeb97f7a90859"
+    },
+    "VERSION": "0.24"
+  }
+}

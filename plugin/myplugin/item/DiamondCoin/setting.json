@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/GamePass/Position/kimcuong/kim cuong.png",
+  "itemname": "item_DiamondCoin",
+  "mesh": "asset/GamePass/Position/kimcuong/kimcuong.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 50,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "attackTarget": {
+      "attackEntity": "hitTargetConfigEntity",
+      "attackTeam": "hitOtherTeam",
+      "entityList": [
+        "myplugin/Coins1",
+        "myplugin/Coins2",
+        "myplugin/Coins3"
+      ],
+      "targetType": "hitNpc"
+    },
+    "castAction": {
+      "castAction": "attack2"
+    },
+    "damage": 4,
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/Sound/farmcoin.mp3"
+      }
+    },
+    "hurtDistance": 0,
+    "isLimit": true,
+    "name": {
+      "value": "7d0e0c08-8949-4763-bffe-1276b7a354c6"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/farm.png"
+    },
+    "skillIconPos": {
+      "area_number": 7
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a4780aec5bc2c58dbd78872f5eebdcb1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

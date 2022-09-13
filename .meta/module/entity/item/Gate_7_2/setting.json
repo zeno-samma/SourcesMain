@@ -1,0 +1,139 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Actor/Gate Of Hell With Barrier/g2021_tp.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 12,
+      "height_c": 12,
+      "memory": {
+        "Cylinder": "4.000000-2.500000"
+      },
+      "radius": 4,
+      "radius_c": 4,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 20000
+    },
+    "name": {
+      "value": "92bda192-7b2f-4850-b3e5-f675314e0932"
+    },
+    "reviveTime": {
+      "value": 20
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "8852d07d-db0e-41f3-a31e-094a1d0c30f9",
+                      "param_name": "clickPlayer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_33"
+                }
+              ],
+              "id": {
+                "value": "a4072cc9-d7f1-422c-9cce-05f5f243825a"
+              },
+              "pos": {
+                "x": 245,
+                "y": 296
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "8852d07d-db0e-41f3-a31e-094a1d0c30f9"
+              },
+              "pos": {
+                "x": 722,
+                "y": 366
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "8732fa3d-c649-432c-be3b-a5cdbf968d80"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a4072cc9-d7f1-422c-9cce-05f5f243825a"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "20c99b97-ac14-46f7-b946-b37d315a37f5"
+            },
+            "pos": {
+              "x": 25,
+              "y": 285
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0480d886df117518116d09333b53f016",
+      "triggers.bts": "8c0a716fe5b2791b115ce1459013df2d"
+    },
+    "VERSION": "0.24"
+  }
+}

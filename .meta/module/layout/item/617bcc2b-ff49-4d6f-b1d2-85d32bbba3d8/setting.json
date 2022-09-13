@@ -1,0 +1,669 @@
+{
+  "data": {
+    "md5": "61ff8bbd0615cd37437bcc4f841fa4df",
+    "path": "asset/Gui/upgradeUi.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.5,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "20fcc176-d9c4-45f7-8102-8d7efcc5ccc1"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "lock": true,
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 1920
+            },
+            "UDim_Y": {
+              "Offect": 1080
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/LibPet/Cow/Cow.actor"
+                  },
+                  "ActorScale": 2,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "4788a9bd-0a9d-4a28-9c5d-b763f15d011f"
+                  },
+                  "lock": true,
+                  "name": "ActorWindowIndex",
+                  "PositionY": 30
+                }
+              ],
+              "id": {
+                "value": "6b5fcc77-02d5-4a10-9d32-7ea454f7e9bf"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.18
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.165
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.323,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/LibPet/Cow/Cow.actor"
+                  },
+                  "ActorScale": 2,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "2e5f479f-12af-4425-a68f-3de23cd59608"
+                  },
+                  "lock": true,
+                  "name": "ActorWindowIndex1",
+                  "PositionY": 30
+                }
+              ],
+              "id": {
+                "value": "dccae095-8d16-43be-a74a-1ccfd824f26d"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.06
+                },
+                "UDim_Y": {
+                  "Scale": 0.22
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.165
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.151,
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/LibPet/Cow/Cow.actor"
+                  },
+                  "ActorScale": 2.5,
+                  "id": {
+                    "value": "aa274ec4-231a-419f-bc2d-2f9494d08073"
+                  },
+                  "lock": true,
+                  "name": "ActorWindowResult",
+                  "PositionY": 10,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "aa5fdce1-8d78-4625-807d-f372a9ca7df6"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "Level",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.0002
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.1504
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.25
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "9d806b22-fd51-485d-852c-7ff590d5e980"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image3",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.086
+                },
+                "UDim_Y": {
+                  "Scale": 0.025
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.991,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "id": {
+                    "value": "d77a6f8c-5e2c-4175-8547-16d491fc138b"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "AtkIndex",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.21
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  },
+                  "Text": "0"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "id": {
+                    "value": "53f75ea1-9b82-440c-87c9-0cce0c54f67f"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "HPIndex",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.165
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  },
+                  "Text": "0"
+                }
+              ],
+              "id": {
+                "value": "42983464-7ff5-48fe-a6b0-113d20d83791"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image21",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.12
+                },
+                "UDim_Y": {
+                  "Scale": 0.01
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "7e0b23ab-593f-444b-b8e5-8c437f7ec34e"
+                  },
+                  "lock": true,
+                  "name": "YesButton",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "0c40e5af-e8a2-48ab-82ab-5bfd56a20ae2"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image4",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.22
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.991,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "id": {
+                    "value": "863a72e2-b8d2-4c85-9c6f-381d4f5edb88"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "AtkResult",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.21
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  },
+                  "Text": "0"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "id": {
+                    "value": "be40bbb1-3fed-4b2b-8839-2d62d909c46e"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "HPResult",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.165
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  },
+                  "Text": "0"
+                }
+              ],
+              "id": {
+                "value": "47c29d88-d97e-4833-82f0-0a06082f7ab9"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image211",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+              },
+              "HoverImage": {
+                "asset": ""
+              },
+              "id": {
+                "value": "be18cc4b-4563-499d-b985-b55f74c308d6"
+              },
+              "lock": true,
+              "name": "CloseButton",
+              "NormalImage": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.11
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "84de8d80-7a1b-4deb-a823-4d87045083f3"
+          },
+          "Image": {
+            "asset": "asset/Texture/InfoPet/Info/Untitled-1.png"
+          },
+          "lock": true,
+          "resize": {
+            "tailoring_bottom_left": 178,
+            "tailoring_bottom_right": 299,
+            "tailoring_top_left": 246,
+            "tailoring_top_right": 384
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 178,
+            "bottom_right": 299,
+            "top_left": 246,
+            "top_right": 384
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 178,
+            "tailoring_bottom_right": 299,
+            "tailoring_top_left": 246,
+            "tailoring_top_right": 384
+          }
+        },
+        {
+          "__OBJ_TYPE": "ProgressBar",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "id": {
+            "value": "aea3fceb-7558-4100-95c1-03d787b6ab09"
+          },
+          "lock": true,
+          "MousePassThroughEnabled": true,
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.4
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.8,
+          "id": {
+            "value": "c20f2639-6a3a-4815-a539-59251c9ced66"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "lock": true,
+          "name": "Cover",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.04
+            },
+            "UDim_Y": {
+              "Scale": 0.59
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.25
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.8,
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "id": {
+            "value": "870020b3-09f0-4f7b-8c52-b5d1bf7d615c"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "lock": true,
+          "name": "Cover1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.08
+            },
+            "UDim_Y": {
+              "Scale": 0.31
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.265
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.38
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "c9e376fd-3f92-4263-b7b3-6902da9136cb"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 1000
+        },
+        "UDim_Y": {
+          "Offect": 700
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "61ff8bbd0615cd37437bcc4f841fa4df",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

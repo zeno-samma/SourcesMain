@@ -1,0 +1,101 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/GamePass/Position/x5Egg/x5Egg.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/Position/x5Egg/x5Egg.mesh"
+    },
+    "name": {
+      "value": "item_FiveEgg"
+    },
+    "needSave": true,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "1bf17ac9-8525-46a7-a7db-f1d9aa66f172",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_62"
+                }
+              ],
+              "id": {
+                "value": "17bf74b3-9981-4ed6-af0c-cc67abe5c31c"
+              },
+              "pos": {
+                "x": 464,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1bf17ac9-8525-46a7-a7db-f1d9aa66f172"
+              },
+              "pos": {
+                "x": 826,
+                "y": 358
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "aff8477b-92bb-4094-b22b-59d281940ece"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "17bf74b3-9981-4ed6-af0c-cc67abe5c31c"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e587a321-5ffc-4e36-b2e7-4949c8bf729a"
+            },
+            "pos": {
+              "x": 175,
+              "y": 240
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ca986a8ff3b24783895198f3ab8bfd1e",
+      "triggers.bts": "8d48a91339e9394afbad33a7402ef213"
+    },
+    "VERSION": "0.24"
+  }
+}

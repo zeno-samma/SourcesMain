@@ -1,0 +1,57 @@
+<ActorTemplates>
+	<ActorTemplate TextHeight="0" name="111.actor" Volume="0.8" SoundFileNum="0" MaxDistance="16" IsShowShadow="true" WoundBone="" SoundName2="" Skeleton="boy_01.skel" SoundName4="" SoundName1="" WoundAngle="25" IntervalTime="2" Originalscale="1 1 1" Alpha="1" SoundName5="" SoundName3="" MinDistance="1" SelectedRingSize="1" AttackScale="1">
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="group0" DefaultUse="true">
+				<StaticMesh type_name="coinLV2_Z2" DiscardAlpha="0" LocalAlpha="1">
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<Position_Y value="0"/>
+					<FileName value="asset/Mesh/Item/zone2/coinLV2_Z2/coinLV2_Z2.mesh"/>
+					<roll value="0"/>
+					<SocketName value="Origin197011"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<yaw value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<Position_Z value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="die_back" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<CycleTime value="-1"/>
+					<yaw value="0"/>
+					<Times value="1"/>
+					<BeginTime value="0.08"/>
+					<Alpha value="1"/>
+					<type_name value="farmcoin"/>
+					<roll value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<FollowActor value="true"/>
+					<SocketName value="Origin197011"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="2"/>
+					<FileName value="asset/custom_effect/farmcoin.effect"/>
+				</Effect>
+				<Animation FadeTime="0.25" Times="1" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" Length="0.833" Channel="" TimeScale="1"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

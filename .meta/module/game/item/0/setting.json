@@ -1,0 +1,225 @@
+{
+  "data": {
+    "back_distance": 10,
+    "back_viewFovAngle": 40,
+    "back_viewIsBlocked": "Don't",
+    "bagCap": 20,
+    "defaultView": "Back",
+    "enableNewLighting": true,
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "firstPerson_viewFovAngle": 40,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 10.906,
+        "y": 2,
+        "z": -7.613
+      }
+    },
+    "needSave": true,
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 50,
+      "min": 1
+    },
+    "shops": [
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "0a7d5d6f-4301-43e9-90c9-bf91d311dc16"
+            },
+            "item": {
+              "item": "UpAtk"
+            },
+            "name": {
+              "value": "3653b3a3-89fb-4b5d-9036-0f71043bdbda"
+            },
+            "price": 50
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "dc863ce7-6ff3-45d7-ba84-75a1e7037c07"
+            },
+            "item": {
+              "item": "X2Money"
+            },
+            "limit": 1,
+            "limitType": "Personal",
+            "name": {
+              "value": "905ebf22-e9de-499b-bc2f-003c7ccdec1e"
+            },
+            "price": 200
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "7d5fcc97-df38-4c11-a682-bdfae5961a58"
+            },
+            "item": {
+              "item": "X2Damaged"
+            },
+            "limit": 1,
+            "limitType": "Personal",
+            "name": {
+              "value": "36eaff4e-825a-48a5-8621-fa93f688c558"
+            },
+            "price": 200
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "5d2acf14-e60b-428e-b8cc-dda861b69027"
+            },
+            "item": {
+              "item": "FiveEgg"
+            },
+            "limit": 1,
+            "limitType": "Personal",
+            "name": {
+              "value": "4e2ba435-11ff-48f0-99e7-cf40e2298d21"
+            },
+            "price": 50
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "488d4ab2-60e8-4ebe-9205-4c339ca742f7"
+            },
+            "item": {
+              "item": "InventorySlot"
+            },
+            "name": {
+              "value": "ebec1a2a-f3ae-4fe4-9d63-91a7bb3e4d56"
+            },
+            "price": 50
+          }
+        ],
+        "name": {
+          "value": "a951647c-7fbb-493a-9b24-eca57cd25a3b"
+        }
+      },
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "d5bdc7f3-7e6a-4a16-a819-3e2d801c6580"
+            },
+            "item": {
+              "item": "StoneP"
+            },
+            "name": {
+              "value": "36ddafa4-450e-483e-ae58-08ace4a57ff1"
+            },
+            "price": 10
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "54bf67ab-f921-42d0-8b50-e4b87aefdef4"
+            },
+            "item": {
+              "item": "IronP"
+            },
+            "name": {
+              "value": "62a41224-28db-4a62-9b34-86405378c440"
+            },
+            "price": 20
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "77f7fbff-ec30-45f6-ad67-ed7b813cd929"
+            },
+            "item": {
+              "item": "GoldP"
+            },
+            "name": {
+              "value": "8813ef7f-ee23-4113-a3c6-d09eba40cd80"
+            },
+            "price": 40
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "940b35b5-4308-4764-abe1-dbdc3c6e6137"
+            },
+            "item": {
+              "item": "DiamondP"
+            },
+            "name": {
+              "value": "76ae46e4-2a6b-4996-8c84-fe2ebb568bba"
+            },
+            "price": 80
+          }
+        ],
+        "name": {
+          "value": "b52180d1-948d-425d-a78f-3944a8fe94b9"
+        }
+      }
+    ],
+    "showShop": true,
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 10.906,
+        "y": 2,
+        "z": -7.613
+      }
+    },
+    "team": {
+      "automatch": true,
+      "team": [
+        {
+          "image": {
+            "selector": "editor/SourcesMain/asset/Texture/Team/flag/flag_1.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 10.906,
+              "y": 2,
+              "z": -7.613
+            }
+          },
+          "memberLimit": 6,
+          "name": "team1",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 10.906,
+              "y": 2,
+              "z": -7.613
+            }
+          }
+        }
+      ]
+    },
+    "ui_enable": {
+      "appMainRole": false
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b859790ea79c27ce41786c799578d4dc",
+      "shop.csv": "c5ae9f7a980141f2659efac677c5882e",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "3ef4e6bc-358b-4421-b3a5-18891c7e03f7",
+                      "param_name": "clickplayer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_14"
+                }
+              ],
+              "id": {
+                "value": "c4d9c18b-a162-4ae9-8c57-f5fe2b3d17b6"
+              },
+              "pos": {
+                "x": 454,
+                "y": 271
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3ef4e6bc-358b-4421-b3a5-18891c7e03f7"
+              },
+              "pos": {
+                "x": 998,
+                "y": 192
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0d2412fa-8305-4eea-b255-5c97095fbce1"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c4d9c18b-a162-4ae9-8c57-f5fe2b3d17b6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7f7a4773-3225-4df8-9ce2-2a4d4d0b529d"
+            },
+            "pos": {
+              "x": 122,
+              "y": 288
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "c8fcf2ffc0bf6df06aa0f5c9797ceda3"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "array": [
+      {
+        "count": 3,
+        "name": "green_currency",
+        "type": "Coin",
+        "weight": 0
+      },
+      {
+        "countRange": {
+          "max": 3,
+          "min": 1
+        },
+        "name": "myplugin/pizza",
+        "type": "Item",
+        "weight": 0
+      }
+    ],
+    "countRange": {
+      "max": 3,
+      "min": 1
+    },
+    "type": "List"
+  }
+]

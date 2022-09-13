@@ -1,0 +1,99 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/apple.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_apple"
+    },
+    "needSave": true,
+    "stack_count_max": 100,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "5c64a7ed-4afd-4a93-8cb9-506cf2cce103",
+                      "param_name": "click"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_54"
+                }
+              ],
+              "id": {
+                "value": "a8442804-5269-46e2-a2bc-7a67d1835aa0"
+              },
+              "pos": {
+                "x": 450,
+                "y": 217
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5c64a7ed-4afd-4a93-8cb9-506cf2cce103"
+              },
+              "pos": {
+                "x": 876,
+                "y": 211
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "63fb5f86-cffa-4239-9478-e633bd916c37"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a8442804-5269-46e2-a2bc-7a67d1835aa0"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "1bb53c2a-a80a-4f55-afad-ab8ce0fdf6d1"
+            },
+            "pos": {
+              "x": 155,
+              "y": 176
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "32c4069b8bbafc913e5958013f3f8c6d",
+      "triggers.bts": "c63be174f733b45e175e0fd37872a576"
+    },
+    "VERSION": "0.24"
+  }
+}

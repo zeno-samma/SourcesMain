@@ -1,0 +1,17 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/GamePass/Position/x5Egg/x5Egg.png",
+  "itemname": "item_FiveEgg",
+  "mesh": "asset/GamePass/Position/x5Egg/x5Egg.mesh",
+  "needSave": true,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

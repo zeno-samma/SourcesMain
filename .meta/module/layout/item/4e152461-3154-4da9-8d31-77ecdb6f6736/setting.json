@@ -1,0 +1,725 @@
+{
+  "data": {
+    "md5": "960798cd2af1e6114ab166ac8e190b22",
+    "path": "asset/Gui/$R9ADOWG.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "be5af0c3-87e5-421e-a4bc-596b2d47793d"
+              },
+              "name": "petName",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.05
+                }
+              },
+              "Text": "Pet Name",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "c44c7753-bfee-451e-bea1-224ec8e0ff72"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "4984a431-89de-4fa4-a78b-3d5a09819a36"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Lucky",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "1e5553cd-ba10-4943-b3da-7d7eaf377150"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Teleport/n-ix-game-amp-vr-studio-n-ix-art-production-studio-arcanium-2.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.1
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 930,
+                    "tailoring_bottom_right": 1580,
+                    "tailoring_top_left": 1380,
+                    "tailoring_top_right": 481
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 930,
+                    "bottom_right": 1580,
+                    "top_left": 1380,
+                    "top_right": 481
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 930,
+                    "tailoring_bottom_right": 1580,
+                    "tailoring_top_left": 1380,
+                    "tailoring_top_right": 481
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HoverImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "id": {
+                    "value": "9337dcda-0f25-4dff-981f-d00a3867bdfa"
+                  },
+                  "NormalImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "1f26a87a-bbf8-4228-82c4-9fca2eba9771"
+              },
+              "Image": {
+                "asset": "asset/Texture/Teleport/2.png"
+              },
+              "resize": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 96,
+                "bottom_right": 623,
+                "top_left": 85,
+                "top_right": 241
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "6824509d-963b-4bd3-ae11-cbe8904bebb9"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Money",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "7fd9a379-29ff-4dcb-b10a-a1931818f5c3"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Teleport/n-ix-game-amp-vr-studio-n-ix-art-production-studio-arcanium-4.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.1
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 483,
+                    "tailoring_bottom_right": 226,
+                    "tailoring_top_left": 1377,
+                    "tailoring_top_right": 1835
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 483,
+                    "bottom_right": 226,
+                    "top_left": 1377,
+                    "top_right": 1835
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 483,
+                    "tailoring_bottom_right": 226,
+                    "tailoring_top_left": 1377,
+                    "tailoring_top_right": 1835
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HoverImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "id": {
+                    "value": "69b97173-b384-4ec2-8294-ee3e2de97a60"
+                  },
+                  "NormalImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "7675493c-5d62-4f78-af6f-d7a246859ca5"
+              },
+              "Image": {
+                "asset": "asset/Texture/Teleport/2.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 96,
+                "bottom_right": 623,
+                "top_left": 85,
+                "top_right": 241
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "4af58ec1-0661-44aa-96d7-30d1fbf9402f"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Healing",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "8eb5d747-22d6-42b2-b8f0-716cae660d00"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Teleport/n-ix-game-amp-vr-studio-n-ix-art-production-studio-arcanium-4.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.1
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 28,
+                    "tailoring_bottom_right": 1581,
+                    "tailoring_top_left": 1831,
+                    "tailoring_top_right": 485
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 28,
+                    "bottom_right": 1581,
+                    "top_left": 1831,
+                    "top_right": 485
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 28,
+                    "tailoring_bottom_right": 1581,
+                    "tailoring_top_left": 1831,
+                    "tailoring_top_right": 485
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "HoverImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "id": {
+                    "value": "2fb93466-46c4-4a2d-a0e5-fe7deab0c053"
+                  },
+                  "NormalImage": {
+                    "asset": "asset/Texture/Gui/radio_button_selectable.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "baa14873-876b-4c9f-a4a8-29459fbb51e9"
+              },
+              "Image": {
+                "asset": "asset/Texture/Teleport/2.png"
+              },
+              "name": "Image2",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.2
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 96,
+                "bottom_right": 623,
+                "top_left": 85,
+                "top_right": 241
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 96,
+                "tailoring_bottom_right": 623,
+                "tailoring_top_left": 85,
+                "tailoring_top_right": 241
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/Gui/radio_button_unselectable.png"
+              },
+              "HoverStretch": {
+                "bottom_left": 1826,
+                "bottom_right": 224,
+                "top_left": 480,
+                "top_right": 1837
+              },
+              "HoverTextColour": {
+                "g": 255
+              },
+              "id": {
+                "value": "31573027-009e-40e5-b75e-7b78f3ad8c72"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/Gui/radio_button_unselectable.png"
+              },
+              "NormalStretch": {
+                "bottom_left": 1826,
+                "bottom_right": 224,
+                "top_left": 480,
+                "top_right": 1837
+              },
+              "NormalTextColour": {
+                "g": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.02
+                }
+              },
+              "PushedTextColour": {
+                "b": 0,
+                "r": 0
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.05
+                }
+              },
+              "Text": "Summon",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/Gui/button_green_disable.png"
+              },
+              "id": {
+                "value": "a6066fb1-5d76-48a4-adaf-e891ff6132f9"
+              },
+              "name": "Button1",
+              "NormalImage": {
+                "asset": "asset/Texture/Gui/button_green_disable.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.02
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.05
+                }
+              },
+              "Text": "Reset",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/OpenEgg/2.png"
+              },
+              "id": {
+                "value": "ee1a08e4-f42b-455a-8ff7-51104e10f2cb"
+              },
+              "name": "Button2",
+              "NormalImage": {
+                "asset": "asset/Texture/OpenEgg/2.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.2
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "id": {
+                "value": "e8220f73-a237-4442-85f2-a0d95c8537a1"
+              },
+              "name": "Button3",
+              "Text": "Info",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "id": {
+                "value": "a592c867-ed6e-4744-afa1-bd99cd70bf87"
+              },
+              "name": "Button31",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.18
+                }
+              },
+              "Text": "Skill",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "id": {
+                "value": "5c952757-b4d8-4e57-b6c1-5100dd8067c0"
+              },
+              "name": "Button32",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.36
+                }
+              },
+              "Text": "Buff"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "0e51bbd3-5e3e-44d9-89ca-2f4d136d7ca1"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Level",
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "c5f7e88f-f49e-43dc-b8ea-a212310b0c2f"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "28bc7e92-a52a-47f9-be99-600182b52a76"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.4
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.7
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "960798cd2af1e6114ab166ac8e190b22",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

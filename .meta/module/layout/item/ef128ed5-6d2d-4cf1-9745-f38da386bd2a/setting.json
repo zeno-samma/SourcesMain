@@ -1,0 +1,329 @@
+{
+  "data": {
+    "md5": "7879a7a0970f59de230b1c9e8bc1173c",
+    "path": "asset/Gui/upgradeBag.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "f547790c-0eca-4b45-9078-907ceef13432"
+              },
+              "MinAutoTextScale": 20,
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Upgrade",
+              "TextColours": {
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "af9f9454-5ce6-4bd0-b206-42cc05f1c2f8"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "BackGroundImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 20,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "2b1aeaf5-694a-4072-bcda-e2eb4ac8333b"
+                      },
+                      "name": "Level1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 128
+                        }
+                      },
+                      "Text": ""
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "343548e5-0f5d-4959-9c7a-dfb58d496ca4"
+                      },
+                      "name": "Count1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 128
+                        }
+                      },
+                      "Text": "",
+                      "VertFormatting": "BottomAligned"
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "7e353232-6bac-4aa6-8ff5-214aa80ed737"
+                      },
+                      "name": "SlotBtn1",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "f5520969-d8e8-4934-91d3-65bc4e69fef9"
+                  },
+                  "Image": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "name": "Slot1"
+                }
+              ],
+              "hInterval": 1,
+              "id": {
+                "value": "0b443e01-e25b-4d90-9e79-5b1bb5a0999f"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "rowSize": 8,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              },
+              "vInterval": 1
+            }
+          ],
+          "id": {
+            "value": "44b04581-b5fa-4de9-b55e-609643d8487a"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.025
+            },
+            "UDim_Y": {
+              "Scale": 0.16
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.95
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.8
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0,
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "id": {
+            "value": "5cbefd9e-ed0c-4ca7-8e6f-2f4d756ec4e1"
+          },
+          "name": "CloseButton",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.01
+            },
+            "UDim_Y": {
+              "Scale": 0.01
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.12
+            }
+          },
+          "Text": "X"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "AutoTextScale": true,
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 30,
+          "id": {
+            "value": "ae16e59a-15db-45d9-89c5-d5d2c0df194d"
+          },
+          "name": "SortButton",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 1.3113025998379e-06,
+              "Scale": 0.08
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.08
+            }
+          },
+          "Text": "Sort",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 30,
+          "id": {
+            "value": "6ccf0c09-971c-41b9-b030-3a891591b883"
+          },
+          "name": "UpButton",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Offect": 1.3113025998379e-06,
+              "Scale": 0.08
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.08
+            }
+          },
+          "Text": "Upgrade",
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "4235b6b8-93cd-40f4-b4b4-5adc4b8f92db"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1000
+        },
+        "UDim_Y": {
+          "Offect": 600
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "7879a7a0970f59de230b1c9e8bc1173c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

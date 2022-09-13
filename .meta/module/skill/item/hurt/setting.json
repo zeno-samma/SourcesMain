@@ -1,0 +1,35 @@
+{
+  "data": {
+    "castAction": "hurt",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hurt"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
+      "type": "Base"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/apple.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "43adaeb52ed3222a13881bb80eb264e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

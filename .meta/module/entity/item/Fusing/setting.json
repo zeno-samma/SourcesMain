@@ -1,0 +1,48 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Factor/Fusing_RecipesS/Armature.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Factor/Fusing_RecipesS/Armature.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "clickDistance": 5,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Actor/merchant/Wise Man.actor"
+    },
+    "headPic": {
+      "asset": "asset/Actor/merchant/村长.png"
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 199980
+    },
+    "name": {
+      "value": "f423ddaf-7198-4bef-924b-f0b196459692"
+    },
+    "reachDistance": 5,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5b17c92631d4a1a1955399ad3e077633",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

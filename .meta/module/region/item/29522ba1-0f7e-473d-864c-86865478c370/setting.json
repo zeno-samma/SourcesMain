@@ -1,0 +1,188 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "175b08b6-ecc0-4aeb-b76b-ef0b613f06ba"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/MusicShop"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 1999980
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "be90f948-515a-464d-96d2-8b5b5ebad99e"
+              },
+              "pos": {
+                "x": 496,
+                "y": 80
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "175b08b6-ecc0-4aeb-b76b-ef0b613f06ba"
+              },
+              "pos": {
+                "x": 981,
+                "y": 69
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "943f1465-6c8f-4183-ad83-cae1bb6325cb"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "7c90e081-0fff-4891-ab79-6145527b3ac0"
+            },
+            "pos": {
+              "x": 134,
+              "y": 254
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5285dd85-f0ee-4460-bb06-17f784ed2b2f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/MusicShop"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ad1e7289-0205-4cca-8fd2-e4c502d9c70f"
+              },
+              "pos": {
+                "x": 353,
+                "y": 199
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5285dd85-f0ee-4460-bb06-17f784ed2b2f"
+              },
+              "pos": {
+                "x": 703,
+                "y": 218
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c283e585-8939-4d35-abf0-3bdb659ec7a0"
+            },
+            "type": "Trigger_RegionLeave"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ad1e7289-0205-4cca-8fd2-e4c502d9c70f"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1e6b8742-90ac-48d0-8e3c-3e9c8086b3f0"
+            },
+            "pos": {
+              "x": 61,
+              "y": 240
+            }
+          },
+          "type": "Trigger_RegionLeave"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "da3ef9e7a3ccd1533c453af11f31e86d"
+    },
+    "VERSION": "0.24"
+  }
+}

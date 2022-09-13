@@ -1,0 +1,75 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/LibPet/BATIDLE/Armature.actor",
+      "selector": "editor/SourcesMain/asset/LibPet/BATIDLE/Armature.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canRevive": true,
+    "collision": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "isPlayer": true,
+    "jumpHeight": 0.1,
+    "jumpSpeed": 4,
+    "name": {
+      "value": "b6306abe-d79e-4d74-8389-93e31125c2ad"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.1,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b4820d1789d5ddac370881af05668e2d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

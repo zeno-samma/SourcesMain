@@ -1,0 +1,84 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "8e4aa822-1c1e-46e2-9b67-efa4583d8720",
+                      "param_name": "clickPlayer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_10"
+                }
+              ],
+              "id": {
+                "value": "061f76b0-6377-44b0-88ec-6d95a31cc283"
+              },
+              "pos": {
+                "x": 350,
+                "y": 252
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8e4aa822-1c1e-46e2-9b67-efa4583d8720"
+              },
+              "pos": {
+                "x": 691,
+                "y": 300
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "8f6d32f6-b36f-4653-b558-5c4175aeddaa"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "061f76b0-6377-44b0-88ec-6d95a31cc283"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c8f749ce-aa7c-4ec7-bfd4-26e1163729e6"
+            },
+            "pos": {
+              "x": 72,
+              "y": 212
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "4454c2eb9552dc5f51094e617b4a8828"
+    },
+    "VERSION": "0.24"
+  }
+}

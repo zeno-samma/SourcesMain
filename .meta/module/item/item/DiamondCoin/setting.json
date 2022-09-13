@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/Position/kimcuong/kim cuong.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "isCoin": true
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/Position/kimcuong/kimcuong.mesh"
+    },
+    "name": {
+      "value": "item_DiamondCoin"
+    },
+    "needSave": true,
+    "stack_count_max": 50
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "057bb8d7b80e1ec19272fbc966fab9f9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

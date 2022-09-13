@@ -1,0 +1,75 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/LibPet/DominusFrigidusIdle/Armature.actor",
+      "selector": "editor/SourcesMain/asset/LibPet/DominusFrigidusIdle/Armature.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canRevive": true,
+    "collision": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "isPlayer": true,
+    "jumpHeight": 0.1,
+    "jumpSpeed": 4,
+    "name": {
+      "value": "7ade0907-dd0b-4b44-a71e-633d9ea4b521"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.1,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1bb07c1fcef6a9a1dad0856c5ee133a3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

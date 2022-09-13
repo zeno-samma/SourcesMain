@@ -1,0 +1,78 @@
+{
+  "area": [
+    [
+      0,
+      -228
+    ],
+    [
+      0,
+      -68
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 7,
+  "backSwingTime": 0,
+  "buffCfg": "myplugin/Shield royal",
+  "buffTime": 100,
+  "castAction": "Shield_royal",
+  "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 200,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableBackSwing": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "enablePreSwing": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/auxiliary/icon_盾.png",
+  "icon_pushed": "",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "target": "self",
+  "type": "Buff",
+  "verticalAlignment": 2
+}

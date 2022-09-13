@@ -1,0 +1,57 @@
+<ActorTemplates>
+	<ActorTemplate SoundFileNum="0" IsShowShadow="true" SoundName4="" TextHeight="0" WoundAngle="25" SoundName1="" Skeleton="boy_01.skel" AttackScale="1" MinDistance="1" Alpha="1" SelectedRingSize="1" WoundBone="" Volume="0.8" IntervalTime="2" SoundName3="" SoundName5="" SoundName2="" name="111.actor" MaxDistance="16" Originalscale="1 1 1">
+		<Anims>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+		</Anims>
+		<Skills>
+			<Skill UserDefineTime="-2" Name="die_back" EnableWound="false" TextMode="0">
+				<Animation Channel="" BeginTime="0" TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" FadeTime="0.25" Length="0.833"/>
+				<Effect>
+					<CycleTime value="-1"/>
+					<BeginTime value="0.08"/>
+					<TimeScale value="1"/>
+					<FileName value="asset/custom_effect/farmcoin.effect"/>
+					<SocketName value="Origin197011"/>
+					<yaw value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<FollowActor value="true"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<Position_Y value="2"/>
+					<type_name value="farmcoin"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" MasterName="mutex_name_0" SlaveName="group0" ColorParams="1 1 1 1" DefaultUse="true">
+				<StaticMesh type_name="coinLV2_Z3" DiscardAlpha="0" LocalAlpha="1">
+					<FileName value="asset/Mesh/Item/zone3/coinLV2_Z3/coinLV2_Z3.mesh"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<roll value="0"/>
+					<SocketName value="Origin197011"/>
+					<yaw value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<SpecularCoef value="0.15"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseOriginalcolor value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

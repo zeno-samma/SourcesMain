@@ -1,0 +1,46 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 60
+    },
+    "name": {
+      "value": "skill_fireball"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/fireball",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_act.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "591fe999b9277a6e642d63ef13f27ba3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

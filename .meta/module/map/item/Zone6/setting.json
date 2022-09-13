@@ -1,0 +1,87 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8721475783863304193"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8721475783974289409",
+        "ID": 7,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8749745951317344257",
+        "ID": 8,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "6948d698-8323-4948-9e50-577ef704f15b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8721476480737165313",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 8.5999250411987,
+          "y": 20.938098907471,
+          "z": -8.0938844680786
+        },
+        "mesh": "asset/World/map khu 6/map khu 6.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/map khu 6/map khu 6.mesh",
+          "selector": "asset/World/map khu 6/map khu 6.mesh"
+        },
+        "name": "map khu 6.mesh",
+        "position": {
+          "x": 8.5999250411987,
+          "y": 20.938098907471,
+          "z": -8.0938844680786
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 0.99999910593033
+        },
+        "scale": {
+          "x": 9.62683,
+          "y": 9.62681,
+          "z": 9.62681
+        },
+        "size": {
+          "x": 88.937728881836,
+          "y": 40.203456878662,
+          "z": 195.35745239258
+        },
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ],
+    "name": {
+      "value": "map_Zone6"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "147b6a42d216307cf8193956d31d666a"
+    },
+    "VERSION": "0.24"
+  }
+}

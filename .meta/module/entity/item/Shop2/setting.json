@@ -1,0 +1,164 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Mesh/Egg/SpottedEgg/1k.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Egg/SpottedEgg/1k.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 2,
+      "height_c": 2,
+      "memory": {
+        "Capsule": "2.000000-1.000000",
+        "Sphere": "1.800000-0.450000"
+      },
+      "radius": 1,
+      "radius_c": 1,
+      "type": "Cylinder"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideName": true,
+    "isPlayer": true,
+    "name": {
+      "value": "943aaeea-df2f-40b2-825c-8faeee0b09c5"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "d08be900-2bc7-4a25-b2f4-a26d6e571bab",
+                      "param_name": "clickPlayer"
+                    },
+                    {
+                      "action": "a9320f83-735c-47fe-bc35-7d7ab0bd3427",
+                      "param_name": "this"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_3"
+                }
+              ],
+              "id": {
+                "value": "7bd843b1-2e78-41ad-8730-5263e98ee516"
+              },
+              "pos": {
+                "x": 308,
+                "y": 306
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "d08be900-2bc7-4a25-b2f4-a26d6e571bab"
+              },
+              "pos": {
+                "x": 686,
+                "y": 187
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a9320f83-735c-47fe-bc35-7d7ab0bd3427"
+              },
+              "pos": {
+                "x": 672,
+                "y": 464
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "fa2643c2-2bdf-49f6-8ed6-dec2bf065af9"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "7bd843b1-2e78-41ad-8730-5263e98ee516"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "15e25dfd-7a4c-4af8-add6-4a9bac614ff0"
+            },
+            "pos": {
+              "x": 31,
+              "y": 280
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d9804cd17fd76716000de384bd82fb85",
+      "triggers.bts": "b7636baf65ea4b85a7ad0721c37cbc87"
+    },
+    "VERSION": "0.24"
+  }
+}

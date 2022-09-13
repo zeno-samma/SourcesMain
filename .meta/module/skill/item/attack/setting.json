@@ -1,0 +1,37 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_attack"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true,
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2fc3d62f2e9dedaa3e03ced306e8fa67",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

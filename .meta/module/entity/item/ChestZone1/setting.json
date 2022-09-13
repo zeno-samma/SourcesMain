@@ -1,0 +1,64 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone1/chestZONE1/actor.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone1/chestZONE1/actor.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 2,
+      "memory": {
+        "Capsule": "1.700000-0.430000",
+        "Cylinder": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "type": "Capsule"
+    },
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 32,
+    "name": {
+      "value": "94f90b86-8e28-4589-aef2-0a9a71838bcb"
+    },
+    "reviveTime": {
+      "value": 2400
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "303bb9f2aa88661f4bcd6a860e295110",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

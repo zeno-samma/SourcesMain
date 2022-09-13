@@ -1,0 +1,17 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/GamePass/Position/Damaged/Damaged.png",
+  "itemname": "item_X2Damaged",
+  "mesh": "asset/GamePass/Position/Damaged/Magic potion bottles.mesh",
+  "needSave": true,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

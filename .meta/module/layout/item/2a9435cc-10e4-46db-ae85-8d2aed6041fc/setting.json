@@ -1,0 +1,41 @@
+{
+  "data": {
+    "md5": "3856fe03d3623b98f304934e3426187d",
+    "path": "asset/Gui/SoundShop.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "EffectWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "effectName": {
+            "asset": "asset/custom_effect/farmeff.effect"
+          },
+          "effectPlayMode": "1",
+          "effectScale": 0.5,
+          "effectYPosition": 100,
+          "id": {
+            "value": "38ce0e0a-0baa-4086-94f4-6a3ea12cc9cb"
+          },
+          "MousePassThroughEnabled": true
+        }
+      ],
+      "id": {
+        "value": "f69a3d50-03e5-429b-8d06-56d5b5d80511"
+      },
+      "Visible": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "3856fe03d3623b98f304934e3426187d",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

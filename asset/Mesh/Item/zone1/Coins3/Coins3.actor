@@ -1,0 +1,57 @@
+<ActorTemplates>
+	<ActorTemplate SoundName5="" SoundName3="" SoundFileNum="0" Skeleton="Armature.skel" IntervalTime="2" Volume="0.8" SoundName2="" MinDistance="1" AttackScale="1" TextHeight="0" IsShowShadow="true" SoundName4="" Alpha="1" Originalscale="1 1 1" MaxDistance="16" SoundName1="" WoundAngle="25" name="111.actor" WoundBone="" SelectedRingSize="1">
+		<Skills>
+			<Skill EnableWound="false" Name="die_back" TextMode="0" UserDefineTime="-2">
+				<Effect>
+					<FollowActor value="true"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="farmcoin"/>
+					<CycleTime value="-1"/>
+					<Times value="1"/>
+					<FileName value="asset/custom_effect/farmcoin.effect"/>
+					<BeginTime value="0.08"/>
+					<Position_Y value="2"/>
+					<scale value="1"/>
+					<Position_X value="0"/>
+					<yaw value="0"/>
+					<TimeScale value="1"/>
+					<roll value="0"/>
+					<Alpha value="1"/>
+					<Position_Z value="0"/>
+				</Effect>
+				<Animation TimeScale="1" Channel="" Times="1" Length="0.833" Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name_0" EdgeColor="1 1 1 1" DefaultUse="true" SlaveName="group0">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="Coins1">
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_X value="0.133"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<pitch value="0"/>
+					<SocketName value="Bone"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<FileName value="asset/Mesh/Item/zone1/Coins3/Coins1.mesh"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0.255"/>
+					<scale value="1"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<roll value="-19.3587474823"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

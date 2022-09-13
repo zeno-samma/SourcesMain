@@ -1,0 +1,74 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Pet/DogAttack/Armature.actor",
+      "selector": "editor/SourcesMain/asset/Pet/DogAttack/Armature.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canRevive": true,
+    "damage": 0.01,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "isPlayer": true,
+    "jumpHeight": 0.1,
+    "jumpSpeed": 4,
+    "name": {
+      "value": "d535653c-5b4d-43b6-9336-36713c43f3aa"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.1,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3da1b851a4f4367f1c2c475b58f7a5a8",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

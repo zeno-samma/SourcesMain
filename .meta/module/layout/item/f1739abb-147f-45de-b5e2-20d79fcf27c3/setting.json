@@ -1,0 +1,253 @@
+{
+  "data": {
+    "md5": "323fd79df163d68a41a093b89baffda6",
+    "path": "asset/Gui/simpleShop.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "47fe3466-7960-45f3-b660-744097e1c907"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "name": "BG",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "32d6941b-e473-41ca-b932-cd7783e45958"
+          },
+          "name": "MoneyText",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.2
+            }
+          },
+          "Text": "0",
+          "VertFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "id": {
+            "value": "3129215e-5b95-4151-98d2-e5ed2fa10112"
+          },
+          "name": "CloseBtn",
+          "Text": "X"
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4dddaca8-d25d-4844-9bbb-4f994e0539d2"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "9cf2490a-4b65-44d3-bfd8-b5c215240bd0"
+          },
+          "name": "Item50",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Scale": -0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ac865458-9053-4407-9886-040c5e6f6ca5"
+              },
+              "name": "Text1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.01
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1.0
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                }
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "242f2331-2666-43e5-b9f1-cafa7a270a77"
+          },
+          "name": "Item100",
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "5431ac62-480b-4eff-b001-729571d19417"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                }
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "b8c7c701-f0dd-4586-ace1-d7333edadff3"
+          },
+          "name": "Item200",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.1
+            },
+            "UDim_Y": {
+              "Scale": -0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.2
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "6f3debc8-ff38-482a-8f33-b475031f77e4"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.8
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.8
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "323fd79df163d68a41a093b89baffda6",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/GamePass/Position/Speed/Speed.png",
+  "itemintroduction": "b7e6a162-0141-479d-88c9-c38296e0c435",
+  "itemname": "377ad40d-8fad-45ba-9d71-6f56c581562b",
+  "mesh": "asset/GamePass/Position/Speed/Bottle of magic medicine.mesh",
+  "needSave": true,
+  "stack_count_max": 50,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,44 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" IsShowShadow="true" Alpha="1" SoundName3="" SoundName1="" Originalscale="1 1 1" SelectedRingSize="1" SoundName5="" WoundBone="" Volume="0.8" TextHeight="0" MinDistance="1" SoundFileNum="0" AttackScale="1" Skeleton="boy_01.skel" IntervalTime="2" WoundAngle="25" SoundName2="" MaxDistance="16" name="111.actor">
+		<BodyParts>
+			<BodyPart DefaultUse="true" MasterName="mutex_name_0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="group0">
+				<Effect>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/custom_effect/g2038_yushanjia_blue.effect"/>
+					<Alpha value="1"/>
+					<type_name value="g2038_yushanjia_blue"/>
+					<roll value="0"/>
+					<TimeScale value="1"/>
+					<scale value="2"/>
+					<yaw value="180"/>
+					<Position_Z value="0"/>
+					<Position_Y value="-50"/>
+					<SocketName value="Origin197011"/>
+				</Effect>
+				<Effect>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/custom_effect/ui_egg_2.effect"/>
+					<Alpha value="1"/>
+					<type_name value="ui_egg_2"/>
+					<roll value="0"/>
+					<TimeScale value="1"/>
+					<scale value="5"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="-45"/>
+					<SocketName value="Origin197011"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/idle.anim"/>
+		</Anims>
+		<Skills>
+			<Skill UserDefineTime="-2" EnableWound="false" TextMode="0" Name="idle">
+				<Animation Channel="" Length="1.541" TimeScale="1" FadeTime="0.25" Times="1" BeginTime="0" Name="asset/LibPet/Animation/idle.anim"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

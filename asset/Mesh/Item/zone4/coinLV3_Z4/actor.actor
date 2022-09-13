@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate AttackScale="1" SoundName1="" MinDistance="1" SelectedRingSize="1" Alpha="1" Originalscale="1 1 1" SoundFileNum="0" SoundName5="" Volume="0.8" MaxDistance="16" name="111.actor" SoundName2="" Skeleton="boy_01.skel" WoundBone="" SoundName4="" IsShowShadow="true" SoundName3="" WoundAngle="25" TextHeight="0" IntervalTime="2">
+		<Skills/>
+		<BodyParts>
+			<BodyPart DefaultUse="true" MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="coinLV3_Z4">
+					<UseReflect value="false"/>
+					<roll value="0"/>
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<FileName value="asset/Mesh/Item/zone4/coinLV3_Z4/coinLV3_Z4.mesh"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_Z value="0"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<yaw value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<SocketName value="Origin197011"/>
+					<scale value="1"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,157 @@
+{
+  "data": {
+    "md5": "4f7722ba64d26b1ba047077c7467126e",
+    "path": "asset/Gui/Gate/openShopUI_Gate_1_2.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ca4cb170-4995-4710-9dd5-08ee388a2456"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Gate 1_2",
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 16,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "159adb88-9be9-42e2-bcfd-22c4f47b982c"
+              },
+              "name": "Text1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "Are you sure you want to unlock this arena for 10000 Gold Coins ?",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "192211b3-ba67-41f7-80b3-1d0bff75135f"
+              },
+              "name": "Btn_close",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 15,
+              "id": {
+                "value": "6e68f50b-0090-4120-ac42-38fa3b8b2fbb"
+              },
+              "name": "Btn",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Yes"
+            }
+          ],
+          "id": {
+            "value": "b22a8bda-b644-48e2-b382-bb16d7789ac9"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "01e236fe-9069-4e5e-a047-748ba8bd3ee2"
+      },
+      "MousePassThroughEnabled": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "4f7722ba64d26b1ba047077c7467126e",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

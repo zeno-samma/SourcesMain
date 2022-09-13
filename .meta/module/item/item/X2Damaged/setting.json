@@ -1,0 +1,166 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/GamePass/Position/Damaged/Damaged.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/Position/Damaged/Magic potion bottles.mesh"
+    },
+    "name": {
+      "value": "item_X2Damaged"
+    },
+    "needSave": true,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "686731e8-b3bf-4793-8b54-1c9d30623f4c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "c1232793-96f3-4f80-bfee-8a1bd455c250"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "41757820-0d56-4724-8b65-88d3bb648bd1"
+              },
+              "pos": {
+                "x": 507,
+                "y": 334.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "686731e8-b3bf-4793-8b54-1c9d30623f4c"
+              },
+              "pos": {
+                "x": 967,
+                "y": 357.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "2ca9f49b-dded-4808-83d8-d1b98076fd7c",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_61"
+                }
+              ],
+              "id": {
+                "value": "16f42f0f-a0b6-4a37-8f02-cb7250bb22fc"
+              },
+              "pos": {
+                "x": 522,
+                "y": 56
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "2ca9f49b-dded-4808-83d8-d1b98076fd7c"
+              },
+              "pos": {
+                "x": 899,
+                "y": 44
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ff2a6542-9cef-474c-8ca6-7a4cd598608a"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "16f42f0f-a0b6-4a37-8f02-cb7250bb22fc"
+                  },
+                  {
+                    "action": "41757820-0d56-4724-8b65-88d3bb648bd1"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "74cd1e10-daef-4609-95de-30bd1348b5af"
+            },
+            "pos": {
+              "x": 138,
+              "y": 229
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0f47d7bacbd25f4c242fc29bd6d5fef5",
+      "triggers.bts": "6578a8cdd099300d8f385d4b2dbb582f"
+    },
+    "VERSION": "0.24"
+  }
+}

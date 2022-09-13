@@ -1,0 +1,162 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/LibPet/Cat/Cat.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 8,
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "memory": {
+        "Capsule": "1.500000-0.430000"
+      },
+      "radius_c": 0.43
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.500000-0.430000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "radius_c": 0.43
+    },
+    "canClick": true,
+    "collision": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "followEntityDistanceWhenHasTarget": 15,
+    "followEntityDistanceWhenNotTarget": 1,
+    "hideName": true,
+    "jumpHeight": 0.2,
+    "jumpSpeed": 4,
+    "maxHp": 1,
+    "moveSpeed": 5,
+    "name": {
+      "value": "2c70541d-8b1e-4f75-8c5f-18f7f3a8e14c"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.4,
+    "textHeight": 1,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityTeam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a0e0dd1a-e5b4-40be-8553-cb977badc24a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8b4aa9f0-c0b7-4030-9d34-4ba3b8fd6807"
+              },
+              "pos": {
+                "x": 513,
+                "y": 273
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a0e0dd1a-e5b4-40be-8553-cb977badc24a"
+              },
+              "pos": {
+                "x": 952,
+                "y": 252
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c821fa8e-ecd4-4fc3-b071-a9d1a506c8a6"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "8b4aa9f0-c0b7-4030-9d34-4ba3b8fd6807"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6de5cf14-8f2e-4796-976e-c423d0868993"
+            },
+            "pos": {
+              "x": 81,
+              "y": 242
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8a7bbfbfafa43b566940e6f3a23ea636",
+      "triggers.bts": "e316b3c5f0a16a10f0b9ae7b9eeef9b3"
+    },
+    "VERSION": "0.24"
+  }
+}

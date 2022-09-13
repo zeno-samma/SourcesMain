@@ -1,0 +1,21 @@
+{
+  "data": {
+    "deDmgPct": 1,
+    "fixTime": "append",
+    "maxHp": 1000000,
+    "name": {
+      "value": "buff_armor"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a55ec6e4588baf43434904c8419c0efa"
+    },
+    "VERSION": "0.24"
+  }
+}

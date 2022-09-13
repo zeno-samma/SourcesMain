@@ -1,0 +1,280 @@
+{
+  "data": {
+    "md5": "668ff31386c0a13668b3f1a2329dca76",
+    "path": "asset/Gui/TeleUI.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "0fa60707-f5b0-4eda-bfcf-eb3f478c524c"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "fd5077b8-bc5f-4376-a514-a22b26c53e34"
+          },
+          "name": "map001",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Shop(First times:25000) "
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "64b6bcb2-6328-4588-9fe6-18a03fbc2593"
+          },
+          "name": "Zone1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z1(First times:6000)"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "62c93677-e0fb-42b0-a8e1-1550fc31db94"
+          },
+          "name": "Zone2",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z2(First times:7500)"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "b8bd961d-6684-4c81-9f74-3be91d026705"
+          },
+          "name": "Zone3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z3(First times:10000)"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "7efd89fc-3293-4d58-ae67-7e61a35d0e15"
+          },
+          "lock": true,
+          "name": "Zone4",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z4(First times:12500)",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "d1e6fba4-3eb6-41c6-ac76-b521fda40189"
+          },
+          "lock": true,
+          "name": "Zone5",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.25
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z5(First times:12500)",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "1ef664b5-cc46-44e6-9dbf-610edb76b477"
+          },
+          "lock": true,
+          "name": "Zone6",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.3
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z6(First times:12500)",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "AutoTextScale": true,
+          "id": {
+            "value": "e7b114d3-d05e-40d1-a520-a7fcca3bae89"
+          },
+          "lock": true,
+          "name": "Zone7",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.35
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "Z7(First times:12500)",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "AutoTextScale": true,
+          "HoverImage": {
+            "asset": "asset/Texture/Icon/Login/btn_close.png"
+          },
+          "id": {
+            "value": "d35b4f8e-7e30-44df-bcf9-a6d4eaa21d12"
+          },
+          "name": "CloseButton",
+          "NormalImage": {
+            "asset": "asset/Texture/Icon/Login/btn_close.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "id": {
+        "value": "2d92f188-d904-4db2-ad70-3cec3a8294fa"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.2
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.8
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "668ff31386c0a13668b3f1a2329dca76",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

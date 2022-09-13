@@ -1,0 +1,17 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/GamePass/Position/Money/Money.png",
+  "itemname": "item_X2Money",
+  "mesh": "asset/GamePass/Position/Money/Fantasy Glass Bottles.mesh",
+  "needSave": true,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,103 @@
+{
+  "data": {
+    "md5": "2a34de0288909894b66971eb97314529",
+    "path": "asset/Gui/Tutorial.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.376,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "09e38a06-bd8d-4f11-99fa-a65274315878"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "EffectWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "effectName": {
+            "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+          },
+          "id": {
+            "value": "17b14b36-8f71-46a4-88ca-4dc95a976987"
+          },
+          "name": "EffectPoints1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0,
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "id": {
+            "value": "671bebc8-e9ee-4d6a-b93a-a8f90a160333"
+          },
+          "name": "Next1",
+          "text_key": {
+            "value": "asset/Gui/Tutorial.layout.Button#cc64adc0-987a-4fa2-99ec-12a21604f046"
+          }
+        }
+      ],
+      "id": {
+        "value": "12c43b8c-4ceb-4038-9b99-c377665af8e3"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "2a34de0288909894b66971eb97314529",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

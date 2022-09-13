@@ -1,0 +1,60 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone4/chest_Z4/actor.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone4/chest_Z4/actor.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 2,
+      "radius": 1,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "maxHp": 512,
+    "name": {
+      "value": "00766c10-51c0-47d1-8c34-4f1fc21df4d0"
+    },
+    "reviveTime": {
+      "value": 2400
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a97be869b2d56aa3915bf0c4df38f0d5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

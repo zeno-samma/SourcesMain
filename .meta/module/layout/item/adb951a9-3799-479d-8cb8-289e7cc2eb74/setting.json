@@ -1,0 +1,1301 @@
+{
+  "data": {
+    "md5": "e3cfa8f2c9eed810ff96f68e6658aaeb",
+    "path": "asset/Gui/OnlineUi.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "7612f56a-52a2-48f5-a2e9-e4cee2cbf4c9"
+              },
+              "Image": {
+                "asset": "asset/custom_effect/g2033_giftPack.png"
+              },
+              "ImageColours": {
+                "g": 251,
+                "r": 251
+              },
+              "name": "ImageGift",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.26
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "c62750b1-1270-4433-a71d-b1095e82afa0"
+              },
+              "Image": {
+                "asset": "asset/custom_effect/g2033_giftPack.png"
+              },
+              "ImageColours": {
+                "b": 150,
+                "g": 148,
+                "r": 148
+              },
+              "name": "ImageGiftDone",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.26
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "ClippedByParent": true,
+              "Disabled": true,
+              "effectName": {
+                "asset": "asset/custom_effect/g2033_giftPack_1.effect"
+              },
+              "id": {
+                "value": "d17979e6-6d8f-4abc-81c0-d927a45102cc"
+              },
+              "name": "EffectGift",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "ProgressBar",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 1,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 15,
+                  "id": {
+                    "value": "3f0b6ed3-39a8-4b41-99fb-a80edd21184d"
+                  },
+                  "name": "TimeProgressBar",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.47
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.75
+                    }
+                  },
+                  "Text": "1",
+                  "text_key": {
+                    "value": "asset/Gui/OnlineUi.layout.StaticText#0ab81d8f-2fab-4290-8921-b79f8d77d217"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "AutoScale": "2",
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 1,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 10,
+                  "id": {
+                    "value": "4aa5cd09-7221-4911-a407-9452afeac7e0"
+                  },
+                  "name": "Second",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.55
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 15.6205,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "S",
+                  "text_key": {
+                    "value": "asset/Gui/OnlineUi.layout.StaticText#d1869ec7-ad17-4227-852e-918e012ef251"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "Disabled": true,
+              "id": {
+                "value": "7456e09e-4ff3-43bb-961e-b21806e41b39"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.2
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "progress_background_image": {
+                "asset": "asset/Texture/Gui/progressbar_top.png"
+              },
+              "progress_lights_image": {
+                "asset": "asset/Texture/Gui/progressbar_bg.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "6466dd84-1688-4be8-b51c-a18ff58552b6"
+              },
+              "name": "dayGiftButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "text_key": {
+                "value": "asset/Gui/OnlineUi.layout.Button#9c09a828-57b8-4779-a374-83e919f81b94"
+              }
+            }
+          ],
+          "id": {
+            "value": "cecc58de-a5e8-4fd3-9eb4-0f3a8b785b97"
+          },
+          "name": "OnlineUI",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.15
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "2bf8a254-71e1-4d53-8ff0-c1337fbffccc"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/OnlineUi.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.58340930938721
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 23,
+                "tailoring_bottom_right": 126,
+                "tailoring_top_left": 22,
+                "tailoring_top_right": 128
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 23,
+                "bottom_right": 126,
+                "top_left": 22,
+                "top_right": 128
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 23,
+                "tailoring_bottom_right": 126,
+                "tailoring_top_left": 22,
+                "tailoring_top_right": 128
+              }
+            },
+            {
+              "__OBJ_TYPE": "HorizontalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "40c9ec70-5df4-4fc4-9517-534d1bae3910"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "name": "tick1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectScale": 1.1,
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "c6166266-d0bc-4d74-9a23-54e15ded7f1a"
+                      },
+                      "name": "EffectWindow1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderColor": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BorderWidth": 2,
+                      "Disabled": true,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 15,
+                      "id": {
+                        "value": "80c44eea-b0af-4875-a196-e360ba9fb711"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 0.08
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        }
+                      },
+                      "Text": "x1",
+                      "text_key": {
+                        "value": "asset/Gui/OnlineUi.layout.StaticText#da06d0f4-d397-4801-8472-5f6ab593552a"
+                      },
+                      "TextBoldWeight": "1",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen",
+                      "word_warpped": false
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "35e0f6f7-3133-49fa-acd3-285d5be6c2c4"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Coin/Coins.png"
+                  },
+                  "ImageColours": {
+                    "b": 237
+                  },
+                  "name": "Slot1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.08
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "SoundFile": {
+                    "asset": "asset/Sound/click.mp3"
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "97df3b49-b75e-4b9c-9076-8a4093c843a2"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "name": "tick2",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "469e2f3c-b662-444f-966c-40ea36d04e8a"
+                      },
+                      "name": "EffectWindow2",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderColor": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BorderWidth": 2,
+                      "Disabled": true,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 15,
+                      "id": {
+                        "value": "566b4876-cdb7-4b2c-a9a6-aeacad044cca"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 0.1
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        }
+                      },
+                      "Text": "x2",
+                      "text_key": {
+                        "value": "asset/Gui/OnlineUi.layout.StaticText#7143de29-1db7-440d-88b2-2e7dbe45d398"
+                      },
+                      "TextBoldWeight": "1",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen",
+                      "word_warpped": false
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "4e8b036c-a967-4286-a094-728652cf483a"
+                  },
+                  "Image": {
+                    "asset": "asset/GamePass/Position/kimcuong/kim cuong.png"
+                  },
+                  "name": "Slot11",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 128
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.08
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "SoundFile": {
+                    "asset": "asset/Sound/click.mp3"
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "6f9c24f0-5237-45f5-bbf5-5b355d91f7b7"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "name": "tick3",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "84822cd9-adea-448a-979b-2f90456236fc"
+                      },
+                      "name": "EffectWindow3",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderColor": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BorderWidth": 2,
+                      "Disabled": true,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 15,
+                      "id": {
+                        "value": "8db9b833-162b-40a0-a95d-a9ada44e563a"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 0.1
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        }
+                      },
+                      "Text": "x3",
+                      "text_key": {
+                        "value": "asset/Gui/OnlineUi.layout.StaticText#3a9838df-92d0-4a6a-aea1-38ff080ec5c7"
+                      },
+                      "TextBoldWeight": "1",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen",
+                      "word_warpped": false
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "6ed730cd-8c09-4df0-adf0-eda8e82a0c26"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Coin/Coins.png"
+                  },
+                  "name": "Slot12",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 256
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 2,
+                    "tailoring_top_left": 4
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.08
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "SoundFile": {
+                    "asset": "asset/Sound/click.mp3"
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 2,
+                    "top_left": 4
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 2,
+                    "tailoring_top_left": 4
+                  }
+                }
+              ],
+              "id": {
+                "value": "2f9771e4-bd81-4ef9-b5d1-63b13556c182"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.175
+                },
+                "UDim_Y": {
+                  "Scale": -0.005
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 243
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "space": 45
+            },
+            {
+              "__OBJ_TYPE": "HorizontalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "0c8d23c5-6282-4fe1-b3e7-0c0c2671fe7f"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "name": "tick4",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "fd15f843-1cad-4287-bfaf-2c4f9b440dd7"
+                      },
+                      "name": "EffectWindow4",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderColor": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BorderWidth": 2,
+                      "Disabled": true,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 15,
+                      "id": {
+                        "value": "856b1923-0657-469d-a323-8fa5056cb09c"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 0.1
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        }
+                      },
+                      "Text": "x4",
+                      "text_key": {
+                        "value": "asset/Gui/OnlineUi.layout.StaticText#4d6ddac7-467b-4baf-8c46-3a32cf0410a1"
+                      },
+                      "TextBoldWeight": "1",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen",
+                      "word_warpped": false
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "3c63ad1c-f962-457a-93b7-eb0a7df361d0"
+                  },
+                  "Image": {
+                    "asset": "asset/GamePass/Position/kimcuong/kim cuong.png"
+                  },
+                  "name": "Slot1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.08
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "SoundFile": {
+                    "asset": "asset/Sound/click.mp3"
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "c152a576-0a8c-49b0-ab1b-b5c0516d1665"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "name": "tick5",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "a4bab861-bef1-42cb-a625-432440f1477c"
+                      },
+                      "name": "EffectWindow5",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderColor": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BorderWidth": 2,
+                      "Disabled": true,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 15,
+                      "id": {
+                        "value": "fff493bd-8b27-4de3-b5e2-7daf5fd27d72"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 0.1
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        }
+                      },
+                      "Text": "x5",
+                      "text_key": {
+                        "value": "asset/Gui/OnlineUi.layout.StaticText#c59489e1-8193-47dc-81d0-748592affb4f"
+                      },
+                      "TextBoldWeight": "1",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen",
+                      "word_warpped": false
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "b1b3ca57-74b0-4c14-97cb-ac80bd894646"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Coin/Coins.png"
+                  },
+                  "name": "Slot11",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 128
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.08
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "SoundFile": {
+                    "asset": "asset/Sound/click.mp3"
+                  }
+                }
+              ],
+              "id": {
+                "value": "2cb9d5e6-9fe9-436a-a469-71df9b20f8b7"
+              },
+              "name": "HorizontalLayoutContainer1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.175
+                },
+                "UDim_Y": {
+                  "Scale": 0.18
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 147
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "space": 45
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 25,
+              "id": {
+                "value": "dfab4a76-2270-4622-9e26-b2ce0d7045df"
+              },
+              "name": "closeButton",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.07
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "Text": "X",
+              "text_key": {
+                "value": "asset/Gui/OnlineUi.layout.Button#90736e12-6700-4244-b709-12bb21d0b9ab"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "6e05d2a3-ef72-48f7-80c7-397dbbd08d98"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/claim.png"
+              },
+              "name": "claimImage",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.17
+                },
+                "UDim_Y": {
+                  "Scale": 0.34
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 131,
+                "tailoring_bottom_right": 214,
+                "tailoring_top_left": 129,
+                "tailoring_top_right": 215
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.23
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 131,
+                "bottom_right": 214,
+                "top_left": 129,
+                "top_right": 215
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 131,
+                "tailoring_bottom_right": 214,
+                "tailoring_top_left": 129,
+                "tailoring_top_right": 215
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 25,
+              "id": {
+                "value": "2d310b39-f824-48b8-8d08-21f77c0446ec"
+              },
+              "name": "claimButton",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Scale": 0.34
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.21
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "Text": "O",
+              "text_key": {
+                "value": "asset/Gui/OnlineUi.layout.Button#7c8f66f0-0724-45d7-8932-880a144f5152"
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+              },
+              "id": {
+                "value": "a7483a28-8c4a-4dff-a28e-5d0b8108dc99"
+              },
+              "name": "EffectWindowPoint",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "bce28cfb-353e-434e-930f-03eee99f1466"
+          },
+          "name": "DayGift",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.8
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "a97998e0-35ed-4056-83cd-babc9fd34b2b"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 800
+        },
+        "UDim_Y": {
+          "Offect": 600
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e3cfa8f2c9eed810ff96f68e6658aaeb",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

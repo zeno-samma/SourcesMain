@@ -1,0 +1,37 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "followTarget": true,
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/785e3a13-1942-4d53-8991-32b76e105764",
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/Sound/farmcoin.mp3"
+      }
+    },
+    "hitInterval": {
+      "value": 2
+    },
+    "lifeTime": {
+      "value": 2
+    },
+    "name": {
+      "value": "missile_5819a2e8-c710-4866-ac8e-1a9e54212b9d"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e7e61ed733c477354af4c0b798d578d0"
+    },
+    "VERSION": "0.21"
+  }
+}

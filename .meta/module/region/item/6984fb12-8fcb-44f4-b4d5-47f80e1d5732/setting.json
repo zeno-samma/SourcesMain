@@ -1,0 +1,80 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "b47db25b-04a4-4fc9-af98-1c7c3cf3949b",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_15"
+                }
+              ],
+              "id": {
+                "value": "ba4bf076-f441-48c2-816d-f2290eb033fc"
+              },
+              "pos": {
+                "x": 680,
+                "y": 309
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b47db25b-04a4-4fc9-af98-1c7c3cf3949b"
+              },
+              "pos": {
+                "x": 997,
+                "y": 285
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "555f484b-250b-4af8-9b4c-acfa1569e2a9"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ba4bf076-f441-48c2-816d-f2290eb033fc"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "880a8428-3ffe-410b-94fc-b75f42913f7d"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "d43fd56f2ede2f6e6e092ee53ce15937"
+    },
+    "VERSION": "0.24"
+  }
+}

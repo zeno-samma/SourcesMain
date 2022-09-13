@@ -1,0 +1,46 @@
+{
+  "data": {
+    "castAction": "skills",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_blame"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/fireball",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_act.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8465752606e04452851393edac1a0153",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

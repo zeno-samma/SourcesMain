@@ -1,0 +1,51 @@
+<ActorTemplates>
+	<ActorTemplate MaxDistance="16" TextHeight="0" SoundName3="" WoundAngle="25" WoundBone="" SoundFileNum="0" SelectedRingSize="1" Originalscale="1 1 1" Skeleton="asset/LibPet/DomortuusIdle/Armature.skel" MinDistance="1" Alpha="1" IntervalTime="2" SoundName4="" name="111.actor" AttackScale="1" SoundName1="" Volume="0.8" SoundName5="" SoundName2="" IsShowShadow="true">
+		<Anims>
+			<Anim Name="asset/LibPet/DomortuusIdle/DomortuusIdle_Armature.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle4.anim"/>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+		</Anims>
+		<Skills>
+			<Skill TextMode="0" Name="idle" EnableWound="false" UserDefineTime="-2">
+				<Animation Name="asset/LibPet/DomortuusIdle/DomortuusIdle_Armature.anim" TimeScale="2" Length="2.5833333" Times="-1" Channel="upper" BeginTime="0" FadeTime="0.050000001"/>
+			</Skill>
+			<Skill TextMode="0" Name="attack2" EnableWound="false" UserDefineTime="-2">
+				<Animation Name="asset/LibPet/Animation/attack2.anim" TimeScale="2" Length="0.958" Times="1" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+			<Skill TextMode="0" Name="run" EnableWound="false" UserDefineTime="-2">
+				<Animation Name="asset/LibPet/Animation/run.anim" TimeScale="2" Length="1" Times="-1" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+			<Skill TextMode="0" Name="idle4" EnableWound="false" UserDefineTime="-2">
+				<Animation Name="asset/LibPet/Animation/idle4.anim" TimeScale="1" Length="2.583" Times="1" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name0" SlaveName="group0" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="HEAD" LocalAlpha="1" DiscardAlpha="0">
+					<FileName value="asset/LibPet/Domortuus/HEAD.mesh"/>
+					<scale value="1"/>
+					<Position_Y value="0"/>
+					<SocketName value="Armature"/>
+					<UseBloom value="false"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

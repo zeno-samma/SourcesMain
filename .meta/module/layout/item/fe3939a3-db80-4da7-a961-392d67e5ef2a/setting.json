@@ -1,0 +1,169 @@
+{
+  "data": {
+    "md5": "123f5f320403503cf23ee50fe2025966",
+    "path": "asset/Gui/LoadingUi.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/anchun_loading01.effect"
+              },
+              "id": {
+                "value": "daf08d88-dccf-4cf8-980c-7bdecd2a3d0c"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ProgressBar",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "0ecb6c1c-43a3-435d-ae46-441522e5c320"
+              },
+              "progress_background_image": {
+                "asset": "asset/Texture/Ui/bgbar.png"
+              },
+              "progress_lights_image": {
+                "asset": "asset/Texture/Ui/topbar.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "BorderWidth": 1,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "8f910663-2121-4f36-a194-9dadac46f575"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Loading...",
+              "text_key": {
+                "value": "asset/Gui/LoadingUi.layout.StaticText#82f39248-bcb2-48f4-9d9a-25db065b21f4"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "0c5d6c40-4d3d-4694-85d2-81434092a46f"
+          },
+          "Image": {
+            "asset": "asset/Texture/Ui/3.png"
+          },
+          "ImageColours": {
+            "b": 42,
+            "g": 87,
+            "r": 159
+          },
+          "resize": {
+            "tailoring_bottom_left": 13,
+            "tailoring_bottom_right": 86,
+            "tailoring_top_left": 10,
+            "tailoring_top_right": 139
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 13,
+            "bottom_right": 86,
+            "top_left": 10,
+            "top_right": 139
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 13,
+            "tailoring_bottom_right": 86,
+            "tailoring_top_left": 10,
+            "tailoring_top_right": 139
+          }
+        }
+      ],
+      "id": {
+        "value": "5e5a284a-b0a7-4449-81c2-76886ae63d41"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "123f5f320403503cf23ee50fe2025966",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

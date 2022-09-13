@@ -1,0 +1,167 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/GamePass/Position/Speed/Speed.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/Position/Speed/Bottle of magic medicine.mesh"
+    },
+    "name": {
+      "value": "377ad40d-8fad-45ba-9d71-6f56c581562b"
+    },
+    "needSave": true,
+    "stack_count_max": 50,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "5c64a7ed-4afd-4a93-8cb9-506cf2cce103",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_54"
+                }
+              ],
+              "id": {
+                "value": "a8442804-5269-46e2-a2bc-7a67d1835aa0"
+              },
+              "pos": {
+                "x": 492,
+                "y": 100
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5c64a7ed-4afd-4a93-8cb9-506cf2cce103"
+              },
+              "pos": {
+                "x": 918,
+                "y": 94
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c652f824-6ed0-4cd3-9ec7-e19e772c9428"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "34084428-20f9-47b3-9bcd-9c3768689dbe"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d747b6fc-7ffa-47bd-8d7d-13a6afd85527"
+              },
+              "pos": {
+                "x": 489,
+                "y": 294
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c652f824-6ed0-4cd3-9ec7-e19e772c9428"
+              },
+              "pos": {
+                "x": 949,
+                "y": 317
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "a8d68b15-0d63-446c-aa6b-7ee828408f5c"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a8442804-5269-46e2-a2bc-7a67d1835aa0"
+                  },
+                  {
+                    "action": "d747b6fc-7ffa-47bd-8d7d-13a6afd85527"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1bb53c2a-a80a-4f55-afad-ab8ce0fdf6d1"
+            },
+            "pos": {
+              "x": 155,
+              "y": 176
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e659a8df5a56c9e4d7608647c6edbb0c",
+      "triggers.bts": "228c47aaa61673e060e7adf91e1f2603"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,3 @@
+USE_ITEM {
+	ExecScript(click = $obj1, script_name = "ScriptableNode_54")
+}

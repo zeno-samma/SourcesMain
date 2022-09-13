@@ -1,0 +1,45 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Factor/UpgradesFix/Armature.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Factor/UpgradesFix/Armature.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "clickDistance": 5,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 199980
+    },
+    "name": {
+      "value": "b88d3f59-e285-4008-9dcc-ba7e7575d8a1"
+    },
+    "reachDistance": 5,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "31ee181673645f81db78debc883b1fa7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

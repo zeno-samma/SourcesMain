@@ -1,0 +1,75 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/LibPet/DesertCatIdle/Armature.actor",
+      "selector": "editor/SourcesMain/asset/LibPet/DesertCatIdle/Armature.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canRevive": true,
+    "collision": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "isPlayer": true,
+    "jumpHeight": 0.1,
+    "jumpSpeed": 4,
+    "name": {
+      "value": "fa1952ea-a9c8-490f-a5f4-2abc164eb58d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.1,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "26195256894d5ab9ea4166c80f637699",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

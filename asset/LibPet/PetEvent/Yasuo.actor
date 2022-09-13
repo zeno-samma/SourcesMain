@@ -1,0 +1,79 @@
+<ActorTemplates>
+	<ActorTemplate Volume="0.8" MinDistance="1" SoundName2="" Originalscale="1 1 1" SelectedRingSize="1" SoundFileNum="0" name="111.actor" WoundBone="" MaxDistance="16" SoundName5="" IsShowShadow="true" IntervalTime="2" SoundName3="" SoundName4="" WoundAngle="25" Alpha="1" Skeleton="Armature.skel" SoundName1="" AttackScale="1" TextHeight="0">
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle.anim"/>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+		</Anims>
+		<Skills>
+			<Skill TextMode="0" Name="idle" EnableWound="false" UserDefineTime="-2">
+				<Effect>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Times value="1"/>
+					<FileName value="asset/custom_effect/tt.effect"/>
+					<Position_Z value="-0.3"/>
+					<Alpha value="1"/>
+					<Position_Y value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<type_name value="tt"/>
+					<SocketName value="Origin197011"/>
+					<TimeScale value="1"/>
+					<FollowActor value="true"/>
+					<Position_X value="0"/>
+					<BeginTime value="0"/>
+				</Effect>
+				<Animation Length="1.541" TimeScale="2" Times="-1" FadeTime="0.25" Name="asset/LibPet/Animation/idle.anim" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" Name="attack2" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="0.958" TimeScale="2" Times="1" FadeTime="0.25" Name="asset/LibPet/Animation/attack2.anim" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" Name="run" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="1" TimeScale="2" Times="-1" FadeTime="0.25" Name="asset/LibPet/Animation/run.anim" Channel="" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="group0" MasterName="mutex_name_0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" DefaultUse="true">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="HEAD">
+					<yaw value="0"/>
+					<SpecularCoef value="0.15"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<roll value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<FileName value="asset/LibPet/PetEvent/Fox Yasuo1/Fox Yasuo1.mesh"/>
+					<UseBloom value="false"/>
+					<Position_Y value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0.3"/>
+					<SocketName value="Armature"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="1"/>
+				</StaticMesh>
+				<Effect>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/effys.effect"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<scale value="0.5"/>
+					<roll value="0"/>
+					<type_name value="effys"/>
+					<SocketName value="Origin197011"/>
+					<TimeScale value="0.5"/>
+					<Alpha value="1"/>
+					<Position_Z value="-0.32989192008972"/>
+					<Position_X value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

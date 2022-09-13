@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" WoundAngle="25" IntervalTime="2" MinDistance="1" IsShowShadow="true" SelectedRingSize="1" SoundFileNum="0" Volume="0.8" name="111.actor" Skeleton="boy_01.skel" Originalscale="1 1 1" AttackScale="1" SoundName3="" Alpha="1" MaxDistance="16" SoundName5="" TextHeight="0" SoundName2="" WoundBone="" SoundName1="">
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="group0" MasterName="mutex_name_0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="cong 4">
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_Z value="0"/>
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseReflect value="false"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<SpecularCoef value="0.15"/>
+					<FileName value="asset/World/cong 4/cong 4.mesh"/>
+					<scale value="10"/>
+					<SocketName value="Origin197011"/>
+					<pitch value="0"/>
+					<UseEdge value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

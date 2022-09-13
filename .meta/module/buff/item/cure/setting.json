@@ -1,0 +1,27 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/food/g2020_banyuedao.effect"
+      },
+      "once": false
+    },
+    "continueHeal": 2,
+    "deadRemove": true,
+    "name": {
+      "value": "buff_cure"
+    },
+    "needSave": true,
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "72542cf479ead9839d6e6e60fca1d191"
+    },
+    "VERSION": "0.24"
+  }
+}

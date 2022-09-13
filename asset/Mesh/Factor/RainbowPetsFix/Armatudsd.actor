@@ -1,0 +1,158 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" MaxDistance="16" TextHeight="0" WoundBone="" SelectedRingSize="1" IsShowShadow="true" IntervalTime="2" Skeleton="asset/UpgradesFix/RainbowPetsFix/Armatudsd.skel" SoundFileNum="0" AttackScale="1" Alpha="1" name="111.actor" MinDistance="1" SoundName5="" Volume="0.8" SoundName3="" Originalscale="1 1 1" SoundName2="" SoundName1="" WoundAngle="25">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group0" MasterName="mutex_name0" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="A1">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/UpgradesFix/RainbowPetsFix/A1.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="afadsfdone"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group1" MasterName="mutex_name1" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="d1">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/Mesh/Factor/RainbowPetsFix/d1.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="1.0 0 0.02 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone01"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group2" MasterName="mutex_name2" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="c1">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/UpgradesFix/RainbowPetsFix/c1.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="0 1.0 0.24 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone02"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group3" MasterName="mutex_name3" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="e1">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/UpgradesFix/RainbowPetsFix/e1.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="0.01 0.87 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone003"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group4" MasterName="mutex_name4" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="b1">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/UpgradesFix/RainbowPetsFix/b1.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="0.45 0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone04"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group5" MasterName="mutex_name5" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="a2">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/UpgradesFix/RainbowPetsFix/a2.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone05"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/GamePass/PickAxe/StonePickAxe/X2ATK.png",
+  "itemname": "item_StoneP",
+  "mesh": "asset/GamePass/PickAxe/StonePickAxe/pickaxe stone.mesh",
+  "needSave": true,
+  "skill": [
+    "myplugin/Stone"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

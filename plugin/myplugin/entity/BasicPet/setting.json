@@ -1,0 +1,131 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/charactor/charactor_girl/character_girl.actor",
+  "actorName": "asset/LibPet/Cat/Cat.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": true,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "backMoveResetOffsetYaw": true,
+  "beAttackedFeedback": {
+    "fromNpc": true,
+    "fromPlayer": true,
+    "hideSmooth": true,
+    "hideTime": 15
+  },
+  "boundingScaleWithSize": true,
+  "canClick": true,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
+  "checkGroundWhenCollisionMargin": true,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 1,
+  "damageViewBobbing": [
+    {
+      "count": 2,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 6
+      }
+    },
+    {
+      "count": 4,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "deathHideTime": 60,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "enableBackMovementAction": true,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "fallAtSwimming": false,
+  "firstPRVActorName": "asset/Actor/charactor/firstPrvActor/firstPrvActor.actor",
+  "firstPRVHandBoneName": "s_wuqi",
+  "followEntityDistanceWhenHasTarget": 15,
+  "followEntityDistanceWhenNotTarget": 1,
+  "FollowWhenCreate": true,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 1,
+  "hideName": true,
+  "hpBarColor": 4294967551,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hpFaceCamera": 0,
+  "hurtResistantTime": 0,
+  "isPlayer": false,
+  "jumpHeight": 0.2,
+  "jumpSpeed": 0.2,
+  "maxHp": 1,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "modelType": "System",
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.25,
+  "name": "2c70541d-8b1e-4f75-8c5f-18f7f3a8e14c",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "pushForce": 10,
+  "randomPlayDeadActions": [
+    "die_front"
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 8,
+      "fullName": "myplugin/SkillPet",
+      "priority": 0
+    }
+  ],
+  "skillInfos": [],
+  "stepHeight": 0.4,
+  "textHeight": 1,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 1,
+  "undamageable": 1
+}

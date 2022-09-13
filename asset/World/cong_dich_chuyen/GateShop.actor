@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate IntervalTime="2" SoundName3="" SoundFileNum="0" SoundName2="" MaxDistance="16" Volume="0.8" IsShowShadow="true" SoundName4="" Originalscale="1 1 1" SoundName1="" name="111.actor" TextHeight="0" Skeleton="boy_01.skel" MinDistance="1" SelectedRingSize="1" Alpha="1" SoundName5="" AttackScale="1" WoundAngle="25" WoundBone="">
+		<Skills/>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name_0" SlaveName="group0" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="cong_dich_chuyen">
+					<SocketName value="Origin197011"/>
+					<Position_Z value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="false"/>
+					<Position_X value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<UseReflect value="false"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<FileName value="asset/World/cong_dich_chuyen/cong_dich_chuyen.mesh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<pitch value="0"/>
+					<UseEdge value="false"/>
+					<scale value="1"/>
+					<Position_Y value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

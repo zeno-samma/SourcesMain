@@ -1,0 +1,27 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/food/g2021_huoyanjuqi.effect"
+      },
+      "once": false
+    },
+    "damage": 3,
+    "name": {
+      "value": "buff_Force"
+    },
+    "needSave": true,
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dc44530d395670c0d989f8e3524cf327"
+    },
+    "VERSION": "0.24"
+  }
+}

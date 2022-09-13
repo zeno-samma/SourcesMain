@@ -1,0 +1,165 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/GamePass/Position/4morepet/4morepet.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/GamePass/Position/4morepet/potions.mesh"
+    },
+    "name": {
+      "value": "item_X4MorePet"
+    },
+    "needSave": true,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "78550135-5890-4ed4-a50a-b5de139b5844"
+              },
+              "pos": {
+                "x": 1030,
+                "y": 174.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4cd5acc8-a8e1-4c5d-9fb9-cddebb9a1d2c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "dc1efa23-4181-4b11-84ae-a562a33fa8cc"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f10657c4-14ac-418b-8873-46b73ac422e8"
+              },
+              "pos": {
+                "x": 601,
+                "y": 374.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "78550135-5890-4ed4-a50a-b5de139b5844",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_64"
+                }
+              ],
+              "id": {
+                "value": "1a07b482-41cc-4948-85c2-60faa5bef9cc"
+              },
+              "pos": {
+                "x": 604,
+                "y": 180.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "4cd5acc8-a8e1-4c5d-9fb9-cddebb9a1d2c"
+              },
+              "pos": {
+                "x": 1061,
+                "y": 397.5
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "db54b33d-8972-45d3-b159-e02e8d34a724"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1a07b482-41cc-4948-85c2-60faa5bef9cc"
+                  },
+                  {
+                    "action": "f10657c4-14ac-418b-8873-46b73ac422e8"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "9fd81945-1e70-4ee3-8e77-fe87078743d6"
+            },
+            "pos": {
+              "x": 141,
+              "y": 258
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "988de08dd0bc8ff34b801d139bc19f6a",
+      "triggers.bts": "8137116ffb31db0b2bd7864de4427be0"
+    },
+    "VERSION": "0.24"
+  }
+}

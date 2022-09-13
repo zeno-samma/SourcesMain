@@ -1,0 +1,158 @@
+{
+  "data": {
+    "md5": "6c892753ea7b4d244dac7192b322e8cb",
+    "path": "asset/Gui/Gate/Sure.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "0374ed8d-af6f-4b9e-907b-98e6cd9c8719"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Gate 1_2",
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 16,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "59db274f-4665-44ca-af29-d3a2e7c68268"
+              },
+              "name": "Text1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "Are you sure ?",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "dbf37cd8-a513-4fed-9c79-0f628477eab6"
+              },
+              "name": "Btn_close",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 15,
+              "id": {
+                "value": "5fa241fb-b4be-4e51-a834-4d4b7af678a5"
+              },
+              "name": "Btn",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Yes"
+            }
+          ],
+          "id": {
+            "value": "4c898c09-c3a2-434c-ac29-de560ea992b0"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "d0b7b913-f3a3-494d-87c1-77e76fdd15fb"
+      },
+      "MousePassThroughEnabled": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "6c892753ea7b4d244dac7192b322e8cb",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

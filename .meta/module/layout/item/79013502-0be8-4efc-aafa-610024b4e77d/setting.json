@@ -1,0 +1,237 @@
+{
+  "data": {
+    "md5": "acc0cf0bbc1f7a4a17f37a178aeea38f",
+    "path": "asset/Gui/TutorialStep3.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.283,
+          "id": {
+            "value": "dada8861-970b-4899-857e-252b3ca9f092"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Cover",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.283,
+          "id": {
+            "value": "1963fd8e-3560-406b-ae85-242f8b714dbb"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Cover1",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 14,
+                  "id": {
+                    "value": "607e7b2f-5308-488d-81fc-a1f8243801d5"
+                  },
+                  "MinAutoTextScale": 12,
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.05
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    }
+                  },
+                  "Text": "Left click holding pickaxe in hand ",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep3.layout.StaticText#a0a8f3d4-3904-48be-8fc5-95045322df16"
+                  },
+                  "TextBoldWeight": "1",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "BorderWidth": 3,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "id": {
+                    "value": "1ad7a8ed-cbc2-43ac-ab2b-0fa85c928f73"
+                  },
+                  "name": "Step1Button",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "I Know",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep3.layout.Button#3df83a1f-3517-4376-9233-abbef77c3fad"
+                  },
+                  "TextBoldWeight": "1"
+                },
+                {
+                  "__OBJ_TYPE": "EffectWindow",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "effectName": {
+                    "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+                  },
+                  "id": {
+                    "value": "d61ab926-4dee-43e8-b20c-afa068d1bf84"
+                  },
+                  "name": "EffectWindowPoint",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "6d90476c-62e0-4898-8643-5ee770c14e4f"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/Tutoria.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.2
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 15,
+                "tailoring_bottom_right": 81,
+                "tailoring_top_left": 97,
+                "tailoring_top_right": 119
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 15,
+                "bottom_right": 81,
+                "top_left": 97,
+                "top_right": 119
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 15,
+                "tailoring_bottom_right": 81,
+                "tailoring_top_left": 97,
+                "tailoring_top_right": 119
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "4b2d11b1-9eb8-45fc-8a4c-1c4ad4031ba7"
+          },
+          "name": "TutorialStep3",
+          "size": {
+            "UDim_X": {
+              "Offect": 900
+            },
+            "UDim_Y": {
+              "Offect": 800
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "3d0197be-50ae-49be-a6ad-c3c3b1e3c9f9"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "acc0cf0bbc1f7a4a17f37a178aeea38f",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

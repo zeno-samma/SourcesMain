@@ -1,0 +1,83 @@
+<ActorTemplates>
+	<ActorTemplate SoundName3="" MinDistance="1" SoundName1="" Originalscale="1 1 1" SoundFileNum="0" TextHeight="0" IsShowShadow="true" SelectedRingSize="1" WoundAngle="25" WoundBone="" Alpha="1" Skeleton="asset/Traveling Merchant1/Armature474876.skel" AttackScale="1" SoundName2="" MaxDistance="16" SoundName4="" IntervalTime="2" Volume="0.8" SoundName5="" name="111.actor">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name0" DefaultUse="true" SlaveName="group0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="dfqert31r">
+					<UseBloom value="false"/>
+					<UseOriginalcolor value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<SocketName value="gatryetr3574357"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Y value="0"/>
+					<FileName value="asset/Traveling Merchant1/dfqert31r.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<roll value="0"/>
+					<UseReflect value="false"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mutex_name1" DefaultUse="true" SlaveName="group1" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="dfqert31grery001">
+					<UseBloom value="true"/>
+					<UseOriginalcolor value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<SocketName value="ffdfsa"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 0 0.98 1.0"/>
+					<Position_Y value="0"/>
+					<FileName value="asset/Mesh/Factor/Traveling Merchant1/dfqert31grery001.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<roll value="0"/>
+					<UseReflect value="false"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mutex_name2" DefaultUse="true" SlaveName="group2" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="4315353434tgfe">
+					<UseBloom value="false"/>
+					<UseOriginalcolor value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<SocketName value="dfgdfgsdgg"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Y value="0"/>
+					<FileName value="asset/Traveling Merchant1/4315353434tgfe.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<roll value="0"/>
+					<UseReflect value="false"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

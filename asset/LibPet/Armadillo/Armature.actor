@@ -1,0 +1,47 @@
+<ActorTemplates>
+	<ActorTemplate Alpha="1" Originalscale="1 1 1" Volume="0.8" SoundName3="" name="111.actor" MinDistance="1" SoundName4="" SoundFileNum="0" SelectedRingSize="1" SoundName2="" IsShowShadow="true" Skeleton="asset/LibPet/ArmadilloIdle/Armature.skel" AttackScale="1" SoundName5="" IntervalTime="2" WoundAngle="25" MaxDistance="16" SoundName1="" WoundBone="" TextHeight="0">
+		<Anims>
+			<Anim Name="asset/LibPet/ArmadilloIdle/ArmadilloIdle_Armature.anim"/>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" Name="idle" TextMode="0" UserDefineTime="-2">
+				<Animation Times="1" Name="asset/LibPet/ArmadilloIdle/ArmadilloIdle_Armature.anim" BeginTime="0" Length="2.5833333" FadeTime="0.050000001" TimeScale="1" Channel="upper"/>
+			</Skill>
+			<Skill EnableWound="false" Name="attack2" TextMode="0" UserDefineTime="-2">
+				<Animation Times="1" Name="asset/LibPet/Animation/attack2.anim" BeginTime="0" Length="0.958" FadeTime="0.25" TimeScale="1" Channel=""/>
+			</Skill>
+			<Skill EnableWound="false" Name="run" TextMode="0" UserDefineTime="-2">
+				<Animation Times="1" Name="asset/LibPet/Animation/run.anim" BeginTime="0" Length="1" FadeTime="0.25" TimeScale="1" Channel=""/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="group0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="mutex_name0">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="Cube">
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<pitch value="0"/>
+					<FileName value="asset/LibPet/Armadillo/Cube.mesh"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseOriginalcolor value="false"/>
+					<SocketName value="Armature"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

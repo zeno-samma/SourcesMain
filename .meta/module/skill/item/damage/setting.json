@@ -1,0 +1,39 @@
+{
+  "data": {
+    "castAction": "attack",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "skill_damage"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "hurtDistance": 0
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/GamePass/PickAxe/DiamondPickAxe/X16ATK.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true,
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7fb681f48bb23b9b3008215027feee45",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Mesh/Factor/BANgKK/Armature.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 5,
+      "height_c": 5,
+      "radius": 5,
+      "radius_c": 5,
+      "type": "Cylinder"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "clickDistance": 10,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 19980
+    },
+    "maxHp": 200,
+    "moveSpeed": 50,
+    "name": {
+      "value": "abeeaa6b-1195-4691-98dd-9a3932897b6a"
+    },
+    "reachDistance": 10,
+    "reviveTime": {
+      "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "ac692aae-15d8-4c72-89f0-e851df25f026",
+                      "param_name": "clickPlayer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_53"
+                }
+              ],
+              "id": {
+                "value": "f5099ec9-5eb5-4068-bf7e-e2e02f7df085"
+              },
+              "pos": {
+                "x": 323,
+                "y": 216
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "ac692aae-15d8-4c72-89f0-e851df25f026"
+              },
+              "pos": {
+                "x": 745,
+                "y": 250
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "860e8c68-690b-4f83-8c42-0da8eb37efda"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f5099ec9-5eb5-4068-bf7e-e2e02f7df085"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c6309f48-fe12-4f94-a10a-985e05c2da79"
+            },
+            "pos": {
+              "x": 30,
+              "y": 137
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a4ad1b6007c3da96a2d123994922cd52",
+      "triggers.bts": "3ba513c4b13d6c61176e1ecb6233b62d"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/auxiliary/Shield royal.effect"
+      },
+      "once": false,
+      "pos": {
+        "y": 0.2
+      }
+    },
+    "deadRemove": true,
+    "deDmgPct": 1,
+    "moveSpeed": 3,
+    "name": {
+      "value": "buff_Shield royal"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "025e0d2b1cca8553d51c732b764df87b"
+    },
+    "VERSION": "0.24"
+  }
+}

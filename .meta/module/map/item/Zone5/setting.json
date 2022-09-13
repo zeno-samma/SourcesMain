@@ -1,0 +1,83 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8721472228225728513"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8721472228397170689",
+        "ID": 6,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8749745860507222017",
+        "ID": 7,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "9b007fa2-6c6a-41b7-8ea1-aeb49fc913c7",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8721473495390830593",
+        "massCenter": {
+          "x": 7.5231747627258,
+          "y": 46.292663574219,
+          "z": -9.4196166992188
+        },
+        "mesh": "asset/World/map khu 5/map khu 5.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/map khu 5/map khu 5.mesh",
+          "selector": "asset/World/map khu 5/map khu 5.mesh"
+        },
+        "name": "map khu 5.mesh",
+        "position": {
+          "x": 7.5231747627258,
+          "y": 46.292663574219,
+          "z": -9.4196166992188
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.91819,
+          "y": 9.91818,
+          "z": 9.91819
+        },
+        "size": {
+          "x": 100.50537109375,
+          "y": 96.570922851562,
+          "z": 196.00480651855
+        },
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ],
+    "name": {
+      "value": "map_Zone5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "52c23c87bb5ffaf5e0be3491ae0a2d7b"
+    },
+    "VERSION": "0.24"
+  }
+}

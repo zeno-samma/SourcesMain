@@ -1,0 +1,51 @@
+<ActorTemplates>
+	<ActorTemplate Volume="0.8" WoundBone="" SelectedRingSize="1" SoundFileNum="0" TextHeight="0" SoundName4="" SoundName3="" IsShowShadow="true" SoundName5="" SoundName1="" WoundAngle="25" Skeleton="asset/LibPet/Dogidle/Armature.skel" name="111.actor" Alpha="1" Originalscale="1 1 1" IntervalTime="2" MaxDistance="16" SoundName2="" AttackScale="1" MinDistance="1">
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle4.anim"/>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" SlaveName="group0" ColorParams="1 1 1 1" MasterName="mutex_name0">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="HEAD">
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="Armature"/>
+					<FileName value="asset/LibPet/Dog/HEAD.mesh"/>
+					<yaw value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseEdge value="false"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseReflect value="false"/>
+					<Position_X value="0"/>
+					<UseBloom value="false"/>
+					<SpecularCoef value="0.15"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Z value="0"/>
+					<UseOriginalcolor value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/idle.anim" TimeScale="2" Channel="" BeginTime="0" Times="-1" FadeTime="0.25" Length="1.541"/>
+			</Skill>
+			<Skill Name="idle4" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/idle4.anim" TimeScale="2" Channel="" BeginTime="0" Times="1" FadeTime="0.25" Length="2.583"/>
+			</Skill>
+			<Skill Name="attack2" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/attack2.anim" TimeScale="2" Channel="" BeginTime="0" Times="1" FadeTime="0.25" Length="0.958"/>
+			</Skill>
+			<Skill Name="run" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/run.anim" TimeScale="2" Channel="" BeginTime="0" Times="-1" FadeTime="0.25" Length="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

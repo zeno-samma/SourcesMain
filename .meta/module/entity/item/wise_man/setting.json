@@ -1,0 +1,47 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/merchant/Wise Man.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "clickDistance": 5,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Actor/merchant/Wise Man.actor"
+    },
+    "headPic": {
+      "asset": "asset/Actor/merchant/村长.png"
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 199980
+    },
+    "name": {
+      "value": "entity_wise_man"
+    },
+    "reachDistance": 5,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b86c52d060519a46cfc01de368373330",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

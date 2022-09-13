@@ -1,0 +1,4 @@
+REGION_ENTER {
+	ExecScript(player = $obj1, script_name = "ScriptableNode_1")
+	ShowTip(entity = $obj1, keepTime = 40, textKey = "5cf3b363-72cb-4613-b43d-6f7b7969d787", tipType = "2")
+}

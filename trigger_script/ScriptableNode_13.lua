@@ -1,0 +1,15 @@
+-- local player = params.clickPlayer
+-- local playerCfg = player:getValue("PlayerCfg")
+-- local money = player:getValue("Money")
+-- local data = require "script_server.shopCfg"
+-- local shop = params.this.name
+-- local shopData = data.ShopConfig[shop]
+-- if money.Gold < shopData.Price then
+--     player:sendTip(2, "You need "..shopData.Price.." more gold", 40)
+--     return
+-- end
+-- PackageHandlers.sendServerHandler(player, "Open Egg Shop", shopData)
+
+-- if playerCfg.FiveEggsMode then
+--   PackageHandlers.sendServerHandler(player, "Get 5 Eggs Mode")
+-- end

@@ -1,0 +1,458 @@
+{
+  "data": {
+    "md5": "b75ff218f791aa4827bdba0fe9af8f02",
+    "path": "asset/Gui/OnlineUiFirst.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.253,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "75699be1-dea5-4479-a6e1-a66a6f37f505"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Cover",
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "db8f847c-09da-41f5-a611-43d4f1ca8b2d"
+              },
+              "Image": {
+                "asset": "asset/custom_effect/g2033_giftPack.png"
+              },
+              "name": "ImageGift",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.26
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "ClippedByParent": true,
+              "Disabled": true,
+              "effectName": {
+                "asset": "asset/custom_effect/g2033_giftPack_1.effect"
+              },
+              "id": {
+                "value": "b1c664c0-0e03-4176-bf17-b35b7f3dc308"
+              },
+              "name": "EffectGift",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "d8a08810-cd84-4a87-9e01-420f67d5de49"
+              },
+              "name": "dayGiftButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "text_key": {
+                "value": "asset/Gui/OnlineUiFirst.layout.Button#113d4775-99d3-4a5e-a9ec-b1cf1872b8ac"
+              }
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+              },
+              "id": {
+                "value": "ea88eccf-3ecc-472e-8104-2aef31f3a83a"
+              },
+              "name": "EffectWindowPoint",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "b843ad43-4696-493e-abaa-0cbbb0136436"
+          },
+          "name": "OnlineUI",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.15
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 3,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "7b2da311-f7dd-4b71-8a33-cfc79be7da6b"
+                  },
+                  "MinAutoTextScale": 12,
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.06
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "Text": "Online Rewards",
+                  "text_key": {
+                    "value": "asset/Gui/OnlineUiFirst.layout.StaticText#13836b19-f331-491b-ac32-71cbc2ba51bd"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "EffectWindow",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "effectName": {
+                        "asset": "asset/custom_effect/jiesuosmall.effect"
+                      },
+                      "EffectPosition": {
+                        "y": 100
+                      },
+                      "effectScale": 1.1,
+                      "effectYPosition": 100,
+                      "id": {
+                        "value": "4ec7d5e2-4835-4859-924d-5e9339431b3b"
+                      },
+                      "name": "EffectWindow1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "4dee41c7-8b9f-4ba1-8073-ea4ca108bd6c"
+                  },
+                  "Image": {
+                    "asset": "asset/custom_effect/g2033_giftPack.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 3,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "2d86d297-c9f7-43a1-8ecc-5fca56784424"
+                  },
+                  "MinAutoTextScale": 12,
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.25
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "Text": "Claim Online Rewards",
+                  "text_key": {
+                    "value": "asset/Gui/OnlineUiFirst.layout.StaticText#cfe268c8-3828-4f05-86dd-904d3b4d7e11"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "b8b6b872-b943-4d10-9fc2-5c00901fb328"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/Popup.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 25,
+              "id": {
+                "value": "d67c9e62-a77a-47c6-9c5c-e97becd17db1"
+              },
+              "name": "claimButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "SoundFile": {
+                "asset": "asset/Sound/click.mp3"
+              },
+              "SoundTriggerRange": "Click",
+              "Text": "O",
+              "text_key": {
+                "value": "asset/Gui/OnlineUiFirst.layout.Button#a4c9dc57-57bd-4643-a764-8f79c44fb52c"
+              }
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+              },
+              "id": {
+                "value": "b19f0dfc-0e2e-4abb-b4d7-380c093e1954"
+              },
+              "name": "EffectWindowPoint",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "039524fe-2ef6-4069-a2a6-98cf329abb99"
+          },
+          "name": "DayGift",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.8
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "f615bf43-bf28-44b6-a1df-74f07bcff338"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 800
+        },
+        "UDim_Y": {
+          "Offect": 600
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "b75ff218f791aa4827bdba0fe9af8f02",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

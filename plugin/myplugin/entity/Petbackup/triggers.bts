@@ -1,0 +1,7 @@
+ENTITY_ENTER {
+	SetEntityTeam(entity = $obj1, teamId = 1)
+}
+
+ENTITY_CLICK {
+	ExecScript(Entity = $obj2, PlayerClick = $obj1, script_name = "ScriptableNode_7")
+}

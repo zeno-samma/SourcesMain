@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/IronPickAxe/X4ATK.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Iron"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/IronPickAxe/pickaxe iron.mesh"
+    },
+    "name": {
+      "value": "item_IronP"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7bb61ad0b24cc1e016fe9d9870179d39",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

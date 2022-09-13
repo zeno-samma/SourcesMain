@@ -1,0 +1,5766 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8596953539944300545"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8596959212938002433",
+        "isLockedInEditor": true,
+        "name": "Player",
+        "position": {
+          "x": 7,
+          "y": 1.04,
+          "z": 37
+        },
+        "rotation": {
+          "y": -176.99951171875
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8596959543454023681",
+        "isLockedInEditor": true,
+        "name": "Player",
+        "position": {
+          "x": 7,
+          "y": 1.039999961853,
+          "z": -392.65002441406
+        },
+        "rotation": {
+          "y": 178.99992370605
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "btsKey": "3c52a605-d3b2-4c31-8eca-f28a15056a3e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8597001490326372353",
+        "isLockedInEditor": true,
+        "mass": 1338.6611938477,
+        "massCenter": {
+          "x": -14.83,
+          "y": 26.9,
+          "z": -154.87
+        },
+        "mesh": "asset/World/khu 7/khu 7.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/khu 7/khu 7.mesh",
+          "selector": "asset/World/khu 7/khu 7.mesh"
+        },
+        "name": "Zone7",
+        "position": {
+          "x": -14.83,
+          "y": 26.9,
+          "z": -154.87
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0491,
+          "y": 13.0491,
+          "z": 13.0491
+        },
+        "size": {
+          "x": 248.20816040039,
+          "y": 66.919998168945,
+          "z": 377.08
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 608.48236083984
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/Gate_7_1",
+        "id": "8602387223789043713",
+        "name": "entity_Gate_7_1",
+        "position": {
+          "x": 6.4388980865479,
+          "y": 0.99989986419678,
+          "z": 40.244709014893
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/Gate_7_2",
+        "id": "8602387405668761601",
+        "isLockedInEditor": true,
+        "name": "entity_Gate_7_2",
+        "position": {
+          "x": 6.8508858680725,
+          "y": 0.99990081787109,
+          "z": -396.54547119141
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/ChestZone7",
+        "id": "8603906216568143873",
+        "name": "entity_ChestZone7",
+        "position": {
+          "x": -20.428291320801,
+          "y": 137.78335571289,
+          "z": 13.376413345337
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/ChestZoneBoss7",
+            "id": "8603906365705502721",
+            "isLockedInEditor": true,
+            "name": "entity_ChestZoneBoss7",
+            "position": {
+              "x": -73.442253112793,
+              "y": 137.02992248535,
+              "z": -184.68992614746
+            },
+            "rotation": {
+              "y": 270
+            },
+            "scale": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "size": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/ChestZoneBoss7",
+            "id": "8603909369883295745",
+            "isLockedInEditor": true,
+            "name": "entity_ChestZoneBoss7",
+            "position": {
+              "x": -59.642280578613,
+              "y": 131.10992431641,
+              "z": -225.81991577148
+            },
+            "rotation": {
+              "y": 270
+            },
+            "scale": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/ChestZoneBoss7",
+            "id": "8603909991353843713",
+            "isLockedInEditor": true,
+            "name": "entity_ChestZoneBoss7",
+            "position": {
+              "x": -88.832260131836,
+              "y": 131.10992431641,
+              "z": -225.81991577148
+            },
+            "rotation": {
+              "y": 270
+            },
+            "scale": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/ChestZoneBoss7",
+            "id": "8603910163226755073",
+            "isLockedInEditor": true,
+            "name": "entity_ChestZoneBoss7",
+            "position": {
+              "x": -88.83226776123,
+              "y": 131.10992431641,
+              "z": -149.18991088867
+            },
+            "rotation": {
+              "y": 270
+            },
+            "scale": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/ChestZoneBoss7",
+            "id": "8603910282223321089",
+            "isLockedInEditor": true,
+            "name": "entity_ChestZoneBoss7",
+            "position": {
+              "x": -58.992267608643,
+              "y": 131.10992431641,
+              "z": -148.35990905762
+            },
+            "rotation": {
+              "y": 270
+            },
+            "scale": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            }
+          }
+        ],
+        "id": "8605488906527752193",
+        "name": "Folder0"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8603903104354091009",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 126.30989074707,
+              "z": 0.72759222984314
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8603903222817357825",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 126.30989074707,
+              "z": 2.4775919914246
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8603903610910490625",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 126.30989074707,
+              "z": 7.9968047142029
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8603903747966140417",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 126.30989074707,
+              "z": 12.386804580688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8603903976162459649",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 126.30989074707,
+              "z": 12.73975944519
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8603904111501721601",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 126.30989074707,
+              "z": 9.3297595977783
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8603904411624914945",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 126.30989074707,
+              "z": 0.60975992679596
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8603904710404669441",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 126.69281005859,
+              "z": 14.98354434967
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8603905292380028929",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 126.96987915039,
+              "z": -1.8387396335602
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8603905580838731777",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 126.8798828125,
+              "z": -8.9636335372925
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8603905790305271809",
+            "isLockedInEditor": true,
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 128.8498840332,
+              "z": -7.3333797454834
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8603904284246016001",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 126.30989074707,
+              "z": -8.5302400588989
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490469659377665",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 126.30989074707,
+              "z": 2.4775919914246
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490469660459009",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 126.30989074707,
+              "z": -8.5302400588989
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490469661540353",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 126.30989074707,
+              "z": 0.72759222984314
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490469662605313",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 126.30989074707,
+              "z": 12.73975944519
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490469663686657",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 126.8798828125,
+              "z": -8.9636335372925
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490469664751617",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 126.30989074707,
+              "z": 7.9968047142029
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490469665816577",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 126.30989074707,
+              "z": 12.386804580688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490469666865153",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 126.30989074707,
+              "z": 0.60975992679596
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490469667913729",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 126.96987915039,
+              "z": -1.8387396335602
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490469670010881",
+            "isLockedInEditor": true,
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 128.8498840332,
+              "z": -7.3333797454834
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490469671206913",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 126.30989074707,
+              "z": 9.3297595977783
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490469672402945",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 126.69281005859,
+              "z": 14.98354434967
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490185300279297",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 126.30989074707,
+              "z": -8.5302400588989
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490185301360641",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 126.30989074707,
+              "z": 0.72759222984314
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490185302409217",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 126.30989074707,
+              "z": 12.73975944519
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490185303490561",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 126.8798828125,
+              "z": -8.9636335372925
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490185304555521",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 126.30989074707,
+              "z": 7.9968047142029
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490185305587713",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 126.30989074707,
+              "z": 12.386804580688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490185306652673",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 126.30989074707,
+              "z": 0.60975992679596
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490185307701249",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 126.96987915039,
+              "z": -1.8387396335602
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490185308766209",
+            "isLockedInEditor": true,
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 128.8498840332,
+              "z": -7.3333797454834
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490185310257153",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 126.30989074707,
+              "z": 9.3297595977783
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490185311453185",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 126.69281005859,
+              "z": 14.98354434967
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490185299230721",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 126.30989074707,
+              "z": 2.4775919914246
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          }
+        ],
+        "id": "8605489106035671041",
+        "name": "Folder1"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812546924545",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -26.993192672729
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812548022273",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -31.383192062378
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812549087233",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -36.902404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490812550152193",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -41.218734741211
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812551249921",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -47.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490812552314881",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -46.71337890625
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812553412609",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -38.652404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490812554461185",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -46.71337890625
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812555542529",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -47.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812556623873",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -38.652404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812557656065",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -36.902404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812558704641",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -30.05023765564
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812559753217",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -26.640237808228
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490812560785409",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -24.396453857422
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490812561850369",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -48.343627929688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490812562948097",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -48.343627929688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812564013057",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -26.640237808228
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490812565127169",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -48.343627929688
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490812566175745",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -24.396453857422
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812567273473",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -36.902404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812568354817",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -31.383192062378
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490812569419777",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -38.652404785156
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812570451969",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -38.770240783691
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812571500545",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -47.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812572581889",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -26.640237808228
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812573614081",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -31.383192062378
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812574695425",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -26.993192672729
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490812575760385",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -41.218734741211
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812576808961",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -38.770240783691
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812577857537",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -38.770240783691
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490812578906113",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -41.218734741211
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490812579954689",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -46.71337890625
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812581003265",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -30.05023765564
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490812582084609",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -30.05023765564
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490812583165953",
+            "isLockedInEditor": true,
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -24.396453857422
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490812584214529",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -26.993192672729
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945757380609",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -80.180236816406
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945758593025",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -69.172393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490945759756289",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -78.983367919922
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945760919553",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -62.320236206055
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945762312193",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -69.172393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945763459073",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -70.922393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945764769793",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -71.040237426758
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945765801985",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -58.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945766834177",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -71.040237426758
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945767899137",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -63.653190612793
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490945768964097",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -73.488723754883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490945770029057",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -73.488723754883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945771126785",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -59.263191223145
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605490945772175361",
+            "isLockedInEditor": true,
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -73.488723754883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490945773813761",
+            "isLockedInEditor": true,
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -80.613616943359
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945774977025",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -59.263191223145
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945776123905",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -69.172393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945777319937",
+            "isLockedInEditor": true,
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -70.922393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945778728961",
+            "isLockedInEditor": true,
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -59.263191223145
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945779859457",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -71.040237426758
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945781186561",
+            "isLockedInEditor": true,
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -62.320236206055
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490945782218753",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -78.983367919922
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945783398401",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -62.320236206055
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605490945784430593",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -78.983367919922
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945785479169",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -63.653190612793
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945786511361",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -80.180236816406
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945787576321",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -80.180236816406
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945788641281",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -58.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490945789689857",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -80.613616943359
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605490945791082497",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -70.922393798828
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605490945792229377",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -80.613616943359
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605490945793343489",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -58.91024017334
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490945794703361",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -56.666450500488
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605490945795801089",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -63.653190612793
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490945796849665",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -56.666450500488
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605490945797947393",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -56.666450500488
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056228401153",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -98.860229492188
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056229629953",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -98.860229492188
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491056231104513",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -110.02871704102
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056232742913",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -107.58023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056233791489",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -107.46238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056235167745",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -95.450241088867
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491056236281857",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -110.02871704102
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056237395969",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -116.72023010254
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056238493697",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -95.450241088867
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056239886337",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -116.72023010254
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056240951297",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -105.71238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056242016257",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -107.58023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056243376129",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -116.72023010254
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056244539393",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -95.803192138672
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056245686273",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -95.803192138672
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491056246833153",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -115.52336120605
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491056248455169",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -93.206451416016
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056249552897",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -98.860229492188
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491056250617857",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -93.206451416016
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491056252043265",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -117.15361022949
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056253206529",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -100.19319152832
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491056254337025",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -110.02871704102
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056255680513",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -100.19319152832
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056256745473",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -105.71238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491056257794049",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -115.52336120605
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491056258875393",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -115.52336120605
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056260890625",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -95.450241088867
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491056262086657",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -117.15361022949
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491056263299073",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -93.206451416016
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056264986625",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -95.803192138672
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056266297345",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -105.71238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491056267952129",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -107.58023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056269082625",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -107.46238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491056270573569",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -107.46238708496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491056271720449",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -100.19319152832
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491056273145857",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -117.15361022949
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145049079809",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -144.13238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145050193921",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -144.13238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145051275265",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -142.38238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145052323841",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -142.38238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145053388801",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -142.38238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491145054814209",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -153.82360839844
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145055928321",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -136.86318969727
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491145057075201",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -152.193359375
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145058418689",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -153.39022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145059500033",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -153.39022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145060532225",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -135.53022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145061597185",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -136.86318969727
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491145062645761",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -153.82360839844
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145063694337",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -135.53022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491145064759297",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -129.87644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145065807873",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -132.47319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491145066840065",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -153.82360839844
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145067888641",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -144.25022888184
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491145068937217",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -144.13238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491145070673921",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -146.69871520996
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491145071869953",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -129.87644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145073049601",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -132.47319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145074262017",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -132.47319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491145075933185",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -152.193359375
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491145077260289",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -146.69871520996
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145078308865",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -132.12023925781
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145079357441",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -144.25022888184
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491145080422401",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -146.69871520996
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145081470977",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -132.12023925781
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491145082503169",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -136.86318969727
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491145083551745",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -129.87644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145084600321",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -153.39022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145085648897",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -132.12023925781
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491145087746049",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -152.193359375
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145088958465",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -144.25022888184
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491145090138113",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -135.53022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491250076499969",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -191.03359985352
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250077581313",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -169.33023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250078613505",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -179.59237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250079662081",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -181.34237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250080727041",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -190.60021972656
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250081792001",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -190.60021972656
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491250082824193",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -189.40335083008
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491250083889153",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -191.03359985352
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491250084937729",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -189.40335083008
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250085986305",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -169.68319702148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250087084033",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -181.4602355957
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250088132609",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -169.33023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250089181185",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -169.68319702148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491250090229761",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -183.90872192383
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491250091261953",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -183.90872192383
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250092310529",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -172.740234375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250093342721",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -179.59237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250094407681",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -169.33023071289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250095456257",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -179.59237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491250096504833",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -191.03359985352
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491250097553409",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -167.08645629883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491250098618369",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -167.08645629883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491250099650561",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -183.90872192383
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250100682753",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -174.07318115234
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250101731329",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -172.740234375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250102779905",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -181.34237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250103828481",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -181.4602355957
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250104877057",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -181.4602355957
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250105909249",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -174.07318115234
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250106957825",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -190.60021972656
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250107990017",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -174.07318115234
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491250109022209",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -169.68319702148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491250110103553",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -167.08645629883
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491250111234049",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -172.740234375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491250112282625",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -189.40335083008
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491250113347585",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -181.34237670898
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491347993460737",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -224.34335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491347994525697",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -225.97360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491347995574273",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -225.97360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491347996639233",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -224.34335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491347997671425",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -202.02645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491347999653889",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -214.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348000849921",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -204.62319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348002029569",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -225.54022216797
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348003209217",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -204.62319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348004913153",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -225.54022216797
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348005945345",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -204.2702331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348006977537",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -207.68023681641
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348008026113",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -209.01318359375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348009074689",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -209.01318359375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348010106881",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -204.62319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348011139073",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -204.2702331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491348012187649",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -218.84872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491348013252609",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -216.28237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491348014284801",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -225.97360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491348016398337",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -202.02645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348017512449",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -207.68023681641
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348018642945",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -225.54022216797
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491348020002817",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -216.28237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491348021051393",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -218.84872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491348022116353",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -202.02645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348023164929",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -216.40023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348024213505",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -216.40023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491348025262081",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -214.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348026310657",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -207.68023681641
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491348027342849",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -216.28237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491348028375041",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -218.84872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348029423617",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -204.2702331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491348030472193",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -224.34335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491348031864833",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -209.01318359375
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491348032978945",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -216.40023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491348034093057",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -214.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464532688897",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -261.89022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491464533770241",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -260.69332885742
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464534835201",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -245.36317443848
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491464535883777",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -260.69332885742
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491464536948737",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -238.37644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464538030081",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -252.75024414063
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464539095041",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -250.88236999512
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464540143617",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -240.97319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464541536257",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -250.88236999512
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491464542650369",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -262.32357788086
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464543780865",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -245.36317443848
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464545140737",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -240.62022399902
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464546205697",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -261.89022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464547270657",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -252.63238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464548319233",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -240.62022399902
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464549335041",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -244.03022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491464550383617",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -255.19869995117
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464551464961",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -240.62022399902
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464552513537",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -240.97319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464553578497",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -244.03022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491464554659841",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -260.69332885742
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464555708417",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -240.97319030762
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491464557281281",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -255.19869995117
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464558411777",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -252.75024414063
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464559525889",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -244.03022766113
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464560656385",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -252.75024414063
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491464561999873",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -261.89022827148
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491464563064833",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -238.37644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491464564129793",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -245.36317443848
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491464565178369",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -262.32357788086
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491464566652929",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -238.37644958496
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491464567717889",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -262.32357788086
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464568766465",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -252.63238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464569847809",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -252.63238525391
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491464570912769",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -255.19869995117
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491464571944961",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -250.88236999512
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550109679617",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 37.592025756836,
+              "y": 128.20989990234,
+              "z": -297.79025268555
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491550111531009",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 61.068103790283,
+              "y": 128.77990722656,
+              "z": -298.22360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550112776193",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -3.037974357605,
+              "y": 128.20989990234,
+              "z": -279.93026733398
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491550114004993",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 18.362939834595,
+              "y": 130.74987792969,
+              "z": -296.59335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491550115184641",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 29.143461227417,
+              "y": 128.59280395508,
+              "z": -274.27645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550116970497",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 23.712028503418,
+              "y": 128.20989990234,
+              "z": -276.5202331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550118215681",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 45.010013580322,
+              "y": 128.20989990234,
+              "z": -281.26321411133
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550119395329",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -18.137975692749,
+              "y": 128.20989990234,
+              "z": -288.65023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550120574977",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -11.041475296021,
+              "y": 128.20989990234,
+              "z": -286.78237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550122967041",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 72.232025146484,
+              "y": 128.20989990234,
+              "z": -297.79025268555
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550124015617",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -0.36797380447388,
+              "y": 128.20989990234,
+              "z": -297.79025268555
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550125080577",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 10.370012283325,
+              "y": 128.20989990234,
+              "z": -281.26321411133
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491550126129153",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": -32.557956695557,
+              "y": 128.86990356445,
+              "z": -291.09872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550127472641",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 61.558521270752,
+              "y": 128.20989990234,
+              "z": -286.78237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550128668673",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 54.462024688721,
+              "y": 128.20989990234,
+              "z": -288.65023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550129831937",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": -14.247973442078,
+              "y": 128.20989990234,
+              "z": -276.5202331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550131027969",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 67.478523254395,
+              "y": 128.20989990234,
+              "z": -288.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491550132469761",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": -8.8165397644043,
+              "y": 128.59280395508,
+              "z": -274.27645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550134157313",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": -5.1214780807495,
+              "y": 128.20989990234,
+              "z": -288.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491550135566337",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": 26.428104400635,
+              "y": 128.77990722656,
+              "z": -298.22360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550136729601",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 37.680015563965,
+              "y": 128.20989990234,
+              "z": -276.87319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491550137925633",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 5.4020442962646,
+              "y": 128.86990356445,
+              "z": -291.09872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins5_z7",
+            "id": "8605491550139858945",
+            "name": "entity_Coins5_z7",
+            "position": {
+              "x": 40.042041778564,
+              "y": 128.86990356445,
+              "z": -291.09872436523
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550140891137",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 26.918525695801,
+              "y": 128.20989990234,
+              "z": -286.78237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550141939713",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -34.919986724854,
+              "y": 128.20989990234,
+              "z": -276.87319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550143283201",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 69.562019348145,
+              "y": 128.20989990234,
+              "z": -279.93026733398
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550145019905",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": 3.0400149822235,
+              "y": 128.20989990234,
+              "z": -276.87319946289
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550146199553",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 19.822025299072,
+              "y": 128.20989990234,
+              "z": -288.65023803711
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins2_z7",
+            "id": "8605491550147379201",
+            "name": "entity_Coins2_z7",
+            "position": {
+              "x": -27.589986801147,
+              "y": 128.20989990234,
+              "z": -281.26321411133
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550148820993",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 34.922023773193,
+              "y": 128.20989990234,
+              "z": -279.93026733398
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491550149967873",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": -19.597061157227,
+              "y": 130.74987792969,
+              "z": -296.59335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins3_z7",
+            "id": "8605491550151376897",
+            "name": "entity_Coins3_z7",
+            "position": {
+              "x": 58.352024078369,
+              "y": 128.20989990234,
+              "z": -276.5202331543
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins4_z7",
+            "id": "8605491550152474625",
+            "name": "entity_Coins4_z7",
+            "position": {
+              "x": -11.531896591187,
+              "y": 128.77990722656,
+              "z": -298.22360229492
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coinlv1_z7",
+            "id": "8605491550156374017",
+            "name": "entity_Coinlv1_z7",
+            "position": {
+              "x": 32.838520050049,
+              "y": 128.20989990234,
+              "z": -288.53237915039
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/Coins6_z7",
+            "id": "8605491550155259905",
+            "name": "entity_Coins6_z7",
+            "position": {
+              "x": 53.002937316895,
+              "y": 130.74987792969,
+              "z": -296.59335327148
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/giftboxz7",
+            "id": "8605491550154162177",
+            "name": "entity_giftboxz7",
+            "position": {
+              "x": 63.78345489502,
+              "y": 128.59280395508,
+              "z": -274.27645874023
+            },
+            "size": {
+              "x": 0.99999994039536,
+              "y": 0.99999994039536,
+              "z": 0.99999988079071
+            }
+          }
+        ],
+        "id": "8605491611691368449",
+        "name": "Folder2"
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "btsKey": "f9d25192-4252-450b-b903-728fa35059cc",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8623935303279247361",
+        "mass": 9.8856260299683,
+        "massCenter": {
+          "x": 4.0583157539368,
+          "y": 2.2150695323944,
+          "z": 38.540271759033
+        },
+        "mesh": "asset/Mesh/Model/Bang_2/Bang_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Model/Bang_2/Bang_2.mesh",
+          "selector": "asset/Mesh/Model/Bang_2/Bang_2.mesh"
+        },
+        "position": {
+          "x": 4.0583157539368,
+          "y": 2.2150695323944,
+          "z": 38.540271759033
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 163
+        },
+        "scale": {
+          "x": 0.13855,
+          "y": 0.13855,
+          "z": 0.13855
+        },
+        "size": {
+          "x": 2.1831660270691,
+          "y": 3.0571365356445,
+          "z": 0.22457520663738
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4.4934663772583
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "btsKey": "99c63c2c-98a0-4216-8608-d1bcafad2e14",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8623936239920054273",
+        "mass": 9.8106132507324,
+        "massCenter": {
+          "x": 10.102433204651,
+          "y": 2.3050718307495,
+          "z": -394.88494873047
+        },
+        "mesh": "asset/Mesh/Model/Bang_2/Bang_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Model/Bang_2/Bang_2.mesh",
+          "selector": "asset/Mesh/Model/Bang_2/Bang_2.mesh"
+        },
+        "position": {
+          "x": 10.102433204651,
+          "y": 2.3050718307495,
+          "z": -394.88494873047
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -26.000001907349
+        },
+        "scale": {
+          "x": 0.199271,
+          "y": 0.199271,
+          "z": 0.199271
+        },
+        "size": {
+          "x": 3.1399488449097,
+          "y": 4.3969459533691,
+          "z": 0.32299640774727
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4.4593696594238
+      }
+    ],
+    "name": {
+      "value": "map_Zone7"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ab21e04048a4e89b391d7ab453732120"
+    },
+    "VERSION": "0.20"
+  }
+}

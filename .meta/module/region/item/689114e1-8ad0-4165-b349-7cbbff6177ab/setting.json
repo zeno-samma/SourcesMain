@@ -1,0 +1,84 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "1f22fd37-2edf-4bfd-89c7-739398293d1d",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_6"
+                }
+              ],
+              "id": {
+                "value": "de66aeea-4c88-4916-8bf2-32a10b2fcefe"
+              },
+              "pos": {
+                "x": 368,
+                "y": 221
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1f22fd37-2edf-4bfd-89c7-739398293d1d"
+              },
+              "pos": {
+                "x": 783,
+                "y": 112
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "19a22354-0efc-4a70-9fd4-cf1ad73a98da"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "de66aeea-4c88-4916-8bf2-32a10b2fcefe"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d44d179b-6b01-4e41-8835-74b31f92fd3e"
+            },
+            "pos": {
+              "x": 31,
+              "y": 265
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "7f5dcff07c331fa69a0b474d3c9f7986"
+    },
+    "VERSION": "0.24"
+  }
+}

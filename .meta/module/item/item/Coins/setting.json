@@ -1,0 +1,32 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Coin/Coins.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 600
+        },
+        "useBuff": "myplugin/cure"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Item/Coinss/Coinss.mesh"
+    },
+    "name": {
+      "value": "a750eb04-783f-4709-bcbb-b202a71395da"
+    },
+    "needSave": true,
+    "stack_count_max": 100
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6cc3a059d1aaf91fb52554d494bb630e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SelectedRingSize="1" SoundName5="" IsShowShadow="true" SoundName2="" Originalscale="1 1 1" SoundName4="" TextHeight="0" MinDistance="1" MaxDistance="16" Alpha="1" SoundName3="" AttackScale="1" SoundName1="" name="111.actor" Skeleton="boy_01.skel" IntervalTime="2" Volume="0.8" WoundAngle="25" SoundFileNum="0" WoundBone="">
+		<Skills/>
+		<BodyParts>
+			<BodyPart SlaveName="group0" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="mutex_name_0" DefaultUse="true">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="DomEggEZ">
+					<roll value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<Position_Y value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<SocketName value="Origin197011"/>
+					<UseReflect value="false"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<FileName value="asset/Mesh/Egg/DomEggEZ/DomEggEZ.mesh"/>
+					<Position_Z value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

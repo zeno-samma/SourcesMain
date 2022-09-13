@@ -1,0 +1,51 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="asset/LibPet/AyetiIdle/Armature.skel" AttackScale="1" Volume="0.8" SoundName1="" IntervalTime="2" MaxDistance="16" name="111.actor" SoundName3="" Originalscale="1 1 1" SoundName5="" IsShowShadow="true" Alpha="1" WoundAngle="25" MinDistance="1" SoundName2="" SoundFileNum="0" TextHeight="0" SelectedRingSize="1" WoundBone="" SoundName4="">
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle4.anim"/>
+			<Anim Name="asset/LibPet/Animation/idle.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack2" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Times="1" Length="0.958" TimeScale="2" Name="asset/LibPet/Animation/attack2.anim" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+			<Skill Name="run" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Times="-1" Length="1" TimeScale="2" Name="asset/LibPet/Animation/run.anim" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+			<Skill Name="idle" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Times="-1" Length="1.541" TimeScale="2" Name="asset/LibPet/Animation/idle.anim" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+			<Skill Name="idle4" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Times="1" Length="2.583" TimeScale="1" Name="asset/LibPet/Animation/idle4.anim" Channel="" BeginTime="0" FadeTime="0.25"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="group0" MasterName="mutex_name0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="HEAD">
+					<UseBloom value="false"/>
+					<Position_Y value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<pitch value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<FileName value="asset/LibPet/Ayeti/HEAD.mesh"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseReflect value="false"/>
+					<yaw value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SocketName value="Armature"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<SpecularCoef value="0.15"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

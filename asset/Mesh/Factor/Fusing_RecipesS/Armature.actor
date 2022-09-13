@@ -1,0 +1,125 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" MaxDistance="16" TextHeight="0" WoundBone="" SelectedRingSize="1" IsShowShadow="true" IntervalTime="2" Skeleton="asset/Mesh/Factor/Fusing_RecipesS/Armature.skel" SoundFileNum="0" AttackScale="1" Alpha="1" name="111.actor" MinDistance="1" SoundName5="" Volume="0.8" SoundName3="" Originalscale="1 1 1" SoundName2="" SoundName1="" WoundAngle="25">
+		<Skills>
+			<Skill TextMode="0" UserDefineTime="-2" Name="idle" EnableWound="false">
+				<Effect>
+					<CycleTime value="-1"/>
+					<Times value="1"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="Smoke"/>
+					<Alpha value="1"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<TimeScale value="1"/>
+					<FollowActor value="true"/>
+					<FileName value="asset/Mesh/Factor/Fusing_RecipesS/Smoke.effect"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<BeginTime value="0"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<Times value="1"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="Effect"/>
+					<Alpha value="1"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<TimeScale value="1"/>
+					<FollowActor value="true"/>
+					<FileName value="asset/Mesh/Factor/Effect.effect"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<BeginTime value="0"/>
+				</Effect>
+				<Animation BeginTime="0" Length="3.0833333" Channel="upper" Times="-1" FadeTime="0.050000001" Name="asset/Mesh/Factor/Fusing_RecipesS/Fusing_RecipesS_Armature.anim" TimeScale="1"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Mesh/Factor/Fusing_RecipesS/Fusing_RecipesS_Armature.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group0" MasterName="mutex_name0" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="Cube">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/Mesh/Factor/Fusing_RecipesS/Cube.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Armature"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group1" MasterName="mutex_name1" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="fff">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/Mesh/Factor/Fusing_RecipesS/fff.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="gh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group2" MasterName="mutex_name2" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="Cylinder">
+					<UseEdge value="false"/>
+					<Position_X value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/Mesh/Factor/Fusing_RecipesS/Cylinder.mesh"/>
+					<pitch value="0"/>
+					<OverlayColor value="0 1.0 0.50 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="gf"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="1"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="true"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

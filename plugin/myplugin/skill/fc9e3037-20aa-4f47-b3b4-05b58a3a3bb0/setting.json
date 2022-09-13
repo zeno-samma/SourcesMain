@@ -1,0 +1,101 @@
+{
+  "area": [
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      -366
+    ],
+    [
+      0,
+      70
+    ],
+    [
+      0,
+      70
+    ]
+  ],
+  "area_number": 6,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    10
+  ],
+  "bodyYawOffset": [
+    120
+  ],
+  "castAction": "attack",
+  "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 6000,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/icon/icon-egg.png",
+  "icon_pushed": "",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/Pet Boll"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 4.67,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Any",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

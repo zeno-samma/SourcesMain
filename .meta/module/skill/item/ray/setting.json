@@ -1,0 +1,46 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 60
+    },
+    "name": {
+      "value": "skill_ray"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/ray",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/master/icon_雷球.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7135e4b92cd3d2783ebb09766640a810",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "data": {
+    "md5": "ded79d6ccbb7ce6faadcfb266e1106f7",
+    "path": "asset/Gui/Popup_pet/1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "7abc74da-c932-492e-870f-9e4f2eb25da9"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Congratulations",
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "d26bc385-6655-467f-836d-763d09d68664"
+              },
+              "name": "CloseButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "6ef8d784-17db-490a-a9ee-5241632810a4"
+              },
+              "Image": {
+                "asset": "asset/Texture/Pet_Ui/1.PNG",
+                "selector": "asset/Texture/Pet_Ui/1.PNG"
+              },
+              "name": "Label",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.9
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "AutoTextScale": true,
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "1c7d1bb6-a806-4240-9188-9f4ca99d0da5"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Name",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "You got ",
+              "TextBoldWeight": "1",
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "6db03836-e129-43b2-9b34-02d7382e41d7"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "2b68381b-cb16-446a-8792-71d4858d8950"
+      },
+      "MousePassThroughEnabled": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 500
+        },
+        "UDim_Y": {
+          "Offect": 400
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ded79d6ccbb7ce6faadcfb266e1106f7",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

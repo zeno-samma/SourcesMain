@@ -1,0 +1,23 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_Speed"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c0d78b53269efb9f3fbac77081bd9a39",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

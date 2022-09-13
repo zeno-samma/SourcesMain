@@ -1,0 +1,57 @@
+<ActorTemplates>
+	<ActorTemplate AttackScale="1" SoundName2="" SoundFileNum="0" IntervalTime="2" SelectedRingSize="1" IsShowShadow="true" WoundBone="" SoundName1="" SoundName3="" WoundAngle="25" Volume="0.8" name="111.actor" Originalscale="1 1 1" Alpha="1" Skeleton="boy_01.skel" SoundName5="" TextHeight="0" MinDistance="1" MaxDistance="16" SoundName4="">
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="idle">
+				<Animation BeginTime="0" TimeScale="1" Channel="" Length="1.541" FadeTime="0.25" Times="1" Name="asset/LibPet/Animation/idle.anim"/>
+				<Effect>
+					<CycleTime value="-1"/>
+					<TimeScale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<scale value="5"/>
+					<Times value="-1"/>
+					<type_name value="ui_egg_7"/>
+					<BeginTime value="0"/>
+					<FileName value="asset/custom_effect/ui_egg_7.effect"/>
+					<yaw value="0"/>
+					<Position_Y value="3"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/idle.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="SpikedEgg">
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<SocketName value="Origin197011"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Mesh/Egg/SpikedEgg/SpikedEgg.mesh"/>
+					<UseBloom value="false"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<SpecularCoef value="0.15"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseEdge value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Y value="0"/>
+					<roll value="0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,75 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/Mesh/Egg/CrackedEgg/300.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Egg/CrackedEgg/300.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 2,
+      "height_c": 2,
+      "memory": {
+        "Capsule": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "radius_c": 1,
+      "type": "Cylinder"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "gravity": 0,
+    "headPic": {
+      "selector": "editor/SourcesMain/asset/Mesh/Egg/CrackedEgg/CrackedEgg.png"
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 199980
+    },
+    "isPlayer": true,
+    "name": {
+      "value": "408a5a5f-27f1-4589-b2de-92c97684164d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d222b828a4a9f8177ccc47fcd208eead",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

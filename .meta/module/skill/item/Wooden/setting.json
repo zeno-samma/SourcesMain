@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "name": {
+      "value": "skill_Wooden"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/8d7a724f-5601-4dae-95fb-303dbb4fb54d"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/farm.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e83f19f50a1de90bbc3d524c0dbb0fe0"
+    },
+    "VERSION": "0.21"
+  }
+}

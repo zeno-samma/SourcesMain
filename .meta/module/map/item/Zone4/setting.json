@@ -1,0 +1,84 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8720107257393954817"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8720107257496748033",
+        "ID": 5,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8744785260377980929",
+        "ID": 6,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "df40170e-4d31-449a-9700-cdd25e4088dc",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8720107729315938305",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 7.4291391372681,
+          "y": 23.387651443481,
+          "z": -8.7870540618896
+        },
+        "mesh": "asset/World/map khu 4/map khu 4.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/map khu 4/map khu 4.mesh",
+          "selector": "asset/World/map khu 4/map khu 4.mesh"
+        },
+        "name": "map khu 4.mesh",
+        "position": {
+          "x": 7.4291391372681,
+          "y": 23.387651443481,
+          "z": -8.7870540618896
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.35238,
+          "y": 9.35237,
+          "z": 9.35238
+        },
+        "size": {
+          "x": 91.320663452148,
+          "y": 48.798336029053,
+          "z": 179.6661529541
+        },
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ],
+    "name": {
+      "value": "map_Zone4"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "11fb0d7ec5a18f42abf934c7771d214e"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone6/giftbox_Z6/actor.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone6/giftbox_Z6/actor.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 2,
+      "radius": 1,
+      "type": "Capsule"
+    },
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "maxHp": 512,
+    "name": {
+      "value": "c697482e-cddf-4b6a-9a87-95a38396794f"
+    },
+    "reviveTime": {
+      "value": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fb014931c2c1e6b09d7498325e4c7514",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

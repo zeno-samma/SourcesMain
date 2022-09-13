@@ -1,0 +1,202 @@
+{
+  "data": {
+    "md5": "73a78c3d8e670234923edf20c383900f",
+    "path": "asset/Gui/TutorialStep4.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.283,
+          "id": {
+            "value": "44ba6114-cc2b-4177-8676-f310ec93d4e0"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Cover",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 14,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "51ad6956-feea-47e8-83b7-7bcfda264bc9"
+                  },
+                  "MinAutoTextScale": 12,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.9
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    }
+                  },
+                  "Text": "Left click attack on coin",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep4.layout.StaticText#d05630cd-301d-4d8c-b6e1-2e0339b9484d"
+                  },
+                  "TextBoldWeight": "1",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "BorderWidth": 3,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "id": {
+                    "value": "c35e3ec2-951c-419f-9bd3-6ff235671f72"
+                  },
+                  "name": "Step2Button",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.03
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "Click",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep4.layout.Button#f32b0a77-f02d-4576-afa9-de88eb67a5db"
+                  },
+                  "TextBoldWeight": "1"
+                },
+                {
+                  "__OBJ_TYPE": "EffectWindow",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "effectName": {
+                    "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+                  },
+                  "id": {
+                    "value": "d5824076-8ccf-4906-a55b-e4fe73038ee5"
+                  },
+                  "name": "EffectWindowPoint1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "ca16706a-08bb-46d6-8beb-af5461824d2e"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/Popup.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "2ec2f888-fd3a-4fb5-b3d3-be133559fb6f"
+          },
+          "name": "TutorialStep3",
+          "size": {
+            "UDim_X": {
+              "Offect": 900
+            },
+            "UDim_Y": {
+              "Offect": 800
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "025de9dd-196d-4756-81a6-9b7ece011939"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "73a78c3d8e670234923edf20c383900f",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

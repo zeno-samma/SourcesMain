@@ -1,0 +1,275 @@
+{
+  "data": {
+    "md5": "37f9ccd8a63c7a2aa9a135cf5a6e3e43",
+    "path": "asset/Gui/TutorialStep10.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "BorderWidth": 2,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "dd9de499-a90b-4623-ba62-40eec42d70d7"
+              },
+              "MinAutoTextScale": 20,
+              "name": "Text2",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Tutorial",
+              "TextBoldWeight": "1",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Mesh/Egg/CrackedEgg/300.actor"
+              },
+              "ActorScale": 0.7,
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "eb8c360c-156f-48f1-aae9-1c1ba6858196"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                }
+              },
+              "RotateY": 270,
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.5
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "0669860c-233b-465c-a13a-99f249ce394d"
+              },
+              "Image": {
+                "asset": "asset/Gui/guide.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "BorderWidth": 2,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "3491fd07-b4be-4b4e-975d-9d0f165da38b"
+              },
+              "MinAutoTextScale": 12,
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Shop Pet",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "BorderWidth": 2,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "6dd96deb-ec32-454c-b0b3-bc48f174e791"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Text1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Click",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0.991,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "AutoTextScale": true,
+              "BorderWidth": 2,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 30,
+              "id": {
+                "value": "df93c511-febe-4bf8-9d21-ed83380ded49"
+              },
+              "name": "YesButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "I Know",
+              "TextBoldWeight": "1"
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/g2030_ui_dianji.effect"
+              },
+              "id": {
+                "value": "0eafa610-e88d-4434-b705-7135762e9a0f"
+              },
+              "name": "EffectWindowPoint",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "9d0d3773-f8b6-460b-873d-1d4bbcd5b0f7"
+          },
+          "Image": {
+            "asset": "asset/Texture/Ui/Popup.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 800
+            },
+            "UDim_Y": {
+              "Offect": 600
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "72d28d02-1ef5-4dad-87f4-100cf079e5f3"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "37f9ccd8a63c7a2aa9a135cf5a6e3e43",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

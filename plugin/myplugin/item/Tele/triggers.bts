@@ -1,0 +1,4 @@
+USE_ITEM {
+	ExecScript(player = $obj1, script_name = "ScriptableNode_67")
+	ShowTip(entity = $obj1, keepTime = 40, textKey = "a01037e8-acdd-4611-843a-28e491be723c", tipType = "2")
+}

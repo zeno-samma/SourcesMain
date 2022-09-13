@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_reward"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardList",
+          "array": [
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardCoin",
+                  "count": 3,
+                  "name": "green_currency"
+                },
+                "type": "Coin"
+              }
+            },
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 3,
+                    "min": 1
+                  },
+                  "name": "myplugin/pizza"
+                }
+              }
+            }
+          ],
+          "countRange": {
+            "max": 3,
+            "min": 1
+          }
+        },
+        "type": "List"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6e1bbb7fcb3ca0b28d82804ad9cf5375"
+    },
+    "VERSION": "0.24"
+  }
+}

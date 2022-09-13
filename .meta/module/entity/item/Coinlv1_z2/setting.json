@@ -1,0 +1,59 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone2/coinLV1_Z2/actor.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone2/coinLV1_Z2/actor.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 2,
+      "radius": 1,
+      "type": "Capsule"
+    },
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "maxHp": 2,
+    "name": {
+      "value": "740f3315-d3b2-4ac6-a61b-f5ba2e8531a3"
+    },
+    "reviveTime": {
+      "value": 40
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fcb21b2e618964fe11a2f3ef2b6c2f1a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "data": {
+    "md5": "9984ddaccdfdf77f27316a25d370cf94",
+    "path": "asset/Gui/Egg/simpleShop_650k.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "31cd8874-a7ad-4963-871b-2f33a857ec36"
+              },
+              "MinAutoTextScale": 15,
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Snow Egg",
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "5dd22788-056d-4950-a959-bc01480f0a5b"
+              },
+              "name": "Btn_close",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 15,
+              "id": {
+                "value": "5b7d0f76-ae54-4623-b4fa-3139f6e6d2e2"
+              },
+              "name": "Btn",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "650,000"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "650c43d8-e877-4397-840c-e9edb9184c73"
+              },
+              "Image": {
+                "asset": "asset/Texture/Egg/650k.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.45
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.7
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "ec8703db-a5e5-4609-880c-af9b8de439d7"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Snow Dog (32%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "c9dbf7d5-eeb6-4f61-8688-6ee16ec1f2e9"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate2",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.4
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Deer (24%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "3920fd7c-2481-40f9-8d17-2dc8ece3ba0a"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate3",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.5
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Arctic Fox (11%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "ff0554fe-cbc1-4bb1-b871-8fd02aa22685"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.6
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Frost Dragon (0.64%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "2ef6ce72-00a8-4597-8cdd-825b7f70d258"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Snow Cat (32%)",
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "abbbc764-522c-45b3-b084-2e3d897453c6"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "e4e16d7c-0cff-42f1-b36b-6eec08e1413b"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "9984ddaccdfdf77f27316a25d370cf94",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

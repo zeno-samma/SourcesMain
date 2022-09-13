@@ -1,0 +1,1109 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/sky/back.png"
+        },
+        "bottom": {
+          "asset": "asset/sky/bottom.png"
+        },
+        "front": {
+          "asset": "asset/sky/forward.png"
+        },
+        "left": {
+          "asset": "asset/sky/left_1.png"
+        },
+        "right": {
+          "asset": "asset/sky/right.png"
+        },
+        "top": {
+          "asset": "asset/sky/top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8683340899204169729",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8739586710206922753",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "x": 3.6870555877686,
+          "y": 20,
+          "z": -5.1501655578613
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "id": "8596941005029228545",
+        "name": "Egg"
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -10.2449617385864,
+          "y": 8.3899507522583,
+          "z": -30.4485912322998
+        },
+        "batchType": "Dynamic",
+        "btsKey": "a03cf13b-d5a5-4ce6-8b8d-24946c724f1f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8683388746129457153",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": -10.244961738586,
+          "y": 8.3899507522583,
+          "z": -30.4485912323
+        },
+        "mesh": "asset/Mesh/Orange Wood Leaderboard/g2030_build_rank.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Orange Wood Leaderboard/g2030_build_rank.mesh",
+          "selector": "asset/Mesh/Orange Wood Leaderboard/g2030_build_rank.mesh"
+        },
+        "name": "g2030_build_rank.mesh",
+        "position": {
+          "x": -10.244961738586,
+          "y": 8.3899507522583,
+          "z": -30.4485912323
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 89.999977111816
+        },
+        "scale": {
+          "x": 13.3329,
+          "y": 13.3328,
+          "z": 13.3329
+        },
+        "size": {
+          "x": 20.000057220459,
+          "y": 14.77547454834,
+          "z": 4.6379289627075
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 9.92598342895508,
+          "y": -0.773213267326355,
+          "z": -7.30049848556519
+        },
+        "batchType": "Dynamic",
+        "btsKey": "521d5606-77f8-48e9-97d6-4a0b146296f2",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8686270942992023553",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 9.9259834289551,
+          "y": -0.77321326732635,
+          "z": -7.3004984855652
+        },
+        "mesh": "asset/SHOPVer1504/background grass/g1.mesh",
+        "mesh_selector": {
+          "asset": "asset/SHOPVer1504/background grass/g1.mesh",
+          "selector": "asset/SHOPVer1504/background grass/g1.mesh"
+        },
+        "name": "g1.mesh",
+        "position": {
+          "x": 9.9259834289551,
+          "y": -0.77321326732635,
+          "z": -7.3004984855652
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 179.99998474121
+        },
+        "scale": {
+          "x": 2.63978,
+          "y": 2.63978,
+          "z": 2.63978
+        },
+        "size": {
+          "x": 70.382141113281,
+          "y": 3.5783832073212,
+          "z": 108.20977783203
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/689114e1-8ad0-4165-b349-7cbbff6177ab",
+        "id": "8704537291817009153",
+        "isLockedInEditor": true,
+        "name": "Region_gate",
+        "position": {
+          "x": 12.343626022339,
+          "y": 0.99226820468903,
+          "z": 32.911708831787
+        },
+        "scale": {
+          "x": 30.0672,
+          "y": 0.160969,
+          "z": 19.3565
+        },
+        "size": {
+          "x": 30.067193984985,
+          "y": 0.16096891462803,
+          "z": 19.356483459473
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 10.9742393493652,
+          "y": 17.0951995849609,
+          "z": -15.4725513458252
+        },
+        "batchType": "Dynamic",
+        "btsKey": "31989c0e-3382-410b-8735-3a2a78f3abd0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8705563888702996481",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 10.974239349365,
+          "y": 17.095199584961,
+          "z": -15.472551345825
+        },
+        "mesh": "asset/World/Hall/Hall.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/Hall/Hall.mesh",
+          "selector": "asset/World/Hall/Hall.mesh"
+        },
+        "name": "Hall.mesh",
+        "position": {
+          "x": 10.974239349365,
+          "y": 17.095199584961,
+          "z": -15.472551345825
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -7.7185468398966e-06
+        },
+        "scale": {
+          "x": 0.518499,
+          "y": 0.518498,
+          "z": 0.518499
+        },
+        "size": {
+          "x": 76.740798950195,
+          "y": 37.060153961182,
+          "z": 89.427032470703
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 11.2390375137329,
+          "y": 18.5509986877441,
+          "z": 35.2494773864746
+        },
+        "batchType": "Dynamic",
+        "btsKey": "e74922da-f7c5-4b4a-81a5-08e23c6baca5",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8722892977946492929",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 11.239037513733,
+          "y": 18.550998687744,
+          "z": 35.249477386475
+        },
+        "mesh": "asset/World/cong_dich_chuyen/cong_dich_chuyen.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/cong_dich_chuyen/cong_dich_chuyen.mesh",
+          "selector": "asset/World/cong_dich_chuyen/cong_dich_chuyen.mesh"
+        },
+        "name": "cong_dich_chuyen.mesh",
+        "position": {
+          "x": 11.239037513733,
+          "y": 18.550998687744,
+          "z": 35.249477386475
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.00004577637
+        },
+        "scale": {
+          "x": 2.95053,
+          "y": 2.95053,
+          "z": 2.95053
+        },
+        "size": {
+          "x": 51.865642547607,
+          "y": 38.466957092285,
+          "z": 25.604869842529
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "c20666e5-a887-4dc9-a092-a7dd7de70c56",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "74ad48cd-ea0c-43ef-97c6-cad9531d5faa",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8722909080917999617",
+            "massCenter": {
+              "x": 10.041097640991,
+              "y": 11.713175773621,
+              "z": 37.045967102051
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 10.041097640991,
+              "y": 11.713175773621,
+              "z": 37.045967102051
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 179.99996948242
+            },
+            "scale": {
+              "x": 70.3883,
+              "y": 21.1746,
+              "z": 0.999952
+            },
+            "size": {
+              "x": 70.388290405273,
+              "y": 21.174598693848,
+              "z": 0.99995189905167
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a3270c0a-7e35-4786-9bc3-278bdbe2d0d6",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8722909080930598913",
+            "massCenter": {
+              "x": -15.165809631348,
+              "y": 11.697668075562,
+              "z": -6.790050983429
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -15.165809631348,
+              "y": 11.697668075562,
+              "z": -6.790050983429
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -90.000007629395
+            },
+            "scale": {
+              "x": 108.004,
+              "y": 21.1438,
+              "z": 0.999936
+            },
+            "size": {
+              "x": 108.00379180908,
+              "y": 21.143787384033,
+              "z": 0.99993592500687
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "21a4b496-7ef5-4b67-bfbf-d4c87f0190b4",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8722909080942477313",
+            "massCenter": {
+              "x": 10.064135551453,
+              "y": 21.77067565918,
+              "z": -6.7900605201721
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 10.064135551453,
+              "y": 21.77067565918,
+              "z": -6.7900605201721
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -90.000007629395
+            },
+            "scale": {
+              "x": 108.003,
+              "y": 0.999964,
+              "z": 70.3802
+            },
+            "size": {
+              "x": 108.0027923584,
+              "y": 0.99996399879456,
+              "z": 70.380187988281
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "3929a214-ca64-4eee-9263-55cec21abefc",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8722909080954224641",
+            "massCenter": {
+              "x": 37.619068145752,
+              "y": 11.697668075562,
+              "z": -6.7900228500366
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 37.619068145752,
+              "y": 11.697668075562,
+              "z": -6.7900228500366
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -90.000007629395
+            },
+            "scale": {
+              "x": 108.004,
+              "y": 21.1438,
+              "z": 0.999936
+            },
+            "size": {
+              "x": 108.00379180908,
+              "y": 21.143787384033,
+              "z": 0.99993592500687
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "0e8aa701-2571-4845-9cda-b5ed6733e4ca",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8722909080966119425",
+            "massCenter": {
+              "x": 10.041132926941,
+              "y": 11.713175773621,
+              "z": -60.405067443848
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 10.041132926941,
+              "y": 11.713175773621,
+              "z": -60.405067443848
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 179.99996948242
+            },
+            "scale": {
+              "x": 70.3883,
+              "y": 21.1746,
+              "z": 0.999952
+            },
+            "size": {
+              "x": 70.388290405273,
+              "y": 21.174598693848,
+              "z": 0.99995189905167
+            },
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "density": 0.9,
+        "friction": 0.022,
+        "id": "8722909081227722753",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 10.050605773926,
+          "y": 11.71312046051,
+          "z": -6.8465385437012
+        },
+        "material": {
+          "alpha": 0,
+          "texture": "part_bingkuai.tga"
+        },
+        "mergeShapesDataKey": "8722909080975638529",
+        "position": {
+          "x": 10.050605773926,
+          "y": 11.71312046051,
+          "z": -6.8465385437012
+        },
+        "restitution": 0.2,
+        "rotation": {
+          "y": 179.99995422363
+        },
+        "scale": {
+          "x": 70.3883,
+          "y": 21.1746,
+          "z": 0.999952
+        },
+        "size": {
+          "x": 70.407287597656,
+          "y": 21.174703598022,
+          "z": 108.11699676514
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 31.7113227844238,
+          "y": 7.51844215393066,
+          "z": -25.2665500640869
+        },
+        "batchType": "Dynamic",
+        "btsKey": "2582186d-f9b1-4ff0-829f-a8bce8134d28",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8725417854782717953",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 31.711322784424,
+          "y": 7.5184421539307,
+          "z": -25.266550064087
+        },
+        "mesh": "asset/World/shop SKINS/shop SKINS.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/shop SKINS/shop SKINS.mesh",
+          "selector": "asset/World/shop SKINS/shop SKINS.mesh"
+        },
+        "name": "shop SKINS.mesh",
+        "position": {
+          "x": 31.711322784424,
+          "y": 7.5184421539307,
+          "z": -25.266550064087
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -101.99998474121
+        },
+        "scale": {
+          "x": 1.21332,
+          "y": 1.21332,
+          "z": 1.21332
+        },
+        "size": {
+          "x": 14.999963760376,
+          "y": 11.14245223999,
+          "z": 7.3867330551147
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/eaf77a24-425c-4f57-803f-be0690d9331d",
+        "id": "8737709593490718721",
+        "isLockedInEditor": true,
+        "name": "Region_shop1",
+        "position": {
+          "x": 6.61292552948,
+          "y": 3.3130054473877,
+          "z": -44.745349884033
+        },
+        "scale": {
+          "x": 4.26295,
+          "y": 0.999993,
+          "z": 3.84996
+        },
+        "size": {
+          "x": 4.2629518508911,
+          "y": 0.99999278783798,
+          "z": 3.8499598503113
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/b02548d7-b2ea-4849-9b9b-e951b27648dc",
+        "id": "8737727168856064001",
+        "isLockedInEditor": true,
+        "name": "Region_shop2",
+        "position": {
+          "x": 11.196001052856,
+          "y": 3.3129999637604,
+          "z": -44.744998931885
+        },
+        "scale": {
+          "x": 4.263,
+          "z": 3.85
+        },
+        "size": {
+          "x": 4.263,
+          "z": 3.85
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/d1e53520-c7a2-45e4-975c-6d548a185ac1",
+        "id": "8737727864819499009",
+        "isLockedInEditor": true,
+        "name": "Region_shop3",
+        "position": {
+          "x": 15.798000335693,
+          "y": 3.3129999637604,
+          "z": -44.744998931885
+        },
+        "scale": {
+          "x": 4.263,
+          "z": 3.85
+        },
+        "size": {
+          "x": 4.263,
+          "z": 3.85
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/f19a0df8-1e15-4be8-9c93-b9ac98c6242f",
+        "id": "8737729083414052865",
+        "isLockedInEditor": true,
+        "name": "Region_shop4",
+        "position": {
+          "x": 11.217004776001,
+          "y": 6.4320001602173,
+          "z": -48.340042114258
+        },
+        "scale": {
+          "x": 4.31785,
+          "y": 0.999979,
+          "z": 2.86884
+        },
+        "size": {
+          "x": 4.3178462982178,
+          "y": 0.9999788403511,
+          "z": 2.8688416481018
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 6.60900020599365,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "batchType": "Dynamic",
+        "btsKey": "7e552df3-bb09-42d3-a092-3fd7fb51dcab",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752839784309489665",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 6.6090002059937,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "mesh": "asset/Mesh/Egg/CrackedEgg/CrackedEgg.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Egg/CrackedEgg/CrackedEgg.mesh",
+          "selector": "asset/Mesh/Egg/CrackedEgg/CrackedEgg.mesh"
+        },
+        "name": "CrackedEgg.mesh",
+        "position": {
+          "x": 6.6090002059937,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90.000007629395
+        },
+        "size": {
+          "x": 1.780121922493,
+          "y": 2.2692918777466,
+          "z": 1.7801222801208
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 11.2299995422363,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "batchType": "Dynamic",
+        "btsKey": "f4a1d64a-fcf1-48c4-b155-60777ccbdfa3",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752840376058429441",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 11.229999542236,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "mesh": "asset/Mesh/Egg/SpottedEgg/SpottedEgg.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Egg/SpottedEgg/SpottedEgg.mesh",
+          "selector": "asset/Mesh/Egg/SpottedEgg/SpottedEgg.mesh"
+        },
+        "name": "SpottedEgg.mesh",
+        "position": {
+          "x": 11.229999542236,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "size": {
+          "x": 1.780121922493,
+          "y": 2.2692918777466,
+          "z": 1.7801222801208
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 15.6809997558594,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "batchType": "Dynamic",
+        "btsKey": "41d09b74-d1a9-404e-b4fb-e23603e1ae2f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752840518154682369",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 15.680999755859,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "mesh": "asset/Mesh/Egg/WoodEgg/WoodEgg.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Egg/WoodEgg/WoodEgg.mesh",
+          "selector": "asset/Mesh/Egg/WoodEgg/WoodEgg.mesh"
+        },
+        "name": "WoodEgg.mesh",
+        "position": {
+          "x": 15.680999755859,
+          "y": 5,
+          "z": -44.890998840332
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "size": {
+          "x": 1.780121922493,
+          "y": 2.2692918777466,
+          "z": 1.7801222801208
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 11.1059999465942,
+          "y": 7.94800329208374,
+          "z": -48.5429992675781
+        },
+        "batchType": "Dynamic",
+        "btsKey": "93ebc57c-2d11-4997-b1cf-79902391361a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752840657627381761",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 11.105999946594,
+          "y": 7.9480032920837,
+          "z": -48.542999267578
+        },
+        "mesh": "asset/Mesh/Egg/GrassEgg/GrassEgg.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Egg/GrassEgg/GrassEgg.mesh",
+          "selector": "asset/Mesh/Egg/GrassEgg/GrassEgg.mesh"
+        },
+        "name": "GrassEgg.mesh",
+        "position": {
+          "x": 11.105999946594,
+          "y": 7.9480032920837,
+          "z": -48.542999267578
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "size": {
+          "x": 1.780121922493,
+          "y": 2.3026731014252,
+          "z": 1.7801222801208
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Gate",
+        "id": "8753089962775855105",
+        "isLockedInEditor": true,
+        "name": "entity_Gate",
+        "position": {
+          "x": 11.159631729126,
+          "y": 51,
+          "z": 29.641017913818
+        },
+        "rotation": {
+          "y": -180
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Shop1",
+        "id": "8753091223741267969",
+        "isLockedInEditor": true,
+        "name": "entity_Shop1",
+        "position": {
+          "x": 6.609,
+          "y": 53.085,
+          "z": -44.891
+        },
+        "rotation": {
+          "y": -180
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Shop2",
+        "id": "8753093287891894273",
+        "isLockedInEditor": true,
+        "name": "entity_Shop2",
+        "position": {
+          "x": 11.23,
+          "y": 53.085,
+          "z": -44.891
+        },
+        "rotation": {
+          "y": -180
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Shop3",
+        "id": "8753095322345816065",
+        "isLockedInEditor": true,
+        "name": "entity_Shop3",
+        "position": {
+          "x": 15.681,
+          "y": 53.085,
+          "z": -44.891
+        },
+        "rotation": {
+          "y": -180
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Shop4",
+        "id": "8753099088337780737",
+        "isLockedInEditor": true,
+        "name": "entity_Shop4",
+        "position": {
+          "x": 11.105999946594,
+          "y": 57,
+          "z": -48.542999267578
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/Petbackup2",
+        "id": "8801358046666194945",
+        "isLockedInEditor": true,
+        "name": "entity_Petbackup2",
+        "position": {
+          "x": 12.5056772232056,
+          "y": 0.961969077587128,
+          "z": 13.7216215133667
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1566907b-b997-4802-954e-71a79f329255",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801378411099160577",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4714660644531,
+          "y": 0.559966564178467,
+          "z": 13.6120414733887
+        },
+        "position": {
+          "x": 12.4714660644531,
+          "y": 0.559966564178467,
+          "z": 13.6120414733887
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a574911c-01a4-4cdd-b05d-32d9743b87f8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801379396524982273",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 12.6120414733887
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 12.6120414733887
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "333a39d5-666c-49f9-993c-2c1e3363dc3d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380036636213249",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 11.6039590835571
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 11.6039590835571
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "7acc2ca2-3b4d-4432-9d0a-9deaf25f3fd8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380176392765441",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 10.6028184890747
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "r": 170
+          }
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 10.6028184890747
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1e2a826e-2fd0-4850-a539-a620c3ca1607",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380233556721665",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 9.60229015350342
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 9.60229015350342
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "3fb24e99-0f3c-49cc-bc52-e9d1b8501f2d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380275763609601",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 8.60225486755371
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 8.60225486755371
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "394a6b2c-34e1-4d99-95e3-b89ce7224cd0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380330851581953",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 7.60225486755371
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 7.60225486755371
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "d1e2e2a3-3b1a-490f-852c-cbd308ae196a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8801380377593233409",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 6.60221099853516
+        },
+        "position": {
+          "x": 12.4709997177124,
+          "y": 0.559999942779541,
+          "z": 6.60221099853516
+        },
+        "restitution": 0.3,
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "rotateSpeed": 2,
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "82749cbbbb79b13662aef49b51919ea7"
+    },
+    "VERSION": "0.24"
+  }
+}

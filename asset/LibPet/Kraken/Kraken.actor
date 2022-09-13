@@ -1,0 +1,51 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" SoundName5="" Volume="0.8" WoundAngle="25" SoundName3="" IntervalTime="2" IsShowShadow="true" TextHeight="0" SoundName4="" AttackScale="1" Alpha="1" SoundFileNum="0" name="111.actor" Skeleton="asset/LibPet/krakenver2idle/Armature.skel" SoundName2="" MaxDistance="16" Originalscale="1 1 1" SelectedRingSize="1" SoundName1="" WoundBone="">
+		<Skills>
+			<Skill Name="idle" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/krakenver2idle/krakenver2idle_Armature.anim" Times="-1" BeginTime="0" TimeScale="2" Channel="upper" FadeTime="0.050000001" Length="2.5833333"/>
+			</Skill>
+			<Skill Name="attack2" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/attack2.anim" Times="1" BeginTime="0" TimeScale="2" Channel="" FadeTime="0.25" Length="0.958"/>
+			</Skill>
+			<Skill Name="run" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/run.anim" Times="-1" BeginTime="0" TimeScale="2" Channel="" FadeTime="0.25" Length="1"/>
+			</Skill>
+			<Skill Name="idle4" TextMode="0" UserDefineTime="-2" EnableWound="false">
+				<Animation Name="asset/LibPet/Animation/idle4.anim" Times="1" BeginTime="0" TimeScale="1" Channel="" FadeTime="0.25" Length="2.583"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/LibPet/Animation/idle4.anim"/>
+			<Anim Name="asset/LibPet/Animation/attack2.anim"/>
+			<Anim Name="asset/LibPet/krakenver2idle/krakenver2idle_Armature.anim"/>
+			<Anim Name="asset/LibPet/Animation/run.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" EdgeColor="1 1 1 1" DefaultUse="true" MasterName="mutex_name0" SlaveName="group0">
+				<StaticMesh LocalAlpha="1" type_name="HEAD" DiscardAlpha="0">
+					<Position_X value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Armature"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Y value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<FileName value="asset/LibPet/Kraken/HEAD.mesh"/>
+					<UseEdge value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

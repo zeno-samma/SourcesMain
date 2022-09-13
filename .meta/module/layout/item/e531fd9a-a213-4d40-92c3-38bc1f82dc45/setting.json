@@ -1,0 +1,177 @@
+{
+  "data": {
+    "md5": "e1c82b9a73f10875327ad68aec5e2c5b",
+    "path": "asset/Gui/TelePort.layout",
+    "root": {
+      "anchor": {
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "64d12c90-d0da-47de-a2ea-40d9b6f90085"
+              },
+              "name": "Btn_Tele",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "3a6a130b-fba5-4735-8429-9a6a0eab44c2"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/IconSpaceship.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 63.43
+            },
+            "UDim_Y": {
+              "Offect": 64.11
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "23cb8b6e-0b99-4b1f-8d5c-6b8f0b52dce0"
+              },
+              "name": "Btn_Trade",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 0.11
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "59923b13-ac48-4846-b94a-fc4d1ffce8d2"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/IconTrade.png"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 63.43
+            },
+            "UDim_Y": {
+              "Offect": 64.11
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "6c95b228-4de2-49cc-8bed-e1d05404b979"
+              },
+              "name": "Btn_Pet",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 1.5727620006345e-07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "6308a8a6-39a1-4593-9dca-9342e32dbd96"
+          },
+          "Image": {
+            "asset": "asset/Texture/Icon/Pet.png"
+          },
+          "name": "Image11",
+          "size": {
+            "UDim_X": {
+              "Offect": 63.43
+            },
+            "UDim_Y": {
+              "Offect": 64.11
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "a0972d5f-e2bc-4642-9d46-99ec220c7497"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.2
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.4
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e1c82b9a73f10875327ad68aec5e2c5b",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

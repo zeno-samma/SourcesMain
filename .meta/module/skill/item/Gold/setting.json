@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "name": {
+      "value": "skill_Gold"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/e7b69c26-c0a6-44fe-8f5b-ff268a991ac0"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/farm.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2a0dc40de91ac3eeb32ce0ddf6f88d7"
+    },
+    "VERSION": "0.21"
+  }
+}

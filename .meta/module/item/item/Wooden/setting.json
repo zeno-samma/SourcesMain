@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/WoodenPickAxe/X1ATK.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Wooden"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/WoodenPickAxe/pickaxe  wood.mesh"
+    },
+    "name": {
+      "value": "item_Wooden"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2d4701cdff0ce32e474706da74a43cef",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,123 @@
+    <GUILayout version="4">
+        <Window name="Root" type="DefaultWindow">
+            <Window name="EffectWindow" type="WindowsLook/EffectWindow">
+                <Property value="{{0,0},{0,0},{0,200},{0,200}}" name="Area">
+
+                </Property>
+                <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+                </Property>
+                <Property value="Centre" name="HorizontalAlignment">
+
+                </Property>
+                <Property value="Top" name="VerticalAlignment">
+
+                </Property>
+                <Property value="asset/custom_effect/farmeff.effect" name="effectName">
+
+                </Property>
+                <Property value="1" name="WindowTouchThroughAlpha">
+
+                </Property>
+                <Property value="1" name="Alpha">
+
+                </Property>
+                <Property value="0" name="effectXPosition">
+
+                </Property>
+                <Property value="0" name="effectYRotate">
+
+                </Property>
+                <Property value="MousePassThroughOpen" name="WindowTouchThroughMode">
+
+                </Property>
+                <Property value="100" name="effectYPosition">
+
+                </Property>
+                <Property value="None" name="SoundTriggerRange">
+
+                </Property>
+                <Property value="1" name="Volume">
+
+                </Property>
+                <Property value="0" name="effectXRotate">
+
+                </Property>
+                <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
+
+                </Property>
+                <Property value="0.5" name="effectScale">
+
+                </Property>
+                <Property value="" name="SoundFile">
+
+                </Property>
+                <Property value="0" name="effectZRotate">
+
+                </Property>
+                <Property value="false" name="ClippedByParent">
+
+                </Property>
+                <Property value="false" name="Visible">
+
+                </Property>
+                <Property value="false" name="Disabled">
+
+                </Property>
+                <Property value="0.5" name="PivotX">
+
+                </Property>
+                <Property value="0.5" name="PivotY">
+
+                </Property>
+            </Window>
+              <Property value="{{0,0},{0,0},{0,400},{0,300}}" name="Area">
+
+              </Property>
+              <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+              </Property>
+              <Property value="Centre" name="HorizontalAlignment">
+
+              </Property>
+              <Property value="Centre" name="VerticalAlignment">
+
+              </Property>
+              <Property value="MousePassThroughClose" name="WindowTouchThroughMode">
+
+              </Property>
+              <Property value="1" name="WindowTouchThroughAlpha">
+
+              </Property>
+              <Property value="None" name="SoundTriggerRange">
+
+              </Property>
+              <Property value="1" name="Volume">
+
+              </Property>
+              <Property value="1" name="Alpha">
+
+              </Property>
+              <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
+
+              </Property>
+              <Property value="false" name="Disabled">
+
+              </Property>
+              <Property value="" name="SoundFile">
+
+              </Property>
+              <Property value="0.5" name="PivotY">
+
+              </Property>
+              <Property value="false" name="Visible">
+
+              </Property>
+              <Property value="false" name="ClippedByParent">
+
+              </Property>
+              <Property value="0.5" name="PivotX">
+
+              </Property>
+        </Window>
+    </GUILayout>

@@ -1,0 +1,80 @@
+{
+  "data": {
+    "md5": "6bedfaa2f32b4db696272cf3553dd814",
+    "path": "asset/Gui/PetUi.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "459866e1-d1ea-4e9d-b304-5bc3531b5ad7"
+          },
+          "Image": {
+            "asset": "asset/Texture/ui/img_提示吐司.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 0.5378040027627
+            },
+            "UDim_Y": {
+              "Offect": 3.1232831700034e-05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 128.0
+            },
+            "UDim_Y": {
+              "Offect": 128.0
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "21d9df45-0439-4635-b077-e60b5124b086"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 16.13
+            },
+            "UDim_Y": {
+              "Offect": 127.87
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "6194e8b8-d53a-4a45-8b14-a73330fc8335"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -563.63
+        },
+        "UDim_Y": {
+          "Offect": -239.62
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 147.12
+        },
+        "UDim_Y": {
+          "Offect": 173.08
+        }
+      },
+      "Visible": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "6bedfaa2f32b4db696272cf3553dd814",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/World/cong 2/GateZone2.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 12,
+      "height_c": 12,
+      "memory": {
+        "Cylinder": "4.000000-2.500000"
+      },
+      "radius": 4,
+      "radius_c": 4,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hideName": true,
+    "hurtResistantTime": {
+      "value": 20000
+    },
+    "name": {
+      "value": "f0cc65a0-1089-45ad-9b3b-8b67651a79d5"
+    },
+    "reviveTime": {
+      "value": 20
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "aaf01daf-b3b7-48a7-8f88-e55e327ad6c2",
+                      "param_name": "clickPlayer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_24"
+                }
+              ],
+              "id": {
+                "value": "37d9d204-1350-4b32-90fb-7c5a3016f733"
+              },
+              "pos": {
+                "x": 502,
+                "y": 325
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "aaf01daf-b3b7-48a7-8f88-e55e327ad6c2"
+              },
+              "pos": {
+                "x": 894,
+                "y": 349
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "3aab4fba-5773-4f90-b53c-4c5fa5bce244"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "37d9d204-1350-4b32-90fb-7c5a3016f733"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "47b2aa89-01a6-4d7b-833c-fbb190bd4c07"
+            },
+            "pos": {
+              "x": 264,
+              "y": 285
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ff9bf1be087da1e712ecf1c6b46d3fec",
+      "triggers.bts": "73c85de1de09cc1fa2777b6706a51a31"
+    },
+    "VERSION": "0.24"
+  }
+}

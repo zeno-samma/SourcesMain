@@ -1,0 +1,334 @@
+{
+  "data": {
+    "md5": "b7ecece5f9fa561681244130f25c99da",
+    "path": "asset/Gui/Egg/simpleShop_1k.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "c9e9d56d-a3ad-42ae-9941-613ec9637e7c"
+              },
+              "MinAutoTextScale": 15,
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Spotted Egg",
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "2690469e-1ce4-4d96-a5f6-b60d26e84298"
+              },
+              "name": "Btn_close",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.15
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 15,
+              "id": {
+                "value": "a5a9fdd1-1076-4256-84f5-f52aad3158c2"
+              },
+              "name": "Btn",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "1,000"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "eccf57bb-6c56-4c5c-a313-6f644c395e98"
+              },
+              "Image": {
+                "asset": "asset/Texture/Egg/1000.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.45
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.7
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "40137213-7847-4962-a19b-dce4b7cf6c2e"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate3",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.5
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Chick (8%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "267de809-7419-4298-9e2e-c8cbb49d87dc"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.6
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Noob (0.23%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "58a92df6-e07f-45f3-acc8-83da43a82044"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Cow (38%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "607b1e2a-25d6-4553-b809-63d5051035a4"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate2",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.4
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Chicken (15%)",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "b86a2658-d9c7-4653-be91-d29ff6937514"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Rate1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Piggy (38%)",
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "5fc9a153-c4c4-4dc0-b180-d10835284322"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/UI interface.png"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "eeadca4f-93de-4e84-b4cd-f276a867e48e"
+      },
+      "MousePassThroughEnabled": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "b7ecece5f9fa561681244130f25c99da",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

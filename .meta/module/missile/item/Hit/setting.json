@@ -1,0 +1,20 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.45,
+      "radius_c": 0.45
+    },
+    "name": {
+      "value": "missile_Hit"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4d0722cd1ddc46ac3d57a9a741538c38",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

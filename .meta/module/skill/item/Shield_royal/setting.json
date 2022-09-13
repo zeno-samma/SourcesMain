@@ -1,0 +1,43 @@
+{
+  "data": {
+    "castAction": "Shield_royal",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 200
+    },
+    "name": {
+      "value": "skill_Shield_royal"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/Shield royal",
+        "buffTime": {
+          "value": 100
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/auxiliary/icon_盾.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bbe48e96de9af2022eff3e63e8f0ad1b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

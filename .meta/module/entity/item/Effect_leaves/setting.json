@@ -1,0 +1,60 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/custom_effect/falling_leaves_fix/Armature.actor",
+      "selector": "editor/SourcesMain/asset/custom_effect/falling_leaves_fix/Armature.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 2,
+      "memory": {
+        "Capsule": "1.700000-0.430000",
+        "Cylinder": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "canRevive": true,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideName": true,
+    "maxHp": 32,
+    "name": {
+      "value": "069a02ed-901d-4633-99d0-f12f7c7ecbad"
+    },
+    "reviveTime": {
+      "value": 2400
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "58820d48d44f742ae5f33188265cabd5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

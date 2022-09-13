@@ -1,0 +1,69 @@
+{
+  "data": {
+    "md5": "3d7517db51161d6bb07ef30d1aeee45c",
+    "path": "asset/Gui/LeftUI.layout",
+    "root": {
+      "anchor": {
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "a503c881-deff-437a-a318-c3f35a49f98e"
+              },
+              "lock": true,
+              "name": "TeleButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "93cf16c6-9210-43dc-9a2a-7f5f43da07a0"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/IconSpaceship.png"
+          },
+          "lock": true,
+          "name": "TeleImg"
+        }
+      ],
+      "id": {
+        "value": "755d4162-3c3e-49ad-aaec-2f7f15f2f653"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 128
+        },
+        "UDim_Y": {
+          "Offect": 128
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "3d7517db51161d6bb07ef30d1aeee45c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

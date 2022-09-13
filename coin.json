@@ -1,0 +1,10 @@
+[
+  {
+    "coinName": "DiamondCoin",
+    "item": {
+      "name": "myplugin/DiamondCoin",
+      "type": "Item"
+    },
+    "showUi": false
+  }
+]

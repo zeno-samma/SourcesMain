@@ -1,0 +1,17 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/GamePass/Position/UpAtk/UpATK.png",
+  "itemname": "item_UpAtk",
+  "mesh": "asset/GamePass/Position/UpAtk/rgb Potions Dump.mesh",
+  "needSave": true,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

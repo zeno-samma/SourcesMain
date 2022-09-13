@@ -1,0 +1,473 @@
+{
+  "data": {
+    "md5": "7ec01c9fc66bac02ae8d6fe6d3a1609a",
+    "path": "asset/Gui/PetReceiveUI.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.5,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "e6d756b4-35aa-4299-b928-e5254b679da8"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 1920
+            },
+            "UDim_Y": {
+              "Offect": 1080
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "fa10b3d2-0868-40c0-8021-fc39f4f2e54c"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.04
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Congratulations",
+              "text_key": {
+                "value": "asset/Gui/PetReceiveUI.layout.StaticText#0e4e03f7-f716-4921-bde5-27ec6fd5a628"
+              },
+              "TextColours": {
+                "b": 127,
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0,
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "id": {
+                "value": "0fa779a5-c4b6-4c7d-bd1a-5ed2a5150558"
+              },
+              "name": "CloseButton",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "text_key": {
+                "value": "asset/Gui/PetReceiveUI.layout.Button#e141b408-8ff4-42b5-8b7c-ccadd00f1163"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "fdd4c492-ce80-4679-8395-2b40acb91ac8"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "name": "Label",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "AutoTextScale": true,
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "bcf26138-3a49-4b60-baa1-fe17d7682559"
+              },
+              "MinAutoTextScale": 12,
+              "name": "Name",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "You got ",
+              "text_key": {
+                "value": "asset/Gui/PetReceiveUI.layout.StaticText#a4ff36cb-9a3c-4321-8ccd-7bdd336a5483"
+              },
+              "TextBoldWeight": "1",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "effectScale": 2,
+              "id": {
+                "value": "f7b04024-a0da-4933-838f-5c46717152f1"
+              }
+            }
+          ],
+          "id": {
+            "value": "8dd9238a-3e59-4d43-8f84-8eab22617dba"
+          },
+          "Image": {
+            "asset": "asset/Texture/Ui/Popup.png"
+          },
+          "resize": {
+            "tailoring_top_right": 10
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageCutStretch": {
+            "top_right": 10
+          },
+          "StaticImageStretch": {
+            "tailoring_top_right": 10
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Dog/Dog.actor"
+              },
+              "ActorScale": 2,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "0f2ef790-9165-438f-9057-98d4cea1af39"
+              },
+              "name": "ActorWindow1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.2
+                }
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Dog/Dog.actor"
+              },
+              "ActorScale": 2,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "00cd7de4-9ac0-4d6c-b9a6-223bd9261a74"
+              },
+              "name": "ActorWindow2",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.5
+                }
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Dog/Dog.actor"
+              },
+              "ActorScale": 2,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "761569a4-dc78-4d56-981b-442616828a75"
+              },
+              "name": "ActorWindow3",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.8
+                }
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Dog/Dog.actor"
+              },
+              "ActorScale": 2,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "8ecfaad1-2a27-4476-9429-7cd3ff7100df"
+              },
+              "name": "ActorWindow4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.35
+                },
+                "UDim_Y": {
+                  "Scale": 0.45
+                }
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Dog/Dog.actor"
+              },
+              "ActorScale": 2,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "35f14f34-c7a1-4daa-ab56-486ff4ce8cf9"
+              },
+              "name": "ActorWindow5",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.65
+                },
+                "UDim_Y": {
+                  "Scale": 0.45
+                }
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                },
+                "UDim_Y": {
+                  "Offect": 128
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "dcceb5ee-3a91-4e98-87cc-15563bdee8ff"
+          },
+          "name": "fiveEggsMode",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorScale": 2,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "4df624c4-2d9e-4277-8f52-3bae36810578"
+              },
+              "PositionY": 20,
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "cb0a15c2-0fb3-40f6-8de5-94511bf5c13b"
+          },
+          "name": "oneEggsMode"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "Alpha": 0.991,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "Alpha": 0,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "ActorWindow",
+                      "id": {
+                        "value": "67b35eaa-2bff-48d7-ae7a-19b7bd11dc19"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 100
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "311e9b99-2bb3-4164-ac31-27fd03ace244"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 100
+                    },
+                    "UDim_Y": {
+                      "Offect": 100
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "f27eac6f-4be2-4a42-a7ac-e9a78e19974f"
+              },
+              "rowSize": 5
+            }
+          ],
+          "id": {
+            "value": "19450bbd-5ec2-40ad-9ff6-5c114ccf85d7"
+          },
+          "name": "moreEggsMode",
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "8abdaaaa-d4a6-4513-9a8d-a3518622cf80"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 500
+        },
+        "UDim_Y": {
+          "Offect": 400
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "7ec01c9fc66bac02ae8d6fe6d3a1609a",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

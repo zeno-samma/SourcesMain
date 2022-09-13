@@ -1,0 +1,130 @@
+<ActorTemplates>
+	<ActorTemplate WoundAngle="25" SoundName2="" AttackScale="1" IsShowShadow="true" TextHeight="0" Volume="0.8" SoundName1="" MinDistance="1" SelectedRingSize="1" SoundName5="" name="111.actor" IntervalTime="2" SoundName3="" SoundName4="" MaxDistance="16" WoundBone="" Alpha="1" Originalscale="1 1 1" SoundFileNum="0" Skeleton="asset/Mesh/Factor/BANgKK/Armature.skel">
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name0" DefaultUse="true" SlaveName="group0" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="gfdgsdgsdgsdg" LocalAlpha="1" DiscardAlpha="0">
+					<UseBloom value="false"/>
+					<pitch value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Mesh/Factor/BANgKK/gfdgsdgsdgsdg.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="Bone"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name1" DefaultUse="true" SlaveName="group1" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="sfasfetTtetrtq" LocalAlpha="1" DiscardAlpha="0">
+					<UseBloom value="false"/>
+					<pitch value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Mesh/Factor/BANgKK/sfasfetTtetrtq.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="dgdwgdfgsdggh"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name2" DefaultUse="true" SlaveName="group2" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="dsgsdgsdgsgdsatgy" LocalAlpha="1" DiscardAlpha="0">
+					<UseBloom value="false"/>
+					<pitch value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Mesh/Factor/BANgKK/dsgsdgsdgsgdsatgy.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="gdgwdfghrefgssg"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name3" DefaultUse="true" SlaveName="group3" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="da" LocalAlpha="1" DiscardAlpha="0">
+					<UseBloom value="false"/>
+					<pitch value="0"/>
+					<scale value="1"/>
+					<SpecularStrength value="1.0"/>
+					<UseEdge value="false"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Mesh/Factor/BANgKK/da.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SocketName value="gsdgdgdwgsdfghsdf"/>
+					<SpecularColor value="1.0 1.0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" MasterName="mutex_name_4" DefaultUse="true" SlaveName="group4" EdgeColor="1 1 1 1">
+				<Effect>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/custom_effect/g2038_yushanjia_red.effect"/>
+					<TimeScale value="1"/>
+					<type_name value="g2038_yushanjia_red"/>
+					<Position_Y value="0"/>
+					<scale value="10"/>
+					<SocketName value="Bone"/>
+					<Alpha value="1"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+					<yaw value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill TextMode="0" Name="idle" UserDefineTime="-2" EnableWound="false">
+				<Animation Length="3.0833333" Times="-1" Channel="upper" TimeScale="1" Name="asset/Mesh/Factor/BANgKK/BANgKK_Armature.anim" FadeTime="0.050000001" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Mesh/Factor/BANgKK/BANgKK_Armature.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

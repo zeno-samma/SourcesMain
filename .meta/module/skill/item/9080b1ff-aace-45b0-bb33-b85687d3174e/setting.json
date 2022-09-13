@@ -1,0 +1,29 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_9080b1ff-aace-45b0-bb33-b85687d3174e"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 0
+      }
+    },
+    "skillReleaseWay": {
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b15fae1442e9ba9614e90bd0a5f816e7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

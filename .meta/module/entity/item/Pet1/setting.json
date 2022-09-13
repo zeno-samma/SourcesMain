@@ -1,0 +1,74 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/LibPet/CATOrangeATTACK/Armature.actor",
+      "selector": "editor/SourcesMain/asset/LibPet/CATOrangeATTACK/Armature.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "collision": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "isPlayer": true,
+    "jumpHeight": 0.1,
+    "jumpSpeed": 4,
+    "name": {
+      "value": "2e5c1253-83ef-4704-bcea-947e755f7749"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "stepHeight": 0.1,
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "84b7b049b4b17f735da8d64eb407a84a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8596907575307075585"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8691723756031901697",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8744784466436882433",
+        "ID": 4,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "id": "8612566402360360961",
+        "name": "Folder2"
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "batchType": "Dynamic",
+        "btsKey": "fb9b662c-89ac-4016-b019-1a41f0719a2f",
+        "componentList": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "3e3c3ddf-0112-44a1-a90e-6a5b99bda9b7",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8706056687728099329",
+            "isLockedInEditor": true,
+            "massCenter": {
+              "x": 7.1464304924011,
+              "y": 10.587308883667,
+              "z": -81.928657531738
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 7.1464304924011,
+              "y": 10.587308883667,
+              "z": -81.928657531738
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 51.5875,
+              "y": 21.7849,
+              "z": 1.02877
+            },
+            "size": {
+              "x": 51.587501525879,
+              "y": 21.784900665283,
+              "z": 1.0287699699402
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1b40b68c-28d5-4b21-be04-6addcd3b1828",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8706056687734161409",
+            "isLockedInEditor": true,
+            "massCenter": {
+              "x": 32.451663970947,
+              "y": 10.571355819702,
+              "z": -15.964918136597
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 32.451663970947,
+              "y": 10.571355819702,
+              "z": -15.964918136597
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 133.488,
+              "y": 21.7532,
+              "z": 1.02875
+            },
+            "size": {
+              "x": 133.4880065918,
+              "y": 21.753200531006,
+              "z": 1.0287499427795
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "92033ea0-7fdb-48b0-8df2-ad1259669974",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8706056687739486209",
+            "isLockedInEditor": true,
+            "massCenter": {
+              "x": 7.0543332099915,
+              "y": 20.934789657593,
+              "z": -15.960765838623
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 7.0543332099915,
+              "y": 20.934789657593,
+              "z": -15.960765838623
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 133.266,
+              "y": 1.02878,
+              "z": 51.5772
+            },
+            "size": {
+              "x": 133.26600646973,
+              "y": 1.0287799835205,
+              "z": 51.577201843262
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "81d40a0d-bcd3-43d5-a708-1f95e3244cf5",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8706056687744745473",
+            "isLockedInEditor": true,
+            "massCenter": {
+              "x": 7.1464304924011,
+              "y": 10.587308883667,
+              "z": 50.268363952637
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 7.1464304924011,
+              "y": 10.587308883667,
+              "z": 50.268363952637
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 51.5875,
+              "y": 21.7849,
+              "z": 1.02877
+            },
+            "size": {
+              "x": 51.587501525879,
+              "y": 21.784900665283,
+              "z": 1.0287699699402
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "cf991949-0a89-400c-a3b2-eceed4c091ca",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8706056687749922817",
+            "isLockedInEditor": true,
+            "massCenter": {
+              "x": -18.320236206055,
+              "y": 10.571355819702,
+              "z": -15.886734962463
+            },
+            "material": {
+              "alpha": 0,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -18.320236206055,
+              "y": 10.571355819702,
+              "z": -15.886734962463
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 133.332,
+              "y": 21.7533,
+              "z": 1.02876
+            },
+            "size": {
+              "x": 133.33200073242,
+              "y": 21.753299713135,
+              "z": 1.0287599563599
+            },
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "density": 0.9,
+        "friction": 0.022,
+        "id": "8706056687885058049",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 7.6349945068359,
+          "y": 11.140843391418,
+          "z": -15.418999671936
+        },
+        "material": {
+          "alpha": 0,
+          "texture": "part_bingkuai.tga"
+        },
+        "mergeShapesDataKey": "8706056687754412033",
+        "position": {
+          "x": 7.6349945068359,
+          "y": 11.140843391418,
+          "z": -15.418999671936
+        },
+        "restitution": 0.2,
+        "scale": {
+          "x": 51.5875,
+          "y": 21.7849,
+          "z": 1.02877
+        },
+        "size": {
+          "x": 51.800662994385,
+          "y": 21.785047531128,
+          "z": 133.49163818359
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "7f16dbdd-a542-43c1-8ec9-17631cc97971",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8706058565723406337",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 7.6507368087769,
+          "y": 13.523918151855,
+          "z": -14.450269699097
+        },
+        "mesh": "asset/World/map 2/map 2.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/map 2/map 2.mesh",
+          "selector": "asset/World/map 2/map 2.mesh"
+        },
+        "name": "map 2.mesh",
+        "position": {
+          "x": 7.6507368087769,
+          "y": 13.523918151855,
+          "z": -14.450269699097
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 7.34571,
+          "y": 7.34571,
+          "z": 7.34571
+        },
+        "size": {
+          "x": 57.121547698975,
+          "y": 27.414365768433,
+          "z": 138.17340087891
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "56234c99-5598-4fda-854c-ed607fafb22e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8710280494504968193",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": -8.1775884628296,
+          "y": 6.2029676437378,
+          "z": -18.032346725464
+        },
+        "mesh": "asset/World/bang chi duong/bang chi duong.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/bang chi duong/bang chi duong.mesh",
+          "selector": "asset/World/bang chi duong/bang chi duong.mesh"
+        },
+        "name": "bang chi duong.mesh",
+        "position": {
+          "x": -8.1775884628296,
+          "y": 6.2029676437378,
+          "z": -18.032346725464
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 88.999992370605
+        },
+        "scale": {
+          "x": 4.11258,
+          "y": 4.11257,
+          "z": 4.11258
+        },
+        "size": {
+          "x": 11.486305236816,
+          "y": 13.014985084534,
+          "z": 2.6713852882385
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/5eb50002-4346-4320-946d-6c72705b9dba",
+        "id": "8711608493363740673",
+        "isLockedInEditor": true,
+        "name": "Region tele zone1",
+        "position": {
+          "x": 7.5934996604919,
+          "y": 0.76300013065338,
+          "z": 46.633991241455
+        },
+        "scale": {
+          "x": 15.5529,
+          "y": 0.120999,
+          "z": 12.7359
+        },
+        "size": {
+          "x": 15.552928924561,
+          "y": 0.1209994405508,
+          "z": 12.735921859741
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/37d852a7-dbf8-4f00-9982-3b16d50d9552",
+        "id": "8711609571600367617",
+        "isLockedInEditor": true,
+        "name": "Region tele zone3",
+        "position": {
+          "x": 5.2510004043579,
+          "y": 1.0154999494553,
+          "z": -78.764526367188
+        },
+        "scale": {
+          "x": 19.0307,
+          "y": 0.625994,
+          "z": 15.4636
+        },
+        "size": {
+          "x": 19.030712127686,
+          "y": 0.62599450349808,
+          "z": 15.463632583618
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "d6b1ed22-a054-4468-8298-7c7b423394af",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752850727484538881",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 7.2550001144409,
+          "y": 9.1430006027222,
+          "z": 48.743000030518
+        },
+        "mesh": "asset/World/cong1/cong1.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/cong1/cong1.mesh",
+          "selector": "asset/World/cong1/cong1.mesh"
+        },
+        "name": "cong1.mesh",
+        "position": {
+          "x": 7.2550001144409,
+          "y": 9.1430006027222,
+          "z": 48.743000030518
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -180
+        },
+        "scale": {
+          "x": 3.61616,
+          "y": 3.61616,
+          "z": 3.61616
+        },
+        "size": {
+          "x": 20,
+          "y": 17.381719589233,
+          "z": 5.9942083358765
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "be936745-b432-47c5-ac5a-69c3416289b1",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8752852557664665601",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 5.2879996299744,
+          "y": 7.4940013885498,
+          "z": -79.56201171875
+        },
+        "mesh": "asset/World/cong 2/cong 2.mesh",
+        "mesh_selector": {
+          "asset": "asset/World/cong 2/cong 2.mesh",
+          "selector": "asset/World/cong 2/cong 2.mesh"
+        },
+        "name": "cong 2.mesh",
+        "position": {
+          "x": 5.2879996299744,
+          "y": 7.4940013885498,
+          "z": -79.56201171875
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.526509,
+          "y": 0.526509,
+          "z": 0.526509
+        },
+        "size": {
+          "x": 19.99998664856,
+          "y": 16.653347015381,
+          "z": 14.470007896423
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Gate",
+        "id": "8753103968325402625",
+        "isLockedInEditor": true,
+        "name": "entity_Gate",
+        "position": {
+          "x": 7.255,
+          "y": 51,
+          "z": 48.743
+        },
+        "rotation": {
+          "y": -180
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/Gate",
+        "id": "8753104283411038209",
+        "isLockedInEditor": true,
+        "name": "entity_Gate",
+        "position": {
+          "x": 5.288,
+          "y": 51,
+          "z": -79.562
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      }
+    ],
+    "name": {
+      "value": "map_Zone2"
+    },
+    "rotateSpeed": 2
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2cfe7a73f77976ad9e370698aedc43a5"
+    },
+    "VERSION": "0.24"
+  }
+}

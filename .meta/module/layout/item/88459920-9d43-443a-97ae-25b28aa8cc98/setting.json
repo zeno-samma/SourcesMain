@@ -1,0 +1,133 @@
+{
+  "data": {
+    "md5": "86b11ffb9cd9f56e00eff1eb43e9c4c0",
+    "path": "asset/Gui/TutorialStep9.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.409,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "1ad46c75-bace-46a8-8c76-70f27b82288b"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "ImageColours": {
+            "g": 230,
+            "r": 230
+          },
+          "name": "Cover",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 2
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0,
+          "BorderWidth": 3,
+          "children": [
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "effectName": {
+                "asset": "asset/custom_effect/shitouzuobiao.effect"
+              },
+              "id": {
+                "value": "53555429-d4fb-45d7-85ab-2c3cb5022eba"
+              },
+              "name": "EffectWindowPoint1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.25
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1.5
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 20,
+          "HoverImage": {
+            "asset": "asset/Texture/Gui/button_green_hover.png"
+          },
+          "id": {
+            "value": "01929a60-b9d4-403c-9f1d-b80efc8cad1b"
+          },
+          "name": "StepButton",
+          "NormalImage": {
+            "asset": "asset/Texture/Gui/button_green_hover.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.2
+            },
+            "UDim_Y": {
+              "Scale": 0.2
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "Text": "Click",
+          "text_key": {
+            "value": "asset/Gui/TutorialStep9.layout.Button#b504a990-d02f-419b-8bae-779c8ef44b57"
+          },
+          "TextBoldWeight": "1"
+        }
+      ],
+      "id": {
+        "value": "47fe429a-e7ee-4cd0-bc7b-cbfc5b40833a"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 800
+        },
+        "UDim_Y": {
+          "Offect": 600
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "86b11ffb9cd9f56e00eff1eb43e9c4c0",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

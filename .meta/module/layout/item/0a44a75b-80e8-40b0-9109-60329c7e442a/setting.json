@@ -1,0 +1,1314 @@
+{
+  "data": {
+    "md5": "466e2cb62d803d996393bc54de8acf7b",
+    "path": "asset/Gui/Pet.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "8ab599f6-5ca1-4422-92e4-54a72c2c15ac"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "10b44e42-60bb-47fe-894e-458143006380"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "0dcfbcb9-71e5-45d4-a769-207d84c055bf"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "026d4c31-9a50-44da-bb81-f74297179cbf"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 127,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "9fa0fde0-4e28-492f-a860-7f1e66620229"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image1",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "535249f6-2177-421c-abef-2fab7c6af0e4"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "54bc853e-7b1d-4847-bb9f-9f4e09346873"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image2",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 258.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "fab6f999-098c-4aa0-b314-3fd46c8086e8"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "9057cf01-ac3c-4648-b5a9-4d81951ac84a"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image3",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 387.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "1550ba44-4a7f-4f12-ba92-b73d1585be4c"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "408724c9-7cf5-46af-9e17-3b89df3fccf2"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image4",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 516.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "ec2ad9d2-2912-47d6-bdfa-9797b6f0daa7"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "58ed9b42-7995-4695-8b52-7586fe25b225"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image5",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 645.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "2be3fec2-7abf-4e29-a394-e9e3f4602757"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "bc451288-e70a-4499-bdf0-86c9a49a51b3"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image6",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 774.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "97f91cad-952d-43d0-a809-3de839f88855"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "b03e245b-f1f5-4382-807c-873df432dbce"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image7",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 903.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "a1776c36-89a5-478d-8b89-3f00d5e5405e"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "4ceac254-fcdd-4d25-a47f-d8153af9128c"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image8",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "38193821-4e09-4d0c-8646-726902b9a79a"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "3769d05b-c7f8-4e98-b0bc-5914fe861a03"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image9",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 129.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "fb580976-d699-4fde-a5ab-28c97ed32976"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "e964dea2-2798-4073-bd61-ced83f474244"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image10",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 258.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "8a698bfe-e85c-4bc6-9de6-4554b4789351"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "9c2ef637-9373-43c9-8961-639bb23a6f7f"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image11",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 387.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "10718d21-9b6c-4f07-9c42-89896fe3e2d2"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "5121c95b-df14-41fd-a32a-567a9ef67dfe"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image12",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 516.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "a0d3521b-f172-499d-bbb4-fb4b464ae1cf"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "d995abec-3bbb-48fd-ad6b-dccc197bd9bd"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image13",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 645.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "f3c3578e-e9f1-41df-89d2-eab35145d333"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "29774651-bebf-4752-81f3-8ca2e903d2fe"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image14",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 774.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "6bc722f5-1c91-4685-8ceb-c316ceb11c3a"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "4d0e7585-cf45-4b8b-8a12-a44fcadaef05"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image15",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 903.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 129.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "7453f0c5-5927-4b3e-93ac-03df6f6912ca"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "3f24a241-540d-48c1-b971-28ade28f5237"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image16",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 258.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "d709f9b3-b99c-41f8-8071-33b41dff6dc4"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "8b35fb2c-38dd-4970-a3d0-60dba61c7a67"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image17",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 129.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 258.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "7962a598-b045-4ae6-b1f8-be5805666670"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "16f538d1-95cd-40fd-89f4-3faad588bba0"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image18",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 258.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 258.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "e885a1cf-bbeb-4340-8c6f-736346293431"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "d074949a-3f26-4bef-9942-8bd7ef0177ba"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image19",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 387.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 258.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "BackgroundColours": {
+                    "g": 170,
+                    "r": 0
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/Texture/Icon/Login/icon_tick.png"
+                      },
+                      "HoverImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "id": {
+                        "value": "9b29241e-4ea5-4684-b4d7-cccd00ba6407"
+                      },
+                      "name": "Btn_select",
+                      "NormalImage": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/Gui/radio_button_nonselectable.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": ""
+                    }
+                  ],
+                  "FrameColours": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "FrameEnabled": true,
+                  "id": {
+                    "value": "5f2cfae0-6e29-4130-af28-1958da4a2af0"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/checkbox_nonselectable.png"
+                  },
+                  "name": "Image20",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 516.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 258.0
+                    }
+                  }
+                }
+              ],
+              "hInterval": 1,
+              "id": {
+                "value": "6892cbd4-10dd-4069-a2d1-f18d47ecfcfa"
+              },
+              "rowSize": 8,
+              "size": {
+                "UDim_X": {
+                  "Offect": 1031.0
+                },
+                "UDim_Y": {
+                  "Offect": 386.0
+                }
+              },
+              "vInterval": 1
+            }
+          ],
+          "id": {
+            "value": "1b0ea115-566a-40b0-ba68-f3df8dea2c1c"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.03
+            },
+            "UDim_Y": {
+              "Scale": 0.08
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.95
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "id": {
+            "value": "da3dd06a-ad24-4f53-be8d-41be54231614"
+          },
+          "name": "Btn_close",
+          "Text": "X"
+        }
+      ],
+      "id": {
+        "value": "7982dca2-0a90-4ae9-aade-7a242477608f"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.81
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.6
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "466e2cb62d803d996393bc54de8acf7b",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

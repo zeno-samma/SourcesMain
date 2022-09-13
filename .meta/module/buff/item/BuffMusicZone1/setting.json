@@ -1,0 +1,16 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_BuffMusicZone1"
+    },
+    "sound": {
+      "loop": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5610cad3493a50dfb4bd9a6f5924aa5a"
+    },
+    "VERSION": "0.24"
+  }
+}

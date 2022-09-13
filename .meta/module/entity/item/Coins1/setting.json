@@ -1,0 +1,185 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone1/Coins1/Coins1.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone1/Coins1/actor.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 5,
+          "fullName": "myplugin/SkillPet"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "enable": false
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 1.5,
+      "height_c": 4,
+      "memory": {
+        "Capsule": "4.000000-2.000000",
+        "Cylinder": "1.800000-1.500000",
+        "Sphere": "1.800000-2.000000"
+      },
+      "radius": 1,
+      "radius_c": 0.75,
+      "type": "Cylinder"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.5,
+      "height_c": 4,
+      "memory": {
+        "Capsule": "4.000000-2.000000"
+      },
+      "radius": 1,
+      "radius_c": 0.75,
+      "type": "Cylinder"
+    },
+    "canJump": false,
+    "canMove": false,
+    "checkPartTouchEvent": false,
+    "clickDistance": 10,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_back"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "destroyTime": {
+      "value": 6
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "eyeHeight": 2,
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "621cc2d7-7b9c-4dad-ab1f-d45bcb668436"
+    },
+    "reachDistance": 10,
+    "reviveTime": {
+      "value": 20
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "17c780ad-69c5-4ebc-98b4-31ebdcaeec4d",
+                      "param_name": "clickPlayer"
+                    },
+                    {
+                      "action": "d822ee54-7145-4fab-9084-4f7f49d1b8d4",
+                      "param_name": "clickedEntity"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_56"
+                }
+              ],
+              "id": {
+                "value": "34e7f79e-04b4-4dec-90c5-d4ba93a4ef0d"
+              },
+              "pos": {
+                "x": 384,
+                "y": 176
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "17c780ad-69c5-4ebc-98b4-31ebdcaeec4d"
+              },
+              "pos": {
+                "x": 815,
+                "y": 262
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d822ee54-7145-4fab-9084-4f7f49d1b8d4"
+              },
+              "pos": {
+                "x": 743,
+                "y": 458
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "791c7b96-c0f9-4724-a2fc-a61061d10409"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "34e7f79e-04b4-4dec-90c5-d4ba93a4ef0d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "71619728-1954-4f00-9034-3561355aac82"
+            },
+            "pos": {
+              "x": 74,
+              "y": 232
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dbfdf9a570a014adf603af77456bf45b",
+      "triggers.bts": "46a70846260cf1f5ca28fe926a2fa5c7"
+    },
+    "VERSION": "0.24"
+  }
+}

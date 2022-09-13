@@ -1,0 +1,51 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_rewardsupergold"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardList",
+          "array": [
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 6,
+                    "min": 1
+                  },
+                  "name": "myplugin/copper_coin"
+                }
+              }
+            },
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 3,
+                    "min": 1
+                  },
+                  "name": "myplugin/pizza"
+                }
+              }
+            }
+          ],
+          "countRange": {
+            "max": 3,
+            "min": 1
+          }
+        },
+        "type": "List"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "299f2becc98b87c13870b8f92746cff7"
+    },
+    "VERSION": "0.24"
+  }
+}

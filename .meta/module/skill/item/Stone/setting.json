@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "name": {
+      "value": "skill_Stone"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/5819a2e8-c710-4866-ac8e-1a9e54212b9d"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/farm.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b63a7b790f55e768629b5544fa95bc3b"
+    },
+    "VERSION": "0.21"
+  }
+}

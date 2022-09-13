@@ -1,0 +1,136 @@
+<ActorTemplates>
+	<ActorTemplate Alpha="1" SoundName5="" MinDistance="1" IsShowShadow="true" Originalscale="1 1 1" MaxDistance="16" SoundName3="" SoundName4="" Skeleton="Armature.skel" WoundBone="" SoundName1="" WoundAngle="25" IntervalTime="2" SoundFileNum="0" TextHeight="0" SelectedRingSize="1" Volume="0.8" AttackScale="1" SoundName2="" name="111.actor">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" DefaultUse="true" SlaveName="group0" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<Position_X value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="3"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="6"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="9"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="12"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="0"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-3"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="180"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-6"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="180"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-9"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="180"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-12"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="arrow1"/>
+					<yaw value="180"/>
+					<FileName value="asset/custom_effect/arrow1.effect"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

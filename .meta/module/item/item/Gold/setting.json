@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/GoldPickAxe/X8ATK.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Gold"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/GoldPickAxe/gold pickaxe.mesh"
+    },
+    "name": {
+      "value": "item_Gold"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3a3298eeb6ad9e06f1a2aaf99d5ed099",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

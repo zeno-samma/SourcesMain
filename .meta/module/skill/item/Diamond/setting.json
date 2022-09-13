@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "name": {
+      "value": "skill_Diamond"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/01d6a009-a284-4318-938e-5ae0799075ac"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/farm.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "22bd173641e63bc6ddea466b77a8644d"
+    },
+    "VERSION": "0.21"
+  }
+}

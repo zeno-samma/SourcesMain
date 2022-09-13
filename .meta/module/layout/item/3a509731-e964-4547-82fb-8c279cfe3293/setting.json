@@ -1,0 +1,480 @@
+{
+  "data": {
+    "md5": "9e1f1d3be0265f9be0e656ddf5db305f",
+    "path": "asset/Gui/interfaceInfo.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "22298ea2-9f23-4b1e-a2ad-282fad2ad60c"
+          },
+          "Image": {
+            "asset": "asset/Texture/Coin/2.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.2
+            }
+          },
+          "resize": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 20,
+            "bottom_right": 10,
+            "top_left": 23,
+            "top_right": 10
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "a0035d4d-1e4c-4cbf-bed8-8f1f5725b151"
+          },
+          "Image": {
+            "asset": "asset/Texture/Coin/1.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.35
+            }
+          },
+          "resize": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 20,
+            "bottom_right": 10,
+            "top_left": 23,
+            "top_right": 10
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "196b1c18-a10b-4b25-b1c4-be8f42b388ef"
+          },
+          "name": "Txt_gold1",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Scale": 0.38
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Gold:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#dbce3bd7-351c-49a3-b0a9-1a05fce253a4"
+          },
+          "TextColours": {
+            "b": 54,
+            "g": 196,
+            "r": 241
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "3748ca65-7cf3-43c6-99f0-ad26e9c7b968"
+          },
+          "name": "Txt_gold2",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Scale": 0.53
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Gold:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#ad9d12a8-2b93-4754-8808-702b36f5c3f5"
+          },
+          "TextColours": {
+            "b": 81,
+            "g": 198,
+            "r": 115
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "04cf7785-fe92-4ed2-b80d-f995acb2b1d0"
+          },
+          "name": "Txt_gold3",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Scale": 0.68
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Gold:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#a290d14e-c860-4ed9-a702-0d74e86fce3e"
+          },
+          "TextColours": {
+            "b": 48,
+            "g": 32,
+            "r": 21
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "0582e8e1-d087-4237-86f2-8c0631ba2d66"
+          },
+          "name": "Txt_gold4",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Scale": 0.83
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Gold:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#99e0e7b6-6f6d-446a-b430-f1afdf42aa77"
+          },
+          "TextColours": {
+            "g": 103,
+            "r": 254
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "AutoTextScale": true,
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "5b3be94a-0660-4f0d-bae0-a62ffad44b03"
+          },
+          "name": "Txt_gold",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Scale": 0.23
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Gold:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#d1e0e920-64b1-4ccb-b38e-740b2a6037d8"
+          },
+          "TextColours": {
+            "b": 252,
+            "g": 241,
+            "r": 71
+          },
+          "word_warpped": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "dfc95588-17a8-4adc-a190-624d852b0d3f"
+          },
+          "Image": {
+            "asset": "asset/Texture/Coin/speed.png"
+          },
+          "name": "Image6",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "resize": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 20,
+            "bottom_right": 10,
+            "top_left": 23,
+            "top_right": 10
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 20,
+            "tailoring_bottom_right": 10,
+            "tailoring_top_left": 23,
+            "tailoring_top_right": 10
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "64c59a99-8849-4810-9b1d-78c255000433"
+          },
+          "name": "Txt_speed",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Scale": 0.08
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "Speed:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#0ed0bdfa-c20c-41fb-9ff0-7e3d1606ba87"
+          },
+          "TextColours": {
+            "b": 127,
+            "g": 255
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 20,
+          "id": {
+            "value": "f13aa6cb-166b-41f1-aca1-d82462e55326"
+          },
+          "name": "Txt_atk",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.5
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "ATK:",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.StaticText#7c061b68-ec81-4bd3-8214-a61c41e52d5c"
+          },
+          "TextColours": {
+            "b": 127,
+            "g": 255
+          }
+        },
+        {
+          "__OBJ_TYPE": "Checkbox",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 18,
+          "id": {
+            "value": "109f0e50-713c-4413-a35f-ca7769658c77"
+          },
+          "name": "FiveEggsMode",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "SoundFile": {
+            "asset": "asset/Sound/click.mp3"
+          },
+          "SoundTriggerRange": "Click",
+          "Text": " 5 Eggs Mode",
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.Checkbox#b291eeab-8df0-4088-904c-a0c88d8711cd"
+          },
+          "TextBoldWeight": "1",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Disabled": true,
+          "id": {
+            "value": "9902aa28-9e2b-420e-abf9-2e30767d0471"
+          },
+          "name": "KillButton",
+          "pos": {
+            "UDim_X": {
+              "Offect": 66.762069702148
+            },
+            "UDim_Y": {
+              "Offect": 230.45899963379
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 96.000000000002
+            }
+          },
+          "text_key": {
+            "value": "asset/Gui/interfaceInfo.layout.Button#e7c7f1ba-a9bd-45b4-b50e-c37c1cd79629"
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "0d5258e2-d1d1-4c81-b7b2-cbc72724084d"
+      },
+      "pos": {
+        "UDim_Y": {
+          "Scale": -0.2
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 0.2
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.4
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "9e1f1d3be0265f9be0e656ddf5db305f",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/GamePass/PickAxe/WoodenPickAxe/X1ATK.png",
+  "itemname": "item_WoodenP",
+  "mesh": "asset/GamePass/PickAxe/WoodenPickAxe/pickaxe  wood.mesh",
+  "needSave": true,
+  "skill": [
+    "myplugin/Wooden"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

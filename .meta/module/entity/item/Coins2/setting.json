@@ -1,0 +1,176 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/Item/zone2/Coinlv1_z2/Coinlv1_z2.actor",
+      "selector": "editor/SourcesMain/asset/Mesh/Item/zone1/Coins1/actor.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "height": 1.5,
+      "height_c": 2,
+      "memory": {
+        "Capsule": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "radius_c": 0.75,
+      "type": "Cylinder"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.5,
+      "height_c": 2,
+      "memory": {
+        "Capsule": "2.000000-1.000000"
+      },
+      "radius": 1,
+      "radius_c": 0.75,
+      "type": "Cylinder"
+    },
+    "canJump": false,
+    "canMove": false,
+    "checkPartTouchEvent": false,
+    "clickDistance": 10,
+    "collision": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_back"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "destroyTime": {
+      "value": 6
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "eyeHeight": 2,
+    "gravity": 10,
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "f7b9b6e9-786c-4cc2-86bc-3678558847d8"
+    },
+    "reachDistance": 10,
+    "reviveTime": {
+      "value": 20
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "1609d78c-8752-4216-97a8-a8dbe02eb17d",
+                      "param_name": "clickPlayer"
+                    },
+                    {
+                      "action": "bf49b83e-a605-4934-a449-066f826bba9e",
+                      "param_name": "clickedEntity"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_57"
+                }
+              ],
+              "id": {
+                "value": "9c4938cf-2b97-483f-beda-5a9b7958d61c"
+              },
+              "pos": {
+                "x": 440,
+                "y": 242
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "1609d78c-8752-4216-97a8-a8dbe02eb17d"
+              },
+              "pos": {
+                "x": 859,
+                "y": 117
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bf49b83e-a605-4934-a449-066f826bba9e"
+              },
+              "pos": {
+                "x": 894,
+                "y": 448
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9c7c065b-1ff6-4ea2-b02b-f22c12f1021c"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9c4938cf-2b97-483f-beda-5a9b7958d61c"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "bf629542-11ff-40e8-bae8-43b731d5e356"
+            },
+            "pos": {
+              "x": 100,
+              "y": 235
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "50fbcd35679f530452f6e7d49b9d9d97",
+      "triggers.bts": "3dc8fc210d40b76a557aa00bc3cd171b"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "empty.actor",
+  "actorName": "asset/Mesh/Factor/BANgKK/Armature.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": false,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "backMoveResetOffsetYaw": true,
+  "beAttackedFeedback": {
+    "fromNpc": true,
+    "fromPlayer": true,
+    "hideSmooth": true,
+    "hideTime": 15
+  },
+  "boundingScaleWithSize": true,
+  "canClick": true,
+  "canHurtMove": true,
+  "canJump": false,
+  "canMove": false,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
+  "checkGroundWhenCollisionMargin": true,
+  "checkPartTouchEvent": true,
+  "clickDistance": 10,
+  "collider": {
+    "height": 5,
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 5,
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Cylinder"
+  },
+  "collision": false,
+  "damage": 0,
+  "damageViewBobbing": [
+    {
+      "count": 2,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 6
+      }
+    },
+    {
+      "count": 4,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "deathHideTime": 60,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": false,
+  "enableBackMovementAction": true,
+  "equipTrays": [
+    1,
+    2
+  ],
+  "eyeHeight": 1.62,
+  "fallAtSwimming": false,
+  "firstPRVActorName": "asset/Actor/charactor/firstPrvActor/firstPrvActor.actor",
+  "firstPRVHandBoneName": "s_wuqi",
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "FollowWhenCreate": true,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 1,
+  "hideName": true,
+  "homeSize": 20,
+  "hpBarColor": 4294967551,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hpFaceCamera": 0,
+  "hurtResistantTime": 19980,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "ignorePlayerSkin": false,
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 200,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "modelType": "System",
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 2.5,
+  "name": "abeeaa6b-1195-4691-98dd-9a3932897b6a",
+  "needCheckTouch": true,
+  "patrolDistance": 5,
+  "pushForce": 10,
+  "randomPlayDeadActions": [
+    "die_front"
+  ],
+  "reachDistance": 10,
+  "reviveTime": 40,
+  "setFollowWhenCreate": true,
+  "skillInfos": [],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 1,
+  "undamageable": 1
+}

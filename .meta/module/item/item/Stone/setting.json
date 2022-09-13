@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/StonePickAxe/X2ATK.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Stone"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/StonePickAxe/pickaxe stone.mesh"
+    },
+    "name": {
+      "value": "item_Stone"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5e06c27fd9accb66b14487c6eb2476fb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

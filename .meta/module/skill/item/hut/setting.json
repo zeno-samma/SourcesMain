@@ -1,0 +1,35 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hut"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 1
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/farm.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "86370878dd8386d02fbd78f0a1172165",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

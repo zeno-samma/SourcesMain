@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/DiamondPickAxe/X16ATK.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Diamond"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/DiamondPickAxe/pickaxe DIAMOND.mesh"
+    },
+    "name": {
+      "value": "item_Diamond"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9bad4043f64999543e11e305f4db401d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

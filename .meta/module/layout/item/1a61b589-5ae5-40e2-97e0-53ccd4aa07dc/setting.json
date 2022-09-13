@@ -1,0 +1,205 @@
+{
+  "data": {
+    "md5": "4468e38d50afbae3aa39ad832d3af53a",
+    "path": "asset/Gui/TutorialStep5.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.283,
+          "id": {
+            "value": "b48fca9e-fc70-4f63-93e9-4878f0bfd448"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "name": "Cover",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 14,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "b8d0735f-493e-4e1e-a93c-cbb804e9126e"
+                  },
+                  "MinAutoTextScale": 12,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.9
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    }
+                  },
+                  "Text": "You need 300 gold to buy a pet at the shop",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep5.layout.StaticText#c8cf8456-1778-4fae-8a52-daebde34df16"
+                  },
+                  "TextBoldWeight": "1",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "BorderWidth": 3,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "id": {
+                    "value": "75eb47fa-28fd-4089-8bfa-e624d414aae1"
+                  },
+                  "name": "Step2Button",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.03
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "Click",
+                  "text_key": {
+                    "value": "asset/Gui/TutorialStep5.layout.Button#49f0ff87-19ca-4c89-8389-1bc1721a6ba2"
+                  },
+                  "TextBoldWeight": "1"
+                },
+                {
+                  "__OBJ_TYPE": "EffectWindow",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "effectName": {
+                    "asset": "asset/custom_effect/shitouzuobiao.effect"
+                  },
+                  "effectScale": 2,
+                  "id": {
+                    "value": "e7293094-6892-4594-8bf5-909a2f8e0e34"
+                  },
+                  "name": "EffectWindowPoint1",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.9
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "cf69e63b-e21f-4b7f-9c01-31e230cf1df7"
+              },
+              "Image": {
+                "asset": "asset/Texture/Ui/Popup.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "9bc48abe-f5c8-4525-9fd6-ae84e8633be4"
+          },
+          "name": "TutorialStep5",
+          "size": {
+            "UDim_X": {
+              "Offect": 900
+            },
+            "UDim_Y": {
+              "Offect": 800
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "649e8b00-9a66-42a4-be2f-b88a93b8226d"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "4468e38d50afbae3aa39ad832d3af53a",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

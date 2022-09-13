@@ -1,0 +1,1315 @@
+{
+  "data": {
+    "md5": "919e6d54b0d0184500b5d3d6a32f256d",
+    "path": "asset/Gui/infoPetUi.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.5,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "bf1c456c-58ac-4c28-90e3-f66687ae2993"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/Gray.png"
+          },
+          "lock": true,
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 1920
+            },
+            "UDim_Y": {
+              "Offect": 1080
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "f9513218-3233-420a-abbc-0daa5e229042"
+                  },
+                  "MinAutoTextScale": 20,
+                  "name": "Atk",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "ATK",
+                  "TextColours": {
+                    "b": 22,
+                    "g": 29,
+                    "r": 39
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "cc732fdb-331b-404e-b9a0-3df55331c574"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/InfoPet/Info/4.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.03
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 140,
+                    "tailoring_bottom_right": 399,
+                    "tailoring_top_left": 815,
+                    "tailoring_top_right": 557
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    }
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 140,
+                    "bottom_right": 399,
+                    "top_left": 815,
+                    "top_right": 557
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 140,
+                    "tailoring_bottom_right": 399,
+                    "tailoring_top_left": 815,
+                    "tailoring_top_right": 557
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "5214a72e-fe7f-4230-9794-e7764bf6d418"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.19
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "ae75234f-64f6-4e0f-8e79-60d7eebf3191"
+                  },
+                  "MinAutoTextScale": 20,
+                  "name": "HP",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "HP",
+                  "TextColours": {
+                    "b": 27,
+                    "g": 33,
+                    "r": 43
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "647b697c-b6de-4b21-81e0-02a8d034d359"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/InfoPet/Info/3.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.03
+                    }
+                  },
+                  "resize": {
+                    "tailoring_bottom_left": 137,
+                    "tailoring_bottom_right": 294,
+                    "tailoring_top_left": 809,
+                    "tailoring_top_right": 659
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    }
+                  },
+                  "StaticImageCutStretch": {
+                    "bottom_left": 137,
+                    "bottom_right": 294,
+                    "top_left": 809,
+                    "top_right": 659
+                  },
+                  "StaticImageStretch": {
+                    "tailoring_bottom_left": 137,
+                    "tailoring_bottom_right": 294,
+                    "tailoring_top_left": 809,
+                    "tailoring_top_right": 659
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "107ffb40-1464-4941-ada7-468737213e66"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "ImageColours": {
+                "b": 99,
+                "g": 179,
+                "r": 237
+              },
+              "lock": true,
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "dade3891-213d-40b2-8500-7669b3b0781f"
+                  },
+                  "name": "SummonButton",
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "5b97b01e-b479-4e36-b56e-18531cf9da8c"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Info/summon.png"
+              },
+              "name": "Image3",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.005
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 1058,
+                "tailoring_bottom_right": 299,
+                "tailoring_top_left": 872,
+                "tailoring_top_right": 1324
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.31
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.07
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 1058,
+                "bottom_right": 299,
+                "top_left": 872,
+                "top_right": 1324
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 1058,
+                "tailoring_bottom_right": 299,
+                "tailoring_top_left": 872,
+                "tailoring_top_right": 1324
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 30,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "7b69c6c8-96cf-47bd-a4a7-b8a32d9ae5b5"
+                  },
+                  "lock": true,
+                  "MinAutoTextScale": 20,
+                  "name": "Level",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "0",
+                  "TextColours": {
+                    "b": 253,
+                    "g": 254,
+                    "r": 254
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "1bd1812a-f3e8-4036-b121-3a86ac2bec54"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image2",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.005
+                },
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "ae463785-98a9-43c8-b377-1fe9a1b8719f"
+                  },
+                  "lock": true,
+                  "name": "RemoveButton",
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "c8f70155-784e-4692-936f-34013604d2aa"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "lock": true,
+              "name": "Image31",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.07
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "d366b918-79e3-4d6e-82b0-eb96353e5f55"
+                  },
+                  "lock": true,
+                  "name": "UpgradeButton",
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "f01269e5-32ce-42bf-a1ec-d4344d364bc7"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Info/Iconinfo.png"
+              },
+              "lock": true,
+              "name": "Image311",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.2
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 9,
+                "tailoring_bottom_right": 644,
+                "tailoring_top_left": 903,
+                "tailoring_top_right": 266
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 9,
+                "bottom_right": 644,
+                "top_left": 903,
+                "top_right": 266
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 9,
+                "tailoring_bottom_right": 644,
+                "tailoring_top_left": 903,
+                "tailoring_top_right": 266
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "cacbcf86-a11c-4f81-a81c-d87f4a224e13"
+                  },
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled",
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "febc9abd-cbf2-40e7-a518-a308b3996673"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Buff/icon.png"
+              },
+              "lock": true,
+              "name": "Image3111",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.2
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 8,
+                "tailoring_bottom_right": 421,
+                "tailoring_top_left": 904,
+                "tailoring_top_right": 490
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 8,
+                "bottom_right": 421,
+                "top_left": 904,
+                "top_right": 490
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 8,
+                "tailoring_bottom_right": 421,
+                "tailoring_top_left": 904,
+                "tailoring_top_right": 490
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "d998ea91-9381-4917-9ddc-8fb37c7e1fe6"
+                  },
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "97cd01ea-9a39-4b65-a2a0-eed3f1a1c79a"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Skill/icon-skill.png"
+              },
+              "lock": true,
+              "name": "Image31111",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 7,
+                "tailoring_bottom_right": 538,
+                "tailoring_top_left": 903,
+                "tailoring_top_right": 372
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 7,
+                "bottom_right": 538,
+                "top_left": 903,
+                "top_right": 372
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 7,
+                "tailoring_bottom_right": 538,
+                "tailoring_top_left": 903,
+                "tailoring_top_right": 372
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "ee7e9751-9174-4f0e-8031-b712e570ec40"
+                  },
+                  "name": "CloseButton",
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 0.3599996566773
+                    }
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "e41ee067-e622-43f3-9aad-81c0d42707e2"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Info/2.png"
+              },
+              "lock": true,
+              "name": "Image3112",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.04
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 280,
+                "tailoring_bottom_right": 275,
+                "tailoring_top_left": 284,
+                "tailoring_top_right": 275
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 280,
+                "bottom_right": 275,
+                "top_left": 284,
+                "top_right": 275
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 280,
+                "tailoring_bottom_right": 275,
+                "tailoring_top_left": 284,
+                "tailoring_top_right": 275
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "1b970e8c-e3df-40a6-8254-feca6c0c1ccf"
+              },
+              "lock": true,
+              "MinAutoTextScale": 20,
+              "name": "PetName",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.145
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.35
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.05
+                }
+              },
+              "Text": "Pet Name",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/LibPet/Cat/Cat.actor"
+              },
+              "ActorScale": 1.5,
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "75c74d5e-d0ee-4895-8f51-1a737ba801ec"
+              },
+              "lock": true,
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.005
+                },
+                "UDim_Y": {
+                  "Scale": -0.01
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.29
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.49
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "Button",
+                  "Alpha": 0,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "HorzImageFormatting": "Tiled",
+                  "HoverImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "HoverTextColour": {
+                    "g": 255
+                  },
+                  "id": {
+                    "value": "a6a988db-9d66-4b26-8341-d1e15bd94baa"
+                  },
+                  "name": "ReturnButton",
+                  "NormalImage": {
+                    "asset": "asset/Texture/InfoPet/Info/Sumon.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 538,
+                    "bottom_right": 160,
+                    "top_left": 246,
+                    "top_right": 758
+                  },
+                  "NormalTextColour": {
+                    "g": 255
+                  },
+                  "PushedTextColour": {
+                    "b": 0,
+                    "r": 0
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "",
+                  "VertImageFormatting": "Tiled"
+                }
+              ],
+              "id": {
+                "value": "d28fd397-0668-42b6-a357-c9427e19c5d9"
+              },
+              "Image": {
+                "asset": "asset/Texture/InfoPet/Info/Return.png"
+              },
+              "name": "Image32",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.025
+                },
+                "UDim_Y": {
+                  "Scale": -0.005
+                }
+              },
+              "resize": {
+                "tailoring_bottom_left": 1055,
+                "tailoring_bottom_right": 293,
+                "tailoring_top_left": 865,
+                "tailoring_top_right": 1324
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.31
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.07
+                }
+              },
+              "StaticImageCutStretch": {
+                "bottom_left": 1055,
+                "bottom_right": 293,
+                "top_left": 865,
+                "top_right": 1324
+              },
+              "StaticImageStretch": {
+                "tailoring_bottom_left": 1055,
+                "tailoring_bottom_right": 293,
+                "tailoring_top_left": 865,
+                "tailoring_top_right": 1324
+              }
+            }
+          ],
+          "id": {
+            "value": "8cc98d5a-794f-4185-bd36-4889f926e8dd"
+          },
+          "Image": {
+            "asset": "asset/Texture/InfoPet/Info/bg.png"
+          },
+          "lock": true,
+          "resize": {
+            "tailoring_bottom_left": 306,
+            "tailoring_bottom_right": 301,
+            "tailoring_top_left": 362,
+            "tailoring_top_right": 273
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageCutStretch": {
+            "bottom_left": 306,
+            "bottom_right": 301,
+            "top_left": 362,
+            "top_right": 273
+          },
+          "StaticImageStretch": {
+            "tailoring_bottom_left": 306,
+            "tailoring_bottom_right": 301,
+            "tailoring_top_left": 362,
+            "tailoring_top_right": 273
+          }
+        },
+        {
+          "__OBJ_TYPE": "Editbox",
+          "ActiveSelectionColour": {
+            "g": 186,
+            "r": 34
+          },
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "BackGroundImage": {
+            "asset": ""
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 30,
+          "id": {
+            "value": "5c4218f7-cd60-432a-a463-3274f67da2c3"
+          },
+          "lock": true,
+          "name": "RemoveCount",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.01
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.06
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "0"
+        },
+        {
+          "__OBJ_TYPE": "Editbox",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "BackGroundImage": {
+            "asset": ""
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 30,
+          "id": {
+            "value": "11655e7d-66ba-49f6-9973-e917d9af0e38"
+          },
+          "lock": true,
+          "name": "SummonCount",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.19
+            },
+            "UDim_Y": {
+              "Scale": 0.01
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "Text": "0"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "AutoTextScale": true,
+          "Font_size": 30,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "e4cee769-8b34-4839-94f7-342c38e2ddca"
+          },
+          "lock": true,
+          "MinAutoTextScale": 20,
+          "name": "Count",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.16
+            },
+            "UDim_Y": {
+              "Scale": 0.14
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.5
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.3
+            }
+          },
+          "Text": "0",
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "c4d4823a-146c-4a02-b6f4-ef464488b4ef"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 1000
+        },
+        "UDim_Y": {
+          "Offect": 600
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "919e6d54b0d0184500b5d3d6a32f256d",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

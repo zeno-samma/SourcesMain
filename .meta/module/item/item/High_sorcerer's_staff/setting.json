@@ -1,0 +1,32 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/GamePass/PickAxe/DiamondPickAxe/X16ATK.png",
+      "selector": "editor/SourcesMain/asset/Mesh/Embroidered Spring Sword1/g1008_gold_weapon_1.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/GamePass/PickAxe/DiamondPickAxe/pickaxe DIAMOND.mesh",
+      "selector": "editor/SourcesMain/asset/Mesh/Embroidered Spring Sword1/g1008_sword_07.mesh"
+    },
+    "name": {
+      "value": "item_High_sorcerer's_staff"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c1c0ff016165f99a0f702b97a4fecdf6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}
